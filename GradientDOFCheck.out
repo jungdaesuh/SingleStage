@@ -1,0 +1,15 @@
+
+=== TF_a = 0.300 ===
+BFGS solve - True  iter=361, iota=0.0018714260259292, ||grad||_inf = 9.423e-11
+NEWTON solve - True  iter=1, iota=0.0018714260413577, ||grad||_inf = 6.334e-16
+  re-solved Boozer surface: success=True, iota=0.001871, G=-3.193408
+  # TF-coil DOFs: 24, # other DOFs: 80
+  max|grad| TF coils   : 2.480366e-02
+  max|grad| other DOFs : 6.305101e+03
+  ratio (other/TF)     : 2.542e+05
+    TF coil 0: |grad_rotation| = 6.407e-03, max|grad_other_curve_dofs| = 2.480e-02
+    TF coil 1: |grad_rotation| = 1.677e-03, max|grad_other_curve_dofs| = 5.582e-03
+    TF coil 2: |grad_rotation| = 2.881e-03, max|grad_other_curve_dofs| = 6.735e-03
+    TF coil 3: |grad_rotation| = 1.906e-03, max|grad_other_curve_dofs| = 3.364e-03
+
+=== TF_a = 0.325 ===

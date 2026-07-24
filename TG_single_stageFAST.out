@@ -1,0 +1,1004 @@
+Warning: coils_to_vtk will not save forces and torques for coils that do not have a model for their cross section. Please use the RegularizedCoil class.
+J=3.9357e-03, Jf=3.9357e-03, CC=0, CS=0, |dJ|=2.2231e-02
+J=2.1350e-01, Jf=1.9675e-01, CC=7.983283521339853e-05, CS=8.76672587952296e-05, |dJ|=3.7865e-01
+J=3.5139e-03, Jf=3.5139e-03, CC=0, CS=0, |dJ|=1.5533e-02
+J=3.0048e-03, Jf=3.0048e-03, CC=0, CS=0, |dJ|=3.4984e-03
+J=2.9814e-03, Jf=2.9814e-03, CC=0, CS=2.578316636115908e-10, |dJ|=3.5285e-03
+J=2.9640e-03, Jf=2.9635e-03, CC=0, CS=4.555269849125032e-09, |dJ|=2.2093e-03
+J=2.9533e-03, Jf=2.9490e-03, CC=0, CS=4.246447838288279e-08, |dJ|=1.0042e-03
+J=2.9539e-03, Jf=2.9529e-03, CC=0, CS=9.786288350746497e-09, |dJ|=1.5727e-03
+J=2.9524e-03, Jf=2.9500e-03, CC=0, CS=2.4499100308671437e-08, |dJ|=3.2973e-04
+J=2.9523e-03, Jf=2.9501e-03, CC=0, CS=2.2625445097189426e-08, |dJ|=1.7214e-04
+J=2.9522e-03, Jf=2.9500e-03, CC=0, CS=2.278377238864542e-08, |dJ|=5.5529e-05
+J=2.9522e-03, Jf=2.9499e-03, CC=0, CS=2.360978276625838e-08, |dJ|=1.5614e-05
+J=2.9522e-03, Jf=2.9499e-03, CC=0, CS=2.3516675555501935e-08, |dJ|=2.2064e-05
+J=2.9522e-03, Jf=2.9499e-03, CC=0, CS=2.357167283410482e-08, |dJ|=2.9099e-06
+J=2.9522e-03, Jf=2.9499e-03, CC=0, CS=2.358052102530694e-08, |dJ|=2.1217e-07
+J=2.9522e-03, Jf=2.9499e-03, CC=0, CS=2.3583122954537237e-08, |dJ|=5.0360e-08
+     Number of Toroidal Dipoles: 8
+     Number of Poroidal Dipoles: 10
+Initialized 10x8 (npol x ntor) windowpane coils with Rpol=0.057, Rtor_min=0.051, Rtor_max=0.102
+
+===== Starting optimization =====
+Iteration 5: J=8.3486e-04, Jf=8.3486e-04, Jcp =0.0000e+00, |dJ|=1.7646e-04, |dJcp|=0.0000e+00
+Iteration 10: J=6.8978e-04, Jf=6.8978e-04, Jcp =0.0000e+00, |dJ|=5.6585e-06, |dJcp|=0.0000e+00
+Iteration 15: J=6.8469e-04, Jf=6.8469e-04, Jcp =0.0000e+00, |dJ|=7.7259e-08, |dJcp|=0.0000e+00
+Iteration 20: J=6.8469e-04, Jf=6.8469e-04, Jcp =0.0000e+00, |dJ|=2.3447e-09, |dJcp|=0.0000e+00
+Iteration 25: J=6.8469e-04, Jf=6.8469e-04, Jcp =0.0000e+00, |dJ|=1.3001e-08, |dJcp|=0.0000e+00
+Iteration 30: J=6.8469e-04, Jf=6.8469e-04, Jcp =0.0000e+00, |dJ|=5.4130e-08, |dJcp|=0.0000e+00
+Iteration 35: J=6.8469e-04, Jf=6.8469e-04, Jcp =0.0000e+00, |dJ|=2.2050e-07, |dJcp|=0.0000e+00
+Iteration 40: J=6.8451e-04, Jf=6.8451e-04, Jcp =0.0000e+00, |dJ|=2.2271e-06, |dJcp|=0.0000e+00
+Iteration 45: J=6.4744e-04, Jf=6.4744e-04, Jcp =0.0000e+00, |dJ|=1.3951e-04, |dJcp|=0.0000e+00
+Iteration 50: J=3.0001e-04, Jf=3.0001e-04, Jcp =0.0000e+00, |dJ|=1.3247e-04, |dJcp|=0.0000e+00
+Iteration 55: J=2.0620e-04, Jf=2.0620e-04, Jcp =0.0000e+00, |dJ|=5.7044e-06, |dJcp|=0.0000e+00
+Iteration 60: J=2.0205e-04, Jf=2.0205e-04, Jcp =0.0000e+00, |dJ|=2.1075e-06, |dJcp|=0.0000e+00
+Iteration 65: J=2.0196e-04, Jf=2.0196e-04, Jcp =0.0000e+00, |dJ|=9.8403e-08, |dJcp|=0.0000e+00
+Iteration 70: J=2.0196e-04, Jf=2.0196e-04, Jcp =0.0000e+00, |dJ|=7.3675e-10, |dJcp|=0.0000e+00
+Iteration 75: J=2.0196e-04, Jf=2.0196e-04, Jcp =0.0000e+00, |dJ|=3.1064e-09, |dJcp|=0.0000e+00
+Iteration 80: J=2.0196e-04, Jf=2.0196e-04, Jcp =0.0000e+00, |dJ|=3.9600e-08, |dJcp|=0.0000e+00
+Iteration 85: J=2.0194e-04, Jf=2.0194e-04, Jcp =0.0000e+00, |dJ|=4.6702e-07, |dJcp|=0.0000e+00
+Iteration 90: J=1.9994e-04, Jf=1.9994e-04, Jcp =0.0000e+00, |dJ|=8.2063e-06, |dJcp|=0.0000e+00
+Iteration 95: J=1.0289e-04, Jf=1.0289e-04, Jcp =0.0000e+00, |dJ|=1.2227e-05, |dJcp|=0.0000e+00
+Iteration 100: J=9.7645e-05, Jf=9.7645e-05, Jcp =0.0000e+00, |dJ|=1.6191e-07, |dJcp|=0.0000e+00
+Iteration 105: J=9.7644e-05, Jf=9.7644e-05, Jcp =0.0000e+00, |dJ|=7.4548e-10, |dJcp|=0.0000e+00
+Iteration 110: J=9.7644e-05, Jf=9.7644e-05, Jcp =0.0000e+00, |dJ|=1.6415e-09, |dJcp|=0.0000e+00
+Iteration 115: J=9.7644e-05, Jf=9.7644e-05, Jcp =0.0000e+00, |dJ|=2.6181e-08, |dJcp|=0.0000e+00
+Iteration 120: J=9.7643e-05, Jf=9.7643e-05, Jcp =0.0000e+00, |dJ|=3.0293e-07, |dJcp|=0.0000e+00
+Iteration 125: J=9.7538e-05, Jf=9.7538e-05, Jcp =0.0000e+00, |dJ|=3.4731e-06, |dJcp|=0.0000e+00
+Iteration 130: J=8.6129e-05, Jf=8.6129e-05, Jcp =0.0000e+00, |dJ|=3.2933e-05, |dJcp|=0.0000e+00
+Iteration 135: J=6.4896e-05, Jf=6.4896e-05, Jcp =0.0000e+00, |dJ|=1.2921e-07, |dJcp|=0.0000e+00
+Iteration 140: J=6.4891e-05, Jf=6.4891e-05, Jcp =0.0000e+00, |dJ|=2.3021e-09, |dJcp|=0.0000e+00
+Iteration 145: J=6.4891e-05, Jf=6.4891e-05, Jcp =0.0000e+00, |dJ|=3.9326e-10, |dJcp|=0.0000e+00
+Iteration 150: J=6.4891e-05, Jf=6.4891e-05, Jcp =0.0000e+00, |dJ|=6.8400e-09, |dJcp|=0.0000e+00
+Iteration 155: J=6.4891e-05, Jf=6.4891e-05, Jcp =0.0000e+00, |dJ|=7.9457e-08, |dJcp|=0.0000e+00
+Iteration 160: J=6.4871e-05, Jf=6.4871e-05, Jcp =0.0000e+00, |dJ|=8.8368e-07, |dJcp|=0.0000e+00
+Iteration 165: J=6.2673e-05, Jf=6.2673e-05, Jcp =0.0000e+00, |dJ|=8.2778e-06, |dJcp|=0.0000e+00
+Iteration 170: J=5.0621e-05, Jf=5.0621e-05, Jcp =0.0000e+00, |dJ|=7.5971e-07, |dJcp|=0.0000e+00
+Iteration 175: J=5.0576e-05, Jf=5.0576e-05, Jcp =0.0000e+00, |dJ|=2.1290e-09, |dJcp|=0.0000e+00
+Iteration 180: J=5.0576e-05, Jf=5.0576e-05, Jcp =0.0000e+00, |dJ|=4.1599e-10, |dJcp|=0.0000e+00
+Iteration 185: J=5.0576e-05, Jf=5.0576e-05, Jcp =0.0000e+00, |dJ|=7.9961e-09, |dJcp|=0.0000e+00
+Iteration 190: J=5.0576e-05, Jf=5.0576e-05, Jcp =0.0000e+00, |dJ|=9.2802e-08, |dJcp|=0.0000e+00
+Iteration 195: J=5.0553e-05, Jf=5.0553e-05, Jcp =0.0000e+00, |dJ|=1.0428e-06, |dJcp|=0.0000e+00
+Iteration 200: J=4.8146e-05, Jf=4.8146e-05, Jcp =0.0000e+00, |dJ|=9.5671e-06, |dJcp|=0.0000e+00
+Iteration 205: J=4.1784e-05, Jf=4.1784e-05, Jcp =0.0000e+00, |dJ|=1.1386e-07, |dJcp|=0.0000e+00
+Iteration 210: J=4.1781e-05, Jf=4.1781e-05, Jcp =0.0000e+00, |dJ|=1.0751e-09, |dJcp|=0.0000e+00
+Iteration 215: J=4.1781e-05, Jf=4.1781e-05, Jcp =0.0000e+00, |dJ|=1.5084e-10, |dJcp|=0.0000e+00
+Iteration 220: J=4.1781e-05, Jf=4.1781e-05, Jcp =0.0000e+00, |dJ|=2.3017e-09, |dJcp|=0.0000e+00
+Iteration 225: J=4.1781e-05, Jf=4.1781e-05, Jcp =0.0000e+00, |dJ|=2.6533e-08, |dJcp|=0.0000e+00
+Iteration 230: J=4.1779e-05, Jf=4.1779e-05, Jcp =0.0000e+00, |dJ|=2.9609e-07, |dJcp|=0.0000e+00
+Iteration 235: J=4.1591e-05, Jf=4.1591e-05, Jcp =0.0000e+00, |dJ|=3.2030e-06, |dJcp|=0.0000e+00
+Iteration 240: J=3.8156e-05, Jf=3.8156e-05, Jcp =0.0000e+00, |dJ|=1.7391e-06, |dJcp|=0.0000e+00
+Iteration 245: J=3.8089e-05, Jf=3.8089e-05, Jcp =0.0000e+00, |dJ|=1.4204e-09, |dJcp|=0.0000e+00
+Iteration 250: J=3.8089e-05, Jf=3.8089e-05, Jcp =0.0000e+00, |dJ|=7.7821e-11, |dJcp|=0.0000e+00
+Iteration 255: J=3.8089e-05, Jf=3.8089e-05, Jcp =0.0000e+00, |dJ|=1.1696e-09, |dJcp|=0.0000e+00
+Iteration 260: J=3.8089e-05, Jf=3.8089e-05, Jcp =0.0000e+00, |dJ|=1.3367e-08, |dJcp|=0.0000e+00
+Iteration 265: J=3.8088e-05, Jf=3.8088e-05, Jcp =0.0000e+00, |dJ|=1.4886e-07, |dJcp|=0.0000e+00
+Iteration 270: J=3.7967e-05, Jf=3.7967e-05, Jcp =0.0000e+00, |dJ|=1.6126e-06, |dJcp|=0.0000e+00
+Iteration 275: J=3.5993e-05, Jf=3.5993e-05, Jcp =0.0000e+00, |dJ|=7.3412e-07, |dJcp|=0.0000e+00
+Iteration 280: J=3.5964e-05, Jf=3.5964e-05, Jcp =0.0000e+00, |dJ|=1.0023e-10, |dJcp|=0.0000e+00
+Iteration 285: J=3.5964e-05, Jf=3.5964e-05, Jcp =0.0000e+00, |dJ|=2.3316e-10, |dJcp|=0.0000e+00
+Iteration 290: J=3.5964e-05, Jf=3.5964e-05, Jcp =0.0000e+00, |dJ|=3.0005e-09, |dJcp|=0.0000e+00
+Iteration 295: J=3.5964e-05, Jf=3.5964e-05, Jcp =0.0000e+00, |dJ|=3.3698e-08, |dJcp|=0.0000e+00
+Iteration 300: J=3.5957e-05, Jf=3.5957e-05, Jcp =0.0000e+00, |dJ|=3.7173e-07, |dJcp|=0.0000e+00
+Iteration 305: J=3.5406e-05, Jf=3.5406e-05, Jcp =0.0000e+00, |dJ|=2.2996e-06, |dJcp|=0.0000e+00
+Iteration 310: J=3.4904e-05, Jf=3.4904e-05, Jcp =0.0000e+00, |dJ|=8.0296e-09, |dJcp|=0.0000e+00
+Iteration 315: J=3.4904e-05, Jf=3.4904e-05, Jcp =0.0000e+00, |dJ|=1.3254e-10, |dJcp|=0.0000e+00
+Iteration 320: J=3.4904e-05, Jf=3.4904e-05, Jcp =0.0000e+00, |dJ|=2.5383e-09, |dJcp|=0.0000e+00
+Iteration 325: J=3.4904e-05, Jf=3.4904e-05, Jcp =0.0000e+00, |dJ|=2.9359e-08, |dJcp|=0.0000e+00
+Iteration 330: J=3.4901e-05, Jf=3.4901e-05, Jcp =0.0000e+00, |dJ|=3.2494e-07, |dJcp|=0.0000e+00
+Iteration 335: J=3.4658e-05, Jf=3.4658e-05, Jcp =0.0000e+00, |dJ|=2.2203e-06, |dJcp|=0.0000e+00
+Iteration 340: J=3.4372e-05, Jf=3.4372e-05, Jcp =0.0000e+00, |dJ|=6.5574e-09, |dJcp|=0.0000e+00
+Iteration 345: J=3.4372e-05, Jf=3.4372e-05, Jcp =0.0000e+00, |dJ|=2.4878e-11, |dJcp|=0.0000e+00
+Iteration 350: J=3.4372e-05, Jf=3.4372e-05, Jcp =0.0000e+00, |dJ|=7.3709e-10, |dJcp|=0.0000e+00
+Iteration 355: J=3.4372e-05, Jf=3.4372e-05, Jcp =0.0000e+00, |dJ|=8.8036e-09, |dJcp|=0.0000e+00
+Iteration 360: J=3.4372e-05, Jf=3.4372e-05, Jcp =0.0000e+00, |dJ|=9.7913e-08, |dJcp|=0.0000e+00
+Iteration 365: J=3.4314e-05, Jf=3.4314e-05, Jcp =0.0000e+00, |dJ|=8.6728e-07, |dJcp|=0.0000e+00
+Iteration 370: J=3.4130e-05, Jf=3.4130e-05, Jcp =0.0000e+00, |dJ|=3.4919e-09, |dJcp|=0.0000e+00
+Iteration 375: J=3.4130e-05, Jf=3.4130e-05, Jcp =0.0000e+00, |dJ|=1.2271e-11, |dJcp|=0.0000e+00
+Iteration 380: J=3.4130e-05, Jf=3.4130e-05, Jcp =0.0000e+00, |dJ|=4.3793e-10, |dJcp|=0.0000e+00
+Iteration 385: J=3.4130e-05, Jf=3.4130e-05, Jcp =0.0000e+00, |dJ|=5.2595e-09, |dJcp|=0.0000e+00
+Iteration 390: J=3.4130e-05, Jf=3.4130e-05, Jcp =0.0000e+00, |dJ|=5.8699e-08, |dJcp|=0.0000e+00
+Iteration 395: J=3.4107e-05, Jf=3.4107e-05, Jcp =0.0000e+00, |dJ|=5.9617e-07, |dJcp|=0.0000e+00
+Iteration 400: J=3.3924e-05, Jf=3.3924e-05, Jcp =0.0000e+00, |dJ|=5.3933e-08, |dJcp|=0.0000e+00
+Iteration 405: J=3.3923e-05, Jf=3.3923e-05, Jcp =0.0000e+00, |dJ|=1.0315e-10, |dJcp|=0.0000e+00
+Iteration 410: J=3.3923e-05, Jf=3.3923e-05, Jcp =0.0000e+00, |dJ|=1.1988e-10, |dJcp|=0.0000e+00
+Iteration 415: J=3.3923e-05, Jf=3.3923e-05, Jcp =0.0000e+00, |dJ|=1.5244e-09, |dJcp|=0.0000e+00
+Iteration 420: J=3.3923e-05, Jf=3.3923e-05, Jcp =0.0000e+00, |dJ|=1.7129e-08, |dJcp|=0.0000e+00
+Iteration 425: J=3.3914e-05, Jf=3.3914e-05, Jcp =0.0000e+00, |dJ|=1.8013e-07, |dJcp|=0.0000e+00
+Iteration 430: J=3.3809e-05, Jf=3.3809e-05, Jcp =0.0000e+00, |dJ|=4.5199e-08, |dJcp|=0.0000e+00
+Iteration 435: J=3.3808e-05, Jf=3.3808e-05, Jcp =0.0000e+00, |dJ|=5.4330e-12, |dJcp|=0.0000e+00
+Iteration 440: J=3.3808e-05, Jf=3.3808e-05, Jcp =0.0000e+00, |dJ|=1.8347e-10, |dJcp|=0.0000e+00
+Iteration 445: J=3.3808e-05, Jf=3.3808e-05, Jcp =0.0000e+00, |dJ|=2.5274e-09, |dJcp|=0.0000e+00
+Iteration 450: J=3.3808e-05, Jf=3.3808e-05, Jcp =0.0000e+00, |dJ|=2.8547e-08, |dJcp|=0.0000e+00
+Iteration 455: J=3.3801e-05, Jf=3.3801e-05, Jcp =0.0000e+00, |dJ|=2.7337e-07, |dJcp|=0.0000e+00
+Iteration 460: J=3.3770e-05, Jf=3.3770e-05, Jcp =0.0000e+00, |dJ|=1.4423e-09, |dJcp|=0.0000e+00
+Iteration 465: J=3.3770e-05, Jf=3.3770e-05, Jcp =0.0000e+00, |dJ|=3.3686e-12, |dJcp|=0.0000e+00
+Iteration 470: J=3.3770e-05, Jf=3.3770e-05, Jcp =0.0000e+00, |dJ|=1.0671e-10, |dJcp|=0.0000e+00
+Iteration 475: J=3.3770e-05, Jf=3.3770e-05, Jcp =0.0000e+00, |dJ|=1.3397e-09, |dJcp|=0.0000e+00
+Iteration 480: J=3.3770e-05, Jf=3.3770e-05, Jcp =0.0000e+00, |dJ|=1.5001e-08, |dJcp|=0.0000e+00
+Iteration 485: J=3.3763e-05, Jf=3.3763e-05, Jcp =0.0000e+00, |dJ|=1.3686e-07, |dJcp|=0.0000e+00
+Iteration 490: J=3.3744e-05, Jf=3.3744e-05, Jcp =0.0000e+00, |dJ|=9.4530e-09, |dJcp|=0.0000e+00
+Iteration 495: J=3.3744e-05, Jf=3.3744e-05, Jcp =0.0000e+00, |dJ|=3.2905e-12, |dJcp|=0.0000e+00
+Iteration 500: J=3.3744e-05, Jf=3.3744e-05, Jcp =0.0000e+00, |dJ|=4.8469e-11, |dJcp|=0.0000e+00
+Iteration 505: J=3.3744e-05, Jf=3.3744e-05, Jcp =0.0000e+00, |dJ|=5.8937e-10, |dJcp|=0.0000e+00
+Iteration 510: J=3.3744e-05, Jf=3.3744e-05, Jcp =0.0000e+00, |dJ|=6.5825e-09, |dJcp|=0.0000e+00
+Iteration 515: J=3.3743e-05, Jf=3.3743e-05, Jcp =0.0000e+00, |dJ|=7.0098e-08, |dJcp|=0.0000e+00
+Iteration 520: J=3.3725e-05, Jf=3.3725e-05, Jcp =0.0000e+00, |dJ|=1.1108e-07, |dJcp|=0.0000e+00
+Iteration 525: J=3.3724e-05, Jf=3.3724e-05, Jcp =0.0000e+00, |dJ|=2.3924e-12, |dJcp|=0.0000e+00
+Iteration 530: J=3.3724e-05, Jf=3.3724e-05, Jcp =0.0000e+00, |dJ|=3.9121e-11, |dJcp|=0.0000e+00
+Iteration 535: J=3.3724e-05, Jf=3.3724e-05, Jcp =0.0000e+00, |dJ|=5.2461e-10, |dJcp|=0.0000e+00
+Iteration 540: J=3.3724e-05, Jf=3.3724e-05, Jcp =0.0000e+00, |dJ|=5.9093e-09, |dJcp|=0.0000e+00
+Iteration 545: J=3.3724e-05, Jf=3.3724e-05, Jcp =0.0000e+00, |dJ|=6.2975e-08, |dJcp|=0.0000e+00
+Iteration 550: J=3.3714e-05, Jf=3.3714e-05, Jcp =0.0000e+00, |dJ|=2.7127e-08, |dJcp|=0.0000e+00
+Iteration 555: J=3.3714e-05, Jf=3.3714e-05, Jcp =0.0000e+00, |dJ|=4.1315e-12, |dJcp|=0.0000e+00
+Iteration 560: J=3.3714e-05, Jf=3.3714e-05, Jcp =0.0000e+00, |dJ|=1.0706e-11, |dJcp|=0.0000e+00
+Iteration 565: J=3.3714e-05, Jf=3.3714e-05, Jcp =0.0000e+00, |dJ|=1.4801e-10, |dJcp|=0.0000e+00
+Iteration 570: J=3.3714e-05, Jf=3.3714e-05, Jcp =0.0000e+00, |dJ|=1.6710e-09, |dJcp|=0.0000e+00
+Iteration 575: J=3.3714e-05, Jf=3.3714e-05, Jcp =0.0000e+00, |dJ|=1.8470e-08, |dJcp|=0.0000e+00
+Iteration 580: J=3.3711e-05, Jf=3.3711e-05, Jcp =0.0000e+00, |dJ|=1.1903e-07, |dJcp|=0.0000e+00
+Iteration 585: J=3.3709e-05, Jf=3.3709e-05, Jcp =0.0000e+00, |dJ|=4.9482e-11, |dJcp|=0.0000e+00
+Iteration 590: J=3.3709e-05, Jf=3.3709e-05, Jcp =0.0000e+00, |dJ|=1.7468e-12, |dJcp|=0.0000e+00
+Iteration 595: J=3.3709e-05, Jf=3.3709e-05, Jcp =0.0000e+00, |dJ|=2.6887e-11, |dJcp|=0.0000e+00
+Iteration 600: J=3.3709e-05, Jf=3.3709e-05, Jcp =0.0000e+00, |dJ|=3.1899e-10, |dJcp|=0.0000e+00
+Iteration 605: J=3.3709e-05, Jf=3.3709e-05, Jcp =0.0000e+00, |dJ|=3.5570e-09, |dJcp|=0.0000e+00
+Iteration 610: J=3.3709e-05, Jf=3.3709e-05, Jcp =0.0000e+00, |dJ|=3.6540e-08, |dJcp|=0.0000e+00
+Iteration 615: J=3.3705e-05, Jf=3.3705e-05, Jcp =0.0000e+00, |dJ|=2.9281e-09, |dJcp|=0.0000e+00
+Iteration 620: J=3.3705e-05, Jf=3.3705e-05, Jcp =0.0000e+00, |dJ|=1.4336e-11, |dJcp|=0.0000e+00
+Iteration 625: J=3.3705e-05, Jf=3.3705e-05, Jcp =0.0000e+00, |dJ|=4.6966e-10, |dJcp|=0.0000e+00
+Iteration 630: J=3.3705e-05, Jf=3.3705e-05, Jcp =0.0000e+00, |dJ|=6.4095e-09, |dJcp|=0.0000e+00
+Iteration 635: J=3.3705e-05, Jf=3.3705e-05, Jcp =0.0000e+00, |dJ|=6.6539e-08, |dJcp|=0.0000e+00
+Iteration 640: J=3.3702e-05, Jf=3.3702e-05, Jcp =0.0000e+00, |dJ|=4.6169e-09, |dJcp|=0.0000e+00
+Iteration 645: J=3.3702e-05, Jf=3.3702e-05, Jcp =0.0000e+00, |dJ|=2.8605e-12, |dJcp|=0.0000e+00
+Iteration 650: J=3.3702e-05, Jf=3.3702e-05, Jcp =0.0000e+00, |dJ|=5.2877e-11, |dJcp|=0.0000e+00
+Iteration 655: J=3.3702e-05, Jf=3.3702e-05, Jcp =0.0000e+00, |dJ|=6.0490e-10, |dJcp|=0.0000e+00
+Iteration 660: J=3.3702e-05, Jf=3.3702e-05, Jcp =0.0000e+00, |dJ|=6.9218e-09, |dJcp|=0.0000e+00
+Iteration 665: J=3.3702e-05, Jf=3.3702e-05, Jcp =0.0000e+00, |dJ|=6.5873e-08, |dJcp|=0.0000e+00
+Iteration 670: J=3.3699e-05, Jf=3.3699e-05, Jcp =0.0000e+00, |dJ|=1.6578e-09, |dJcp|=0.0000e+00
+Iteration 675: J=3.3699e-05, Jf=3.3699e-05, Jcp =0.0000e+00, |dJ|=1.7726e-12, |dJcp|=0.0000e+00
+Iteration 680: J=3.3699e-05, Jf=3.3699e-05, Jcp =0.0000e+00, |dJ|=1.1915e-10, |dJcp|=0.0000e+00
+Iteration 685: J=3.3699e-05, Jf=3.3699e-05, Jcp =0.0000e+00, |dJ|=2.2108e-09, |dJcp|=0.0000e+00
+Iteration 690: J=3.3699e-05, Jf=3.3699e-05, Jcp =0.0000e+00, |dJ|=2.8515e-08, |dJcp|=0.0000e+00
+Iteration 695: J=3.3697e-05, Jf=3.3697e-05, Jcp =0.0000e+00, |dJ|=1.3654e-07, |dJcp|=0.0000e+00
+Iteration 700: J=3.3696e-05, Jf=3.3696e-05, Jcp =0.0000e+00, |dJ|=1.3078e-11, |dJcp|=0.0000e+00
+Iteration 705: J=3.3696e-05, Jf=3.3696e-05, Jcp =0.0000e+00, |dJ|=9.7194e-12, |dJcp|=0.0000e+00
+Iteration 710: J=3.3696e-05, Jf=3.3696e-05, Jcp =0.0000e+00, |dJ|=1.2893e-10, |dJcp|=0.0000e+00
+Iteration 715: J=3.3696e-05, Jf=3.3696e-05, Jcp =0.0000e+00, |dJ|=1.4427e-09, |dJcp|=0.0000e+00
+Iteration 720: J=3.3696e-05, Jf=3.3696e-05, Jcp =0.0000e+00, |dJ|=1.5828e-08, |dJcp|=0.0000e+00
+Iteration 725: J=3.3695e-05, Jf=3.3695e-05, Jcp =0.0000e+00, |dJ|=1.0703e-07, |dJcp|=0.0000e+00
+Iteration 730: J=3.3694e-05, Jf=3.3694e-05, Jcp =0.0000e+00, |dJ|=3.2298e-09, |dJcp|=0.0000e+00
+Iteration 735: J=3.3694e-05, Jf=3.3694e-05, Jcp =0.0000e+00, |dJ|=2.9813e-12, |dJcp|=0.0000e+00
+Iteration 740: J=3.3694e-05, Jf=3.3694e-05, Jcp =0.0000e+00, |dJ|=9.5286e-12, |dJcp|=0.0000e+00
+Iteration 745: J=3.3694e-05, Jf=3.3694e-05, Jcp =0.0000e+00, |dJ|=1.2327e-10, |dJcp|=0.0000e+00
+Iteration 750: J=3.3694e-05, Jf=3.3694e-05, Jcp =0.0000e+00, |dJ|=2.3226e-10, |dJcp|=0.0000e+00
+Iteration 755: J=3.3694e-05, Jf=3.3694e-05, Jcp =0.0000e+00, |dJ|=8.2653e-10, |dJcp|=0.0000e+00
+Iteration 760: J=3.3694e-05, Jf=3.3694e-05, Jcp =0.0000e+00, |dJ|=1.2292e-08, |dJcp|=0.0000e+00
+Iteration 765: J=3.3693e-05, Jf=3.3693e-05, Jcp =0.0000e+00, |dJ|=2.6104e-08, |dJcp|=0.0000e+00
+Iteration 770: J=3.3693e-05, Jf=3.3693e-05, Jcp =0.0000e+00, |dJ|=9.2522e-11, |dJcp|=0.0000e+00
+Iteration 775: J=3.3693e-05, Jf=3.3693e-05, Jcp =0.0000e+00, |dJ|=5.0238e-13, |dJcp|=0.0000e+00
+Iteration 780: J=3.3693e-05, Jf=3.3693e-05, Jcp =0.0000e+00, |dJ|=1.3519e-11, |dJcp|=0.0000e+00
+Iteration 785: J=3.3693e-05, Jf=3.3693e-05, Jcp =0.0000e+00, |dJ|=1.5758e-10, |dJcp|=0.0000e+00
+Iteration 790: J=3.3693e-05, Jf=3.3693e-05, Jcp =0.0000e+00, |dJ|=1.7471e-09, |dJcp|=0.0000e+00
+Iteration 795: J=3.3693e-05, Jf=3.3693e-05, Jcp =0.0000e+00, |dJ|=1.1406e-08, |dJcp|=0.0000e+00
+Iteration 800: J=3.3693e-05, Jf=3.3693e-05, Jcp =0.0000e+00, |dJ|=1.2991e-09, |dJcp|=0.0000e+00
+Iteration 805: J=3.3693e-05, Jf=3.3693e-05, Jcp =0.0000e+00, |dJ|=5.8377e-12, |dJcp|=0.0000e+00
+Iteration 810: J=3.3693e-05, Jf=3.3693e-05, Jcp =0.0000e+00, |dJ|=2.7872e-12, |dJcp|=0.0000e+00
+Iteration 815: J=3.3693e-05, Jf=3.3693e-05, Jcp =0.0000e+00, |dJ|=4.3823e-11, |dJcp|=0.0000e+00
+Iteration 820: J=3.3693e-05, Jf=3.3693e-05, Jcp =0.0000e+00, |dJ|=4.9836e-10, |dJcp|=0.0000e+00
+Iteration 825: J=3.3693e-05, Jf=3.3693e-05, Jcp =0.0000e+00, |dJ|=5.5138e-09, |dJcp|=0.0000e+00
+Iteration 830: J=3.3692e-05, Jf=3.3692e-05, Jcp =0.0000e+00, |dJ|=3.6335e-08, |dJcp|=0.0000e+00
+Iteration 835: J=3.3692e-05, Jf=3.3692e-05, Jcp =0.0000e+00, |dJ|=4.2887e-11, |dJcp|=0.0000e+00
+Iteration 840: J=3.3692e-05, Jf=3.3692e-05, Jcp =0.0000e+00, |dJ|=4.1739e-13, |dJcp|=0.0000e+00
+CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH
+Saving results to /burg-archive/home/tg2998/simsopt/examples/outputs/stage2_initial_conditions...
+Warning: coils_to_vtk will not save forces and torques for coils that do not have a model for their cross section. Please use the RegularizedCoil class.
+Initialising Boozer Surface: 
+BFGS solve - True  iter=179, iota=0.1791865851595700, ||grad||_inf = 9.856e-03
+NEWTON solve - True  iter=1, iota=0.1842442612153095, ||grad||_inf = 5.992e-04
+Solve success: True
+    iota: 0.1842442612153095
+    G: -3.1937416278018045
+BFGS solve - True  iter=0, iota=0.1842442612153095, ||grad||_inf = 5.992e-04
+NEWTON solve - True  iter=0, iota=0.1842442612153095, ||grad||_inf = 5.992e-04
+Solve success: True
+    iota: 0.1842442612153095
+    G: -3.1937416278018045
+BFGS solve - True  iter=48, iota=0.1822701869771091, ||grad||_inf = 9.195e-03
+NEWTON solve - True  iter=1, iota=0.1861108042665475, ||grad||_inf = 3.314e-04
+Solve success: True
+    iota: 0.1861108042665475
+    G: -3.193741627801804
+Callback: 
+    iota: 0.1861108042665475
+       G: -3.193741627801804
+       J: 818069.4421297185
+    |dJ|: 360252.7442462984
+BFGS solve - True  iter=51, iota=0.1839295352495932, ||grad||_inf = 8.359e-03
+NEWTON solve - True  iter=16, iota=-0.4707729009871786, ||grad||_inf = 7.707e-04
+Solve success: True
+    iota: -0.4707729009871786
+    G: -3.19374162780179
+Callback: 
+    iota: -0.4707729009871786
+       G: -3.19374162780179
+       J: 559538.2724201895
+    |dJ|: 568544.96901215
+BFGS solve - True  iter=64, iota=-0.4749937991061403, ||grad||_inf = 9.488e-03
+NEWTON solve - True  iter=1, iota=-0.4576917126020135, ||grad||_inf = 2.898e-03
+Solve success: True
+    iota: -0.45769171260201347
+    G: -3.193741627801804
+BFGS solve - True  iter=55, iota=-0.4715486365698915, ||grad||_inf = 8.815e-03
+NEWTON solve - True  iter=1, iota=-0.4701413304535606, ||grad||_inf = 2.603e-05
+Solve success: True
+    iota: -0.4701413304535606
+    G: -3.1937416278018005
+Callback: 
+    iota: -0.4701413304535606
+       G: -3.1937416278018005
+       J: 490953.90282677975
+    |dJ|: 546570.4027516048
+BFGS solve - True  iter=59, iota=-0.4742691534372979, ||grad||_inf = 9.806e-03
+NEWTON solve - True  iter=1, iota=-0.4723017819796596, ||grad||_inf = 5.067e-05
+Solve success: True
+    iota: -0.47230178197965955
+    G: -3.1937416278018045
+Callback: 
+    iota: -0.47230178197965955
+       G: -3.1937416278018045
+       J: 415296.2671962004
+    |dJ|: 299274.39985392254
+BFGS solve - True  iter=73, iota=-0.4790536656579381, ||grad||_inf = 7.907e-03
+NEWTON solve - True  iter=1, iota=-0.4815688155523327, ||grad||_inf = 4.177e-04
+Solve success: True
+    iota: -0.48156881555233266
+    G: -3.193741627801804
+BFGS solve - True  iter=30, iota=-0.4726392985601906, ||grad||_inf = 8.440e-03
+NEWTON solve - True  iter=1, iota=-0.4715547675365382, ||grad||_inf = 9.803e-06
+Solve success: True
+    iota: -0.4715547675365382
+    G: -3.193741627801804
+Callback: 
+    iota: -0.4715547675365382
+       G: -3.193741627801804
+       J: 406550.77422396967
+    |dJ|: 364632.46793769544
+BFGS solve - True  iter=47, iota=-0.4712457890955844, ||grad||_inf = 9.114e-03
+NEWTON solve - True  iter=1, iota=-0.4677024223530040, ||grad||_inf = 1.058e-04
+Solve success: True
+    iota: -0.467702422353004
+    G: -3.193741627801804
+Callback: 
+    iota: -0.467702422353004
+       G: -3.193741627801804
+       J: 392034.217605338
+    |dJ|: 308777.1095983743
+BFGS solve - True  iter=56, iota=-0.4668703667947144, ||grad||_inf = 8.618e-03
+NEWTON solve - True  iter=2, iota=-0.4393316842710016, ||grad||_inf = 5.875e-04
+Solve success: True
+    iota: -0.4393316842710016
+    G: -3.193741627801804
+BFGS solve - True  iter=27, iota=-0.4676297917318492, ||grad||_inf = 7.806e-03
+NEWTON solve - True  iter=1, iota=-0.4645147769050657, ||grad||_inf = 8.266e-05
+Solve success: True
+    iota: -0.46451477690506565
+    G: -3.193741627801803
+Callback: 
+    iota: -0.46451477690506565
+       G: -3.193741627801803
+       J: 390893.21124857105
+    |dJ|: 390413.4856437792
+BFGS solve - True  iter=29, iota=-0.4649636021598501, ||grad||_inf = 8.026e-03
+NEWTON solve - True  iter=1, iota=-0.4626457146647691, ||grad||_inf = 4.513e-05
+Solve success: True
+    iota: -0.46264571466476906
+    G: -3.1937416278018036
+BFGS solve - True  iter=4, iota=-0.4645182377932812, ||grad||_inf = 6.059e-03
+NEWTON solve - True  iter=1, iota=-0.4637432130923055, ||grad||_inf = 4.005e-05
+Solve success: True
+    iota: -0.46374321309230554
+    G: -3.1937416278018036
+Callback: 
+    iota: -0.46374321309230554
+       G: -3.1937416278018036
+       J: 390568.6553924812
+    |dJ|: 396945.45544153574
+BFGS solve - True  iter=5, iota=-0.4637486921900324, ||grad||_inf = 7.242e-03
+NEWTON solve - True  iter=1, iota=-0.4564972115024477, ||grad||_inf = 7.129e-04
+Solve success: True
+    iota: -0.4564972115024477
+    G: -3.1937416278018045
+BFGS solve - True  iter=3, iota=-0.4637440365524048, ||grad||_inf = 4.664e-03
+NEWTON solve - True  iter=1, iota=-0.4614601875306553, ||grad||_inf = 7.111e-05
+Solve success: True
+    iota: -0.46146018753065526
+    G: -3.193741627801804
+Callback: 
+    iota: -0.46146018753065526
+       G: -3.193741627801804
+       J: 390468.5200216002
+    |dJ|: 397955.1928776877
+BFGS solve - True  iter=17, iota=-0.4614768559627545, ||grad||_inf = 9.411e-03
+NEWTON solve - True  iter=1, iota=-0.4594102526702689, ||grad||_inf = 4.800e-05
+Solve success: True
+    iota: -0.4594102526702689
+    G: -3.1937416278018036
+Callback: 
+    iota: -0.4594102526702689
+       G: -3.1937416278018036
+       J: 390320.0847375568
+    |dJ|: 398612.63638478145
+BFGS solve - True  iter=4, iota=-0.4594105469151298, ||grad||_inf = 7.820e-03
+NEWTON solve - True  iter=1, iota=-0.4582625929150707, ||grad||_inf = 2.903e-05
+Solve success: True
+    iota: -0.45826259291507065
+    G: -3.1937416278018045
+Callback: 
+    iota: -0.45826259291507065
+       G: -3.1937416278018045
+       J: 390276.832423974
+    |dJ|: 393491.3778178554
+BFGS solve - True  iter=4, iota=-0.4582642516466369, ||grad||_inf = 5.360e-03
+NEWTON solve - True  iter=1, iota=-0.4600539013859479, ||grad||_inf = 4.495e-05
+Solve success: True
+    iota: -0.4600539013859479
+    G: -3.1937416278018045
+Callback: 
+    iota: -0.4600539013859479
+       G: -3.1937416278018045
+       J: 390238.0173576288
+    |dJ|: 390896.4651615222
+BFGS solve - True  iter=20, iota=-0.4601761094490138, ||grad||_inf = 9.717e-03
+NEWTON solve - True  iter=1, iota=-0.4628482206557676, ||grad||_inf = 8.065e-05
+Solve success: True
+    iota: -0.4628482206557676
+    G: -3.1937416278018045
+Callback: 
+    iota: -0.4628482206557676
+       G: -3.1937416278018045
+       J: 390187.34389005596
+    |dJ|: 388167.23334450246
+BFGS solve - True  iter=20, iota=-0.4627377805446949, ||grad||_inf = 9.336e-03
+NEWTON solve - True  iter=1, iota=-0.4619349385505501, ||grad||_inf = 7.194e-06
+Solve success: True
+    iota: -0.46193493855055007
+    G: -3.193741627801805
+Callback: 
+    iota: -0.46193493855055007
+       G: -3.193741627801805
+       J: 390160.94501755916
+    |dJ|: 385371.7440753705
+BFGS solve - True  iter=2, iota=-0.4619349075870129, ||grad||_inf = 9.712e-03
+NEWTON solve - True  iter=1, iota=-0.4619858772584902, ||grad||_inf = 4.725e-05
+Solve success: True
+    iota: -0.46198587725849016
+    G: -3.1937416278018045
+BFGS solve - True  iter=34, iota=-0.4619249450973216, ||grad||_inf = 8.486e-03
+NEWTON solve - True  iter=1, iota=-0.4620289028848641, ||grad||_inf = 1.899e-05
+Solve success: True
+    iota: -0.4620289028848641
+    G: -3.193741627801804
+Callback: 
+    iota: -0.4620289028848641
+       G: -3.193741627801804
+       J: 389940.7917137791
+    |dJ|: 386120.04029004666
+BFGS solve - True  iter=52, iota=-0.4606267373760862, ||grad||_inf = 9.631e-03
+NEWTON solve - True  iter=1, iota=-0.4530688223513981, ||grad||_inf = 6.068e-04
+Solve success: True
+    iota: -0.45306882235139806
+    G: -3.193741627801804
+BFGS solve - True  iter=25, iota=-0.4619205346851752, ||grad||_inf = 9.782e-03
+NEWTON solve - True  iter=1, iota=-0.4593912648141313, ||grad||_inf = 6.267e-05
+Solve success: True
+    iota: -0.4593912648141313
+    G: -3.193741627801804
+Callback: 
+    iota: -0.4593912648141313
+       G: -3.193741627801804
+       J: 389844.7045980758
+    |dJ|: 386671.9978435532
+BFGS solve - True  iter=21, iota=-0.4593667634352896, ||grad||_inf = 9.100e-03
+NEWTON solve - True  iter=1, iota=-0.4595255402971608, ||grad||_inf = 5.411e-06
+Solve success: True
+    iota: -0.45952554029716075
+    G: -3.193741627801804
+Callback: 
+    iota: -0.45952554029716075
+       G: -3.193741627801804
+       J: 389677.6440480234
+    |dJ|: 385189.950472682
+BFGS solve - True  iter=0, iota=-0.4595255402971608, ||grad||_inf = 5.678e-03
+NEWTON solve - True  iter=1, iota=-0.4598348191525239, ||grad||_inf = 1.226e-05
+Solve success: True
+    iota: -0.4598348191525239
+    G: -3.1937416278018036
+BFGS solve - True  iter=26, iota=-0.4596184643575497, ||grad||_inf = 8.598e-03
+NEWTON solve - True  iter=1, iota=-0.4608918517241128, ||grad||_inf = 1.671e-05
+Solve success: True
+    iota: -0.46089185172411284
+    G: -3.1937416278018045
+BFGS solve - True  iter=43, iota=-0.4603662351405722, ||grad||_inf = 9.509e-03
+NEWTON solve - True  iter=1, iota=-0.4599497708385061, ||grad||_inf = 2.842e-05
+Solve success: True
+    iota: -0.4599497708385061
+    G: -3.193741627801804
+Callback: 
+    iota: -0.4599497708385061
+       G: -3.193741627801804
+       J: 384668.5685740274
+    |dJ|: 373940.14066688553
+BFGS solve - True  iter=118, iota=-0.2928299196505917, ||grad||_inf = 9.427e-03
+NEWTON solve - True  iter=2, iota=-0.2629352123436772, ||grad||_inf = 1.023e-03
+Solve success: True
+    iota: -0.2629352123436772
+    G: -3.193741627801804
+Callback: 
+    iota: -0.2629352123436772
+       G: -3.193741627801804
+       J: 376581.75362484145
+    |dJ|: 394690.981081309
+BFGS solve - True  iter=40, iota=-0.2674021684116595, ||grad||_inf = 7.225e-03
+NEWTON solve - True  iter=2, iota=-0.2950370285337464, ||grad||_inf = 5.647e-05
+Solve success: True
+    iota: -0.29503702853374636
+    G: -3.193741627801804
+BFGS solve - True  iter=27, iota=-0.2641821949173724, ||grad||_inf = 8.399e-03
+NEWTON solve - True  iter=2, iota=-0.2863543139517387, ||grad||_inf = 2.941e-05
+Solve success: True
+    iota: -0.2863543139517387
+    G: -3.193741627801805
+Callback: 
+    iota: -0.2863543139517387
+       G: -3.193741627801805
+       J: 373016.2993180977
+    |dJ|: 385518.52005488717
+BFGS solve - True  iter=36, iota=-0.2897367109508762, ||grad||_inf = 9.722e-03
+NEWTON solve - True  iter=2, iota=-0.3166116153958640, ||grad||_inf = 5.565e-05
+Solve success: True
+    iota: -0.316611615395864
+    G: -3.193741627801804
+BFGS solve - True  iter=24, iota=-0.2871502445797299, ||grad||_inf = 7.859e-03
+NEWTON solve - True  iter=1, iota=-0.3006593831731932, ||grad||_inf = 1.763e-03
+Solve success: True
+    iota: -0.3006593831731932
+    G: -3.1937416278018036
+Callback: 
+    iota: -0.3006593831731932
+       G: -3.1937416278018036
+       J: 370671.6325826943
+    |dJ|: 384461.31992656464
+BFGS solve - True  iter=36, iota=-0.3025102040744908, ||grad||_inf = 9.344e-03
+NEWTON solve - True  iter=1, iota=-0.3170217971496782, ||grad||_inf = 1.981e-03
+Solve success: True
+    iota: -0.31702179714967815
+    G: -3.193741627801804
+BFGS solve - True  iter=51, iota=-0.3022472204286820, ||grad||_inf = 9.340e-03
+NEWTON solve - True  iter=1, iota=-0.3061092339171786, ||grad||_inf = 1.770e-04
+Solve success: True
+    iota: -0.30610923391717865
+    G: -3.1937416278018036
+BFGS solve - True  iter=44, iota=-0.3044529937967802, ||grad||_inf = 9.691e-03
+NEWTON solve - True  iter=1, iota=-0.3240400274149453, ||grad||_inf = 3.372e-03
+Solve success: True
+    iota: -0.32404002741494525
+    G: -3.193741627801804
+Callback: 
+    iota: -0.32404002741494525
+       G: -3.193741627801804
+       J: 361622.05959228036
+    |dJ|: 380398.2022736211
+BFGS solve - True  iter=52, iota=-0.3177732061075905, ||grad||_inf = 9.801e-03
+NEWTON solve - True  iter=1, iota=-0.3061134543403305, ||grad||_inf = 1.385e-03
+Solve success: True
+    iota: -0.3061134543403305
+    G: -3.1937416278018045
+BFGS solve - True  iter=30, iota=-0.3242524241148791, ||grad||_inf = 9.599e-03
+NEWTON solve - True  iter=1, iota=-0.3258835667596918, ||grad||_inf = 3.648e-05
+Solve success: True
+    iota: -0.3258835667596918
+    G: -3.193741627801804
+Callback: 
+    iota: -0.3258835667596918
+       G: -3.193741627801804
+       J: 358096.7828353505
+    |dJ|: 374355.05448060896
+BFGS solve - True  iter=27, iota=-0.3251012805283615, ||grad||_inf = 9.676e-03
+NEWTON solve - True  iter=1, iota=-0.3178466351463264, ||grad||_inf = 5.782e-04
+Solve success: True
+    iota: -0.3178466351463264
+    G: -3.193741627801804
+Callback: 
+    iota: -0.3178466351463264
+       G: -3.193741627801804
+       J: 352149.43408050714
+    |dJ|: 361985.9038603686
+BFGS solve - True  iter=41, iota=-0.3151654942448359, ||grad||_inf = 9.525e-03
+NEWTON solve - True  iter=1, iota=-0.3046755071434888, ||grad||_inf = 1.087e-03
+Solve success: True
+    iota: -0.30467550714348884
+    G: -3.193741627801804
+Callback: 
+    iota: -0.30467550714348884
+       G: -3.193741627801804
+       J: 343296.38370586216
+    |dJ|: 328977.40788240137
+BFGS solve - True  iter=55, iota=-0.3100117319047146, ||grad||_inf = 7.942e-03
+NEWTON solve - True  iter=1, iota=-0.3224266131954583, ||grad||_inf = 1.470e-03
+Solve success: True
+    iota: -0.32242661319545834
+    G: -3.193741627801804
+Callback: 
+    iota: -0.32242661319545834
+       G: -3.193741627801804
+       J: 330060.39112638566
+    |dJ|: 283049.327146707
+BFGS solve - True  iter=44, iota=-0.3240561498469962, ||grad||_inf = 8.073e-03
+NEWTON solve - True  iter=1, iota=-0.3314628429321801, ||grad||_inf = 4.506e-04
+Solve success: True
+    iota: -0.33146284293218015
+    G: -3.193741627801804
+BFGS solve - True  iter=33, iota=-0.3232940787115567, ||grad||_inf = 8.887e-03
+NEWTON solve - True  iter=1, iota=-0.3288456213853899, ||grad||_inf = 3.184e-04
+Solve success: True
+    iota: -0.32884562138538986
+    G: -3.193741627801804
+Callback: 
+    iota: -0.32884562138538986
+       G: -3.193741627801804
+       J: 320990.373256583
+    |dJ|: 259049.4884859738
+BFGS solve - True  iter=34, iota=-0.3290534595462145, ||grad||_inf = 9.795e-03
+NEWTON solve - True  iter=1, iota=-0.3314173269212978, ||grad||_inf = 8.765e-05
+Solve success: True
+    iota: -0.3314173269212978
+    G: -3.193741627801804
+Callback: 
+    iota: -0.3314173269212978
+       G: -3.193741627801804
+       J: 308939.5953897013
+    |dJ|: 213542.37266956238
+BFGS solve - True  iter=39, iota=-0.3356601394729264, ||grad||_inf = 9.770e-03
+NEWTON solve - True  iter=2, iota=-0.3698164694618320, ||grad||_inf = 2.692e-04
+Solve success: True
+    iota: -0.369816469461832
+    G: -3.1937416278018045
+BFGS solve - True  iter=32, iota=-0.3325913578289836, ||grad||_inf = 9.217e-03
+NEWTON solve - True  iter=1, iota=-0.3463892171285183, ||grad||_inf = 2.125e-03
+Solve success: True
+    iota: -0.34638921712851833
+    G: -3.193741627801804
+Callback: 
+    iota: -0.34638921712851833
+       G: -3.193741627801804
+       J: 299952.27601142076
+    |dJ|: 190635.13626056476
+BFGS solve - True  iter=28, iota=-0.3466400294471901, ||grad||_inf = 9.972e-03
+NEWTON solve - True  iter=1, iota=-0.3472627270395893, ||grad||_inf = 3.371e-05
+Solve success: True
+    iota: -0.3472627270395893
+    G: -3.1937416278018045
+Callback: 
+    iota: -0.3472627270395893
+       G: -3.1937416278018045
+       J: 286275.5161384491
+    |dJ|: 169011.0567628212
+BFGS solve - True  iter=38, iota=-0.3503656691836337, ||grad||_inf = 9.433e-03
+NEWTON solve - True  iter=2, iota=-0.3718502303689529, ||grad||_inf = 4.241e-05
+Solve success: True
+    iota: -0.37185023036895287
+    G: -3.193741627801804
+Callback: 
+    iota: -0.37185023036895287
+       G: -3.193741627801804
+       J: 260316.28672874314
+    |dJ|: 186289.03516096753
+BFGS solve - True  iter=44, iota=-0.3763078025825258, ||grad||_inf = 7.862e-03
+NEWTON solve - True  iter=1, iota=-0.3926800312782463, ||grad||_inf = 2.852e-03
+Solve success: True
+    iota: -0.3926800312782463
+    G: -3.193741627801805
+BFGS solve - True  iter=29, iota=-0.3728110603131387, ||grad||_inf = 8.898e-03
+NEWTON solve - True  iter=1, iota=-0.3804193233918944, ||grad||_inf = 7.184e-04
+Solve success: True
+    iota: -0.3804193233918944
+    G: -3.1937416278018045
+Callback: 
+    iota: -0.3804193233918944
+       G: -3.1937416278018045
+       J: 236899.00439776763
+    |dJ|: 252876.607624276
+BFGS solve - True  iter=76, iota=-0.4343169431371559, ||grad||_inf = 9.894e-03
+NEWTON solve - True  iter=1, iota=-0.4395881001743835, ||grad||_inf = 2.530e-04
+Solve success: True
+    iota: -0.43958810017438354
+    G: -3.193741627801811
+Callback: 
+    iota: -0.43958810017438354
+       G: -3.193741627801811
+       J: 235261.93274415744
+    |dJ|: 162369.94929362086
+BFGS solve - True  iter=0, iota=-0.4395881001743835, ||grad||_inf = 8.015e-03
+NEWTON solve - True  iter=1, iota=-0.4456004919960592, ||grad||_inf = 9.337e-04
+Solve success: True
+    iota: -0.44560049199605917
+    G: -3.193741627801811
+BFGS solve - True  iter=27, iota=-0.4423266170650031, ||grad||_inf = 8.214e-03
+NEWTON solve - True  iter=1, iota=-0.4628157706228516, ||grad||_inf = 3.861e-03
+Solve success: True
+    iota: -0.46281577062285156
+    G: -3.1937416278018054
+BFGS solve - True  iter=85, iota=-0.4910316353507246, ||grad||_inf = 7.445e-03
+NEWTON solve - True  iter=1, iota=-0.4934268499351408, ||grad||_inf = 3.101e-05
+Solve success: True
+    iota: -0.4934268499351408
+    G: -3.1937416278013973
+Callback: 
+    iota: -0.4934268499351408
+       G: -3.1937416278013973
+       J: 180154.0940977625
+    |dJ|: 301763.7220461375
+BFGS solve - True  iter=61, iota=-0.4864955512189998, ||grad||_inf = 9.971e-03
+NEWTON solve - True  iter=1, iota=-0.4792345920790596, ||grad||_inf = 9.017e-04
+Solve success: True
+    iota: -0.47923459207905955
+    G: -3.1937416277983925
+BFGS solve - True  iter=28, iota=-0.4935113848380481, ||grad||_inf = 9.736e-03
+NEWTON solve - True  iter=1, iota=-0.4934637185253859, ||grad||_inf = 8.566e-05
+Solve success: True
+    iota: -0.4934637185253859
+    G: -3.1937416277991937
+Callback: 
+    iota: -0.4934637185253859
+       G: -3.1937416277991937
+       J: 172173.57083175433
+    |dJ|: 372592.6267364991
+BFGS solve - True  iter=47, iota=-0.4907025954837018, ||grad||_inf = 9.136e-03
+NEWTON solve - True  iter=1, iota=-0.4856528627999152, ||grad||_inf = 1.256e-04
+Solve success: True
+    iota: -0.4856528627999152
+    G: -3.1937416277885684
+BFGS solve - True  iter=19, iota=-0.4934320424462543, ||grad||_inf = 9.068e-03
+NEWTON solve - True  iter=1, iota=-0.4927692481152093, ||grad||_inf = 4.036e-06
+Solve success: True
+    iota: -0.4927692481152093
+    G: -3.1937416277984267
+BFGS solve - True  iter=0, iota=-0.4934637185253859, ||grad||_inf = 7.101e-03
+NEWTON solve - True  iter=1, iota=-0.4932209801163989, ||grad||_inf = 1.517e-05
+Solve success: True
+    iota: -0.49322098011639887
+    G: -3.1937416277990374
+Callback: 
+    iota: -0.49322098011639887
+       G: -3.1937416277990374
+       J: 171882.08859595223
+    |dJ|: 373476.08481988055
+BFGS solve - True  iter=22, iota=-0.4931988255887514, ||grad||_inf = 9.190e-03
+NEWTON solve - True  iter=1, iota=-0.4928849196912939, ||grad||_inf = 2.454e-05
+Solve success: True
+    iota: -0.49288491969129394
+    G: -3.1937416278005153
+Callback: 
+    iota: -0.49288491969129394
+       G: -3.1937416278005153
+       J: 171365.12821119226
+    |dJ|: 380464.4881065514
+BFGS solve - True  iter=31, iota=-0.4930270214711026, ||grad||_inf = 8.993e-03
+NEWTON solve - True  iter=1, iota=-0.4937693297589183, ||grad||_inf = 1.981e-04
+Solve success: True
+    iota: -0.4937693297589183
+    G: -3.193741627784628
+Callback: 
+    iota: -0.4937693297589183
+       G: -3.193741627784628
+       J: 170480.21820393726
+    |dJ|: 382804.7167332837
+BFGS solve - True  iter=57, iota=-0.4919431815156384, ||grad||_inf = 9.250e-03
+NEWTON solve - True  iter=1, iota=-0.4918156100379240, ||grad||_inf = 2.390e-04
+Solve success: True
+    iota: -0.49181561003792396
+    G: -3.193741627802287
+BFGS solve - True  iter=36, iota=-0.4933298591474282, ||grad||_inf = 8.751e-03
+NEWTON solve - True  iter=1, iota=-0.4923994379339573, ||grad||_inf = 2.336e-04
+Solve success: True
+    iota: -0.4923994379339573
+    G: -3.193741627987258
+Callback: 
+    iota: -0.4923994379339573
+       G: -3.193741627987258
+       J: 169955.91140819294
+    |dJ|: 381527.29656231194
+BFGS solve - True  iter=70, iota=-0.4912516930002929, ||grad||_inf = 9.400e-03
+NEWTON solve - True  iter=1, iota=-0.4915682664013471, ||grad||_inf = 8.895e-05
+Solve success: True
+    iota: -0.4915682664013471
+    G: -3.193741627802866
+BFGS solve - True  iter=26, iota=-0.4922574419498985, ||grad||_inf = 8.234e-03
+NEWTON solve - True  iter=1, iota=-0.4919510752647789, ||grad||_inf = 1.885e-04
+Solve success: True
+    iota: -0.4919510752647789
+    G: -3.1937416279672797
+Callback: 
+    iota: -0.4919510752647789
+       G: -3.1937416279672797
+       J: 169730.1749521304
+    |dJ|: 379713.5393634087
+BFGS solve - True  iter=3, iota=-0.4919514268090263, ||grad||_inf = 7.024e-03
+NEWTON solve - True  iter=1, iota=-0.4923513890243040, ||grad||_inf = 5.890e-05
+Solve success: True
+    iota: -0.492351389024304
+    G: -3.1937416280400717
+Callback: 
+    iota: -0.492351389024304
+       G: -3.1937416280400717
+       J: 169316.53454220336
+    |dJ|: 380336.05165217275
+BFGS solve - True  iter=2, iota=-0.4923513092960972, ||grad||_inf = 6.610e-03
+NEWTON solve - True  iter=1, iota=-0.4924291314034085, ||grad||_inf = 3.294e-05
+Solve success: True
+    iota: -0.49242913140340855
+    G: -3.193741628009181
+Callback: 
+    iota: -0.49242913140340855
+       G: -3.193741628009181
+       J: 168530.39140658907
+    |dJ|: 379432.52819614473
+BFGS solve - True  iter=0, iota=-0.4924291314034085, ||grad||_inf = 8.885e-03
+NEWTON solve - True  iter=1, iota=-0.4920844603309564, ||grad||_inf = 1.730e-05
+Solve success: True
+    iota: -0.4920844603309564
+    G: -3.193741628033922
+BFGS solve - True  iter=25, iota=-0.4921291309623982, ||grad||_inf = 7.337e-03
+NEWTON solve - True  iter=1, iota=-0.4908672725913628, ||grad||_inf = 1.413e-04
+Solve success: True
+    iota: -0.4908672725913628
+    G: -3.193741628027765
+Callback: 
+    iota: -0.4908672725913628
+       G: -3.193741628027765
+       J: 162977.3931318895
+    |dJ|: 325729.5600518011
+BFGS solve - True  iter=23, iota=-0.4909095391538333, ||grad||_inf = 8.434e-03
+NEWTON solve - True  iter=1, iota=-0.4921916887971883, ||grad||_inf = 7.742e-04
+Solve success: True
+    iota: -0.49219168879718833
+    G: -3.1937416277857267
+Callback: 
+    iota: -0.49219168879718833
+       G: -3.1937416277857267
+       J: 154196.0432268851
+    |dJ|: 274553.12664126355
+BFGS solve - True  iter=28, iota=-0.4925963236148075, ||grad||_inf = 9.645e-03
+NEWTON solve - True  iter=1, iota=-0.4963373794617366, ||grad||_inf = 1.872e-03
+Solve success: True
+    iota: -0.49633737946173656
+    G: -3.1937416277647563
+Callback: 
+    iota: -0.49633737946173656
+       G: -3.1937416277647563
+       J: 139584.4433282569
+    |dJ|: 212780.84769112532
+BFGS solve - True  iter=35, iota=-0.4959673557880826, ||grad||_inf = 9.625e-03
+NEWTON solve - True  iter=1, iota=-0.4994462056140871, ||grad||_inf = 2.422e-03
+Solve success: True
+    iota: -0.4994462056140871
+    G: -3.1937416282627957
+BFGS solve - True  iter=24, iota=-0.4964314365462365, ||grad||_inf = 8.486e-03
+NEWTON solve - True  iter=1, iota=-0.4979357381913058, ||grad||_inf = 1.328e-04
+Solve success: True
+    iota: -0.49793573819130577
+    G: -3.1937416279180004
+Callback: 
+    iota: -0.49793573819130577
+       G: -3.1937416279180004
+       J: 136494.42611422655
+    |dJ|: 206719.29871350934
+BFGS solve - True  iter=26, iota=-0.4980113504269260, ||grad||_inf = 9.275e-03
+NEWTON solve - True  iter=1, iota=-0.4993849587895650, ||grad||_inf = 2.011e-04
+Solve success: True
+    iota: -0.49938495878956496
+    G: -3.19374162803431
+BFGS solve - True  iter=57, iota=-0.4979305672677149, ||grad||_inf = 8.817e-03
+NEWTON solve - True  iter=1, iota=-0.5010991623147463, ||grad||_inf = 7.000e-04
+Solve success: True
+    iota: -0.5010991623147463
+    G: -3.193741628073276
+BFGS solve - True  iter=34, iota=-0.4979674844578395, ||grad||_inf = 8.684e-03
+NEWTON solve - True  iter=1, iota=-0.5006300175830841, ||grad||_inf = 8.609e-04
+Solve success: True
+    iota: -0.5006300175830841
+    G: -3.1937416281930173
+Callback: 
+    iota: -0.5006300175830841
+       G: -3.1937416281930173
+       J: 119744.29530908418
+    |dJ|: 176518.2662254704
+BFGS solve - True  iter=50, iota=-0.5005627451917652, ||grad||_inf = 9.240e-03
+NEWTON solve - True  iter=1, iota=-0.5038512202106109, ||grad||_inf = 7.164e-04
+Solve success: True
+    iota: -0.5038512202106109
+    G: -3.1937416277352035
+BFGS solve - True  iter=32, iota=-0.5005514620481022, ||grad||_inf = 9.129e-03
+NEWTON solve - True  iter=1, iota=-0.5010267572544566, ||grad||_inf = 8.117e-05
+Solve success: True
+    iota: -0.5010267572544566
+    G: -3.1937416279244983
+Callback: 
+    iota: -0.5010267572544566
+       G: -3.1937416279244983
+       J: 114484.97356184927
+    |dJ|: 174851.36254814517
+BFGS solve - True  iter=30, iota=-0.5009424263542871, ||grad||_inf = 9.042e-03
+NEWTON solve - True  iter=1, iota=-0.5008139333207343, ||grad||_inf = 2.302e-06
+Solve success: True
+    iota: -0.5008139333207343
+    G: -3.1937416279141613
+BFGS solve - True  iter=25, iota=-0.5009840034581770, ||grad||_inf = 8.936e-03
+NEWTON solve - True  iter=1, iota=-0.5008985397678887, ||grad||_inf = 3.586e-06
+Solve success: True
+    iota: -0.5008985397678887
+    G: -3.193741627908857
+Callback: 
+    iota: -0.5008985397678887
+       G: -3.193741627908857
+       J: 111488.46117947328
+    |dJ|: 270944.5552501629
+BFGS solve - True  iter=31, iota=-0.5008015915681483, ||grad||_inf = 8.900e-03
+NEWTON solve - True  iter=1, iota=-0.5007623638327702, ||grad||_inf = 2.245e-05
+Solve success: True
+    iota: -0.5007623638327702
+    G: -3.193741627854097
+BFGS solve - True  iter=27, iota=-0.5008532235470876, ||grad||_inf = 8.666e-03
+NEWTON solve - True  iter=1, iota=-0.5008296364171538, ||grad||_inf = 5.276e-06
+Solve success: True
+    iota: -0.5008296364171538
+    G: -3.1937416278815274
+Callback: 
+    iota: -0.5008296364171538
+       G: -3.1937416278815274
+       J: 110738.41154233407
+    |dJ|: 288486.2766486347
+BFGS solve - True  iter=10, iota=-0.5008215996693807, ||grad||_inf = 9.191e-03
+NEWTON solve - True  iter=1, iota=-0.5005791843964768, ||grad||_inf = 5.569e-06
+Solve success: True
+    iota: -0.5005791843964768
+    G: -3.1937416278530364
+Callback: 
+    iota: -0.5005791843964768
+       G: -3.1937416278530364
+       J: 109903.28141466842
+    |dJ|: 283814.0682910433
+BFGS solve - True  iter=3, iota=-0.5005790861504003, ||grad||_inf = 7.683e-03
+NEWTON solve - True  iter=1, iota=-0.5005123845429634, ||grad||_inf = 7.355e-06
+Solve success: True
+    iota: -0.5005123845429634
+    G: -3.193741627859958
+Callback: 
+    iota: -0.5005123845429634
+       G: -3.193741627859958
+       J: 108298.14529845073
+    |dJ|: 262390.795056695
+BFGS solve - True  iter=25, iota=-0.5006394219896800, ||grad||_inf = 9.665e-03
+NEWTON solve - True  iter=1, iota=-0.5009703339272733, ||grad||_inf = 3.567e-05
+Solve success: True
+    iota: -0.5009703339272733
+    G: -3.193741627913435
+BFGS solve - True  iter=59, iota=-0.5022858657145650, ||grad||_inf = 9.296e-03
+NEWTON solve - True  iter=1, iota=-0.5022473862428448, ||grad||_inf = 3.710e-04
+Solve success: True
+    iota: -0.5022473862428448
+    G: -3.193741627839234
+BFGS solve - True  iter=30, iota=-0.5010031265827457, ||grad||_inf = 6.828e-03
+NEWTON solve - True  iter=1, iota=-0.5015266294379511, ||grad||_inf = 2.302e-04
+Solve success: True
+    iota: -0.5015266294379511
+    G: -3.19374162792537
+Callback: 
+    iota: -0.5015266294379511
+       G: -3.19374162792537
+       J: 100599.57737547201
+    |dJ|: 245453.9497607246
+BFGS solve - True  iter=44, iota=-0.5025004065763014, ||grad||_inf = 9.258e-03
+NEWTON solve - True  iter=1, iota=-0.5024526347049054, ||grad||_inf = 8.943e-04
+Solve success: True
+    iota: -0.5024526347049054
+    G: -3.193741627797379
+BFGS solve - True  iter=32, iota=-0.5017151842977189, ||grad||_inf = 9.457e-03
+NEWTON solve - True  iter=1, iota=-0.5019576539983661, ||grad||_inf = 1.457e-04
+Solve success: True
+    iota: -0.5019576539983661
+    G: -3.1937416278482202
+Callback: 
+    iota: -0.5019576539983661
+       G: -3.1937416278482202
+       J: 96356.03752284704
+    |dJ|: 216173.92349373485
+BFGS solve - True  iter=45, iota=-0.5021715637545398, ||grad||_inf = 8.972e-03
+NEWTON solve - True  iter=1, iota=-0.5017548507969564, ||grad||_inf = 1.458e-04
+Solve success: True
+    iota: -0.5017548507969564
+    G: -3.1937416278054864
+Callback: 
+    iota: -0.5017548507969564
+       G: -3.1937416278054864
+       J: 88905.38490290154
+    |dJ|: 190941.5466990953
+BFGS solve - True  iter=43, iota=-0.5021877519223190, ||grad||_inf = 9.050e-03
+NEWTON solve - True  iter=1, iota=-0.5021934427044179, ||grad||_inf = 3.668e-04
+Solve success: True
+    iota: -0.5021934427044179
+    G: -3.193741627803752
+BFGS solve - True  iter=33, iota=-0.5019886993468812, ||grad||_inf = 8.592e-03
+NEWTON solve - True  iter=1, iota=-0.5022277022332421, ||grad||_inf = 1.231e-04
+Solve success: True
+    iota: -0.5022277022332421
+    G: -3.193741627802405
+Callback: 
+    iota: -0.5022277022332421
+       G: -3.193741627802405
+       J: 84299.9677295417
+    |dJ|: 152921.64266163282
+BFGS solve - True  iter=39, iota=-0.5028954870873158, ||grad||_inf = 9.014e-03
+NEWTON solve - True  iter=1, iota=-0.5036261187122253, ||grad||_inf = 2.044e-04
+Solve success: True
+    iota: -0.5036261187122253
+    G: -3.1937416278042257
+BFGS solve - True  iter=22, iota=-0.5023018945657459, ||grad||_inf = 9.503e-03
+NEWTON solve - True  iter=1, iota=-0.5026269635477862, ||grad||_inf = 3.568e-05
+Solve success: True
+    iota: -0.5026269635477862
+    G: -3.193741627803805
+BFGS solve - True  iter=2, iota=-0.5022278793687404, ||grad||_inf = 9.202e-03
+NEWTON solve - True  iter=1, iota=-0.5023815761272852, ||grad||_inf = 1.313e-05
+Solve success: True
+    iota: -0.5023815761272852
+    G: -3.1937416278035062
+Callback: 
+    iota: -0.5023815761272852
+       G: -3.1937416278035062
+       J: 83953.42442397865
+    |dJ|: 157548.4662465508
+BFGS solve - True  iter=26, iota=-0.5023651677586870, ||grad||_inf = 9.393e-03
+NEWTON solve - True  iter=1, iota=-0.5020979166300276, ||grad||_inf = 1.633e-05
+Solve success: True
+    iota: -0.5020979166300276
+    G: -3.1937416278044686
+Callback: 
+    iota: -0.5020979166300276
+       G: -3.1937416278044686
+       J: 83437.65484619762
+    |dJ|: 157399.30562514966
+BFGS solve - True  iter=24, iota=-0.5020702274883856, ||grad||_inf = 9.274e-03
+NEWTON solve - True  iter=1, iota=-0.5020057298810849, ||grad||_inf = 6.198e-06
+Solve success: True
+    iota: -0.5020057298810849
+    G: -3.1937416278052995
+Callback: 
+    iota: -0.5020057298810849
+       G: -3.1937416278052995
+       J: 82494.38018885076
+    |dJ|: 155931.68640695937
+BFGS solve - True  iter=32, iota=-0.5019042494918020, ||grad||_inf = 9.764e-03
+NEWTON solve - True  iter=1, iota=-0.5017815388424217, ||grad||_inf = 4.256e-06
+Solve success: True
+    iota: -0.5017815388424217
+    G: -3.1937416278059745
+Callback: 
+    iota: -0.5017815388424217
+       G: -3.1937416278059745
+       J: 80994.99735336933
+    |dJ|: 148777.949684716
+BFGS solve - True  iter=27, iota=-0.5018349631104638, ||grad||_inf = 5.585e-03
+NEWTON solve - True  iter=1, iota=-0.5030170802549887, ||grad||_inf = 3.039e-05
+Solve success: True
+    iota: -0.5030170802549887
+    G: -3.193741627805445
+Callback: 
+    iota: -0.5030170802549887
+       G: -3.193741627805445
+       J: 78134.39326299999
+    |dJ|: 149001.08959377167
+BFGS solve - True  iter=29, iota=-0.5032175524148741, ||grad||_inf = 9.400e-03
+NEWTON solve - True  iter=1, iota=-0.5047664472998846, ||grad||_inf = 1.565e-05
+Solve success: True
+    iota: -0.5047664472998846
+    G: -3.193741627800985

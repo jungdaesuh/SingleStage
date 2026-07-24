@@ -1,0 +1,18 @@
+slurmstepd: error: *** JOB 8563265 ON g280 CANCELLED AT 2026-06-24T14:24:31 ***
+Traceback (most recent call last):
+  File "/burg-archive/home/tg2998/simsopt/examples/dipoles/single_stage_dipoles.py", line 857, in <module>
+    step_t0 = time.time()
+    
+    ...<3 lines>...
+        IOTA_TARGET, prev_load_dir, mpol, ntor, fb_thresh,
+    
+  File "/burg-archive/home/tg2998/simsopt/examples/dipoles/single_stage_dipoles.py", line 423, in optimize_one_iota
+    # ---- Boozer surface for this (iota, resolution) ----
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    current_sum = sum(abs(c.current.get_value()) for c in tf_coils)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    G0 = 2.0 * np.pi * current_sum * (4 * np.pi * 1e-7 / (2 * np.pi))
+    ^
+  File "/burg-archive/home/tg2998/simsopt/examples/dipoles/boozer_functions.py", line 167, in initialize_boozer_surface
+    raise RuntimeError("Boozer solver did not converge")
+RuntimeError: Boozer solver did not converge

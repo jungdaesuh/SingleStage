@@ -1,0 +1,2604 @@
+Processing TF_A = 0.7
+Callback: 
+    iota: 0.01817813363849133
+       G: -3.1934074130442673
+       J: 70468.45418923092
+    |dJ|: 34590.59115559391
+Initialising Boozer Surface: 
+BFGS solve - True  iter=723, iota=0.0023153846186025, ||grad||_inf = 7.765e-11
+NEWTON solve - True  iter=1, iota=0.0023153845624488, ||grad||_inf = 1.371e-14
+Solve success: False
+    iota: 0.002315384562448778
+    G: -3.19340772285064
+    Surface is self-intersecting.
+BFGS solve - True  iter=734, iota=0.0007096098495071, ||grad||_inf = 6.094e-11
+NEWTON solve - True  iter=1, iota=0.0007096098362446, ||grad||_inf = 2.231e-14
+Solve success: False
+    iota: 0.000709609836244616
+    G: -3.193406843365945
+    Surface is self-intersecting.
+BFGS solve - False  iter=624, iota=0.3746920764074142, ||grad||_inf = 9.478e+03
+NEWTON solve - False  iter=40, iota=-1.0545657022026740, ||grad||_inf = 5.783e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -1.054565702202674
+    G: 4.960236826251389e-09
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - True  iter=947, iota=0.0032410876675338, ||grad||_inf = 4.140e-11
+NEWTON solve - True  iter=1, iota=0.0032410876553411, ||grad||_inf = 2.664e-15
+Solve success: False
+    iota: 0.003241087655341059
+    G: -3.19340772285064
+    Surface is self-intersecting.
+BFGS solve - False  iter=1117, iota=-0.0336305775391311, ||grad||_inf = 3.164e+04
+BFGS solve - False  iter=168, iota=-453934982.8896433115005493, ||grad||_inf = 1.064e+08
+BFGS solve - False  iter=720, iota=0.0022488493601266, ||grad||_inf = 2.120e-10
+NEWTON solve - True  iter=1, iota=0.0022488492356939, ||grad||_inf = 6.705e-16
+Solve success: False
+    iota: 0.002248849235693928
+    G: -3.19340712823359
+    Surface is self-intersecting.
+NEWTON solve - False  iter=40, iota=90.2327925635271129, ||grad||_inf = 2.448e+07
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: 90.23279256352711
+    G: 34.610833880578404
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - True  iter=978, iota=0.0038132928616750, ||grad||_inf = 7.298e-11
+NEWTON solve - True  iter=1, iota=0.0038132930196046, ||grad||_inf = 1.441e-14
+Solve success: False
+    iota: 0.003813293019604585
+    G: -3.1934077228506395
+    Surface is self-intersecting.
+NEWTON solve - False  iter=40, iota=-453934982.8896685838699341, ||grad||_inf = 1.318e+15
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -453934982.8896686
+    G: 25.19590755513142
+    Residual solve failed.
+    Surface is self-intersecting.
+Surface resolution: mpol=6, ntor=6
+NEWTON solve - False  iter=40, iota=-0.8395318599062042, ||grad||_inf = 7.706e+01
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -0.8395318599062042
+    G: -3.2186538655827934e-09
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - True  iter=347, iota=0.0172277272942385, ||grad||_inf = 8.226e-11
+NEWTON solve - True  iter=1, iota=0.0172277260707448, ||grad||_inf = 8.930e-15
+Solve success: True
+    iota: 0.017227726070744773
+    G: -3.19340772285064
+BFGS solve - False  iter=119, iota=-453934982.8896634578704834, ||grad||_inf = 9.447e+07
+BFGS solve - False  iter=855, iota=0.0031588521200179, ||grad||_inf = 2.983e-10
+NEWTON solve - True  iter=1, iota=0.0031588521184544, ||grad||_inf = 3.486e-14
+Solve success: False
+    iota: 0.0031588521184544366
+    G: -3.193407270653169
+    Surface is self-intersecting.
+BFGS solve - False  iter=116, iota=-453934982.8896511793136597, ||grad||_inf = 2.513e+07
+BFGS solve - False  iter=744, iota=0.4839761045901256, ||grad||_inf = 2.411e+04
+BFGS solve - False  iter=893, iota=0.0039161751246880, ||grad||_inf = 3.633e-10
+NEWTON solve - True  iter=1, iota=0.0039161750844258, ||grad||_inf = 2.689e-14
+Solve success: False
+    iota: 0.0039161750844257555
+    G: -3.1934077228506395
+    Surface is self-intersecting.
+BFGS solve - True  iter=942, iota=0.0037175178139170, ||grad||_inf = 8.890e-11
+NEWTON solve - True  iter=1, iota=0.0037175180677363, ||grad||_inf = 1.789e-14
+Solve success: False
+    iota: 0.0037175180677362935
+    G: -3.1934073418558375
+    Surface is self-intersecting.
+NEWTON solve - False  iter=40, iota=-1.0545657022026740, ||grad||_inf = 5.783e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -1.054565702202674
+    G: 4.960236826251389e-09
+    Residual solve failed.
+    Surface is self-intersecting.
+NEWTON solve - False  iter=40, iota=-0.3515028731292820, ||grad||_inf = 9.750e+01
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -0.35150287312928197
+    G: 1.1584907763406294e-09
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=58, iota=-453934982.8896684646606445, ||grad||_inf = 1.733e+08
+NEWTON solve - False  iter=40, iota=12163592.4577669017016888, ||grad||_inf = 1.970e+11
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: 12163592.457766902
+    G: -2512.381168656867
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - True  iter=351, iota=0.0170909533181580, ||grad||_inf = 1.109e-11
+NEWTON solve - True  iter=1, iota=0.0170909529705565, ||grad||_inf = 1.873e-15
+Solve success: True
+    iota: 0.017090952970556548
+    G: -3.19340772285064
+BFGS solve - False  iter=168, iota=-453934982.8896433115005493, ||grad||_inf = 1.064e+08
+BFGS solve - False  iter=913, iota=0.0040185324749760, ||grad||_inf = 3.119e-10
+NEWTON solve - True  iter=1, iota=0.0040185323403062, ||grad||_inf = 9.685e-15
+Solve success: False
+    iota: 0.004018532340306222
+    G: -3.1934073774536116
+    Surface is self-intersecting.
+NEWTON solve - False  iter=40, iota=-0.6452300279920427, ||grad||_inf = 6.283e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -0.6452300279920427
+    G: -8.048596468853753e-10
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=827, iota=-0.2167718743587170, ||grad||_inf = 3.109e+03
+BFGS solve - True  iter=950, iota=0.0039781486749062, ||grad||_inf = 4.206e-11
+BFGS solve - True  iter=344, iota=0.0174178514456619, ||grad||_inf = 5.662e-11
+NEWTON solve - True  iter=1, iota=0.0039781486398625, ||grad||_inf = 4.703e-15
+Solve success: False
+    iota: 0.00397814863986251
+    G: -3.1934077228506395
+    Surface is self-intersecting.
+BFGS solve - False  iter=93, iota=-453934982.8896684050559998, ||grad||_inf = 1.941e+07
+NEWTON solve - False  iter=40, iota=-0.8395318599062042, ||grad||_inf = 7.706e+01
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -0.8395318599062042
+    G: -3.2186538655827934e-09
+    Residual solve failed.
+    Surface is self-intersecting.
+NEWTON solve - True  iter=1, iota=0.0174178513767590, ||grad||_inf = 9.461e-15
+Solve success: True
+    iota: 0.017417851376759007
+    G: -3.193407395250719
+BFGS solve - False  iter=116, iota=-453934982.8896511793136597, ||grad||_inf = 2.513e+07
+BFGS solve - True  iter=351, iota=0.0170332180983988, ||grad||_inf = 1.626e-11
+NEWTON solve - True  iter=1, iota=0.0170332177079837, ||grad||_inf = 1.830e-14
+Solve success: True
+    iota: 0.017033217707983658
+    G: -3.1934077228506395
+NEWTON solve - False  iter=40, iota=150.3064021484021282, ||grad||_inf = 3.466e+08
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: 150.30640214840213
+    G: 7.079456353255588
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - True  iter=796, iota=0.0040707641027724, ||grad||_inf = 6.148e-11
+NEWTON solve - True  iter=1, iota=0.0040707641163291, ||grad||_inf = 1.713e-14
+Solve success: False
+    iota: 0.0040707641163290655
+    G: -3.193407383504628
+    Surface is self-intersecting.
+NEWTON solve - False  iter=40, iota=-1.3345593735946821, ||grad||_inf = 5.549e+03
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -1.3345593735946821
+    G: 9.073028586332215e-10
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=52, iota=-453934982.8896677494049072, ||grad||_inf = 1.439e+08
+BFGS solve - True  iter=344, iota=0.0173515190034139, ||grad||_inf = 6.059e-11
+NEWTON solve - True  iter=1, iota=0.0173515188831490, ||grad||_inf = 9.844e-15
+Solve success: True
+    iota: 0.01735151888314898
+    G: -3.193407394110311
+NEWTON solve - False  iter=40, iota=-0.3515028731292820, ||grad||_inf = 9.750e+01
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -0.35150287312928197
+    G: 1.1584907763406294e-09
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=479, iota=0.0852530510016109, ||grad||_inf = 1.816e+04
+BFGS solve - False  iter=953, iota=0.0040169573541064, ||grad||_inf = 3.629e-10
+BFGS solve - False  iter=58, iota=-453934982.8896684646606445, ||grad||_inf = 1.733e+08
+NEWTON solve - True  iter=1, iota=0.0040169574669630, ||grad||_inf = 2.663e-14
+Solve success: False
+    iota: 0.004016957466962969
+    G: -3.1934077228506395
+    Surface is self-intersecting.
+BFGS solve - True  iter=352, iota=0.0170081054462927, ||grad||_inf = 4.552e-11
+NEWTON solve - True  iter=1, iota=0.0170081051857342, ||grad||_inf = 5.290e-15
+Solve success: True
+    iota: 0.0170081051857342
+    G: -3.1934077228506395
+NEWTON solve - False  iter=40, iota=-1.9141918033598746, ||grad||_inf = 8.934e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -1.9141918033598746
+    G: 1.7200903491096046e-08
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=97, iota=-453934982.8896655440330505, ||grad||_inf = 4.277e+08
+BFGS solve - True  iter=1011, iota=0.0041020146153940, ||grad||_inf = 9.656e-11
+NEWTON solve - True  iter=1, iota=0.0041020146955904, ||grad||_inf = 1.054e-14
+Solve success: False
+    iota: 0.004102014695590401
+    G: -3.19340738711056
+    Surface is self-intersecting.
+NEWTON solve - False  iter=40, iota=994653.1380749053787440, ||grad||_inf = 3.349e+22
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: 994653.1380749054
+    G: 94.72614296356673
+    Residual solve failed.
+    Surface is self-intersecting.
+NEWTON solve - False  iter=40, iota=-0.6452300279920427, ||grad||_inf = 6.283e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -0.6452300279920427
+    G: -8.048596468853753e-10
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - True  iter=346, iota=0.0173267276940190, ||grad||_inf = 7.636e-11
+BFGS solve - False  iter=93, iota=-453934982.8896684050559998, ||grad||_inf = 1.941e+07
+NEWTON solve - True  iter=1, iota=0.0173267276768499, ||grad||_inf = 8.281e-15
+Solve success: True
+    iota: 0.01732672767684989
+    G: -3.19340739371138
+BFGS solve - False  iter=504, iota=-0.8189813189554396, ||grad||_inf = 2.701e+04
+BFGS solve - True  iter=1077, iota=0.0040417525802466, ||grad||_inf = 6.343e-11
+NEWTON solve - True  iter=1, iota=0.0040417526048936, ||grad||_inf = 1.554e-14
+Solve success: False
+    iota: 0.00404175260489357
+    G: -3.1934077228506395
+    Surface is self-intersecting.
+NEWTON solve - False  iter=40, iota=-1.0901034773390788, ||grad||_inf = 6.491e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -1.0901034773390788
+    G: -2.7713003713785295e-09
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=52, iota=-453934982.8896682858467102, ||grad||_inf = 9.387e+06
+BFGS solve - True  iter=352, iota=0.0169972537729228, ||grad||_inf = 3.737e-11
+NEWTON solve - True  iter=1, iota=0.0169972532125840, ||grad||_inf = 5.959e-15
+Solve success: True
+    iota: 0.016997253212584038
+    G: -3.1934077228506395
+NEWTON solve - False  iter=40, iota=-1.3345593735946821, ||grad||_inf = 5.549e+03
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -1.3345593735946821
+    G: 9.073028586332215e-10
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=963, iota=0.0041215093479787, ||grad||_inf = 5.092e-10
+BFGS solve - False  iter=52, iota=-453934982.8896677494049072, ||grad||_inf = 1.439e+08
+NEWTON solve - True  iter=1, iota=0.0041215093226665, ||grad||_inf = 8.756e-15
+Solve success: False
+    iota: 0.004121509322666547
+    G: -3.193407389354839
+    Surface is self-intersecting.
+NEWTON solve - False  iter=40, iota=-70778.7857027028367156, ||grad||_inf = 5.314e+13
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -70778.78570270284
+    G: -7310.587110889531
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - True  iter=345, iota=0.0173168293016905, ||grad||_inf = 7.215e-11
+NEWTON solve - True  iter=1, iota=0.0173168291618763, ||grad||_inf = 9.483e-15
+Solve success: True
+    iota: 0.01731682916187626
+    G: -3.193407393556583
+NEWTON solve - False  iter=40, iota=-1.0421527283814145, ||grad||_inf = 1.541e+01
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -1.0421527283814145
+    G: 8.953312448109863e-09
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=39, iota=-453934982.8896685242652893, ||grad||_inf = 6.735e+08
+BFGS solve - False  iter=960, iota=0.0040577824516228, ||grad||_inf = 3.046e-10
+BFGS solve - True  iter=350, iota=0.0170692791785589, ||grad||_inf = 3.293e-11
+NEWTON solve - True  iter=1, iota=0.0040577822908113, ||grad||_inf = 9.571e-15
+Solve success: False
+    iota: 0.004057782290811274
+    G: -3.1934077228506395
+    Surface is self-intersecting.
+NEWTON solve - True  iter=1, iota=0.0170692789366984, ||grad||_inf = 2.088e-14
+Solve success: True
+    iota: 0.0170692789366984
+    G: -3.193407390783432
+NEWTON solve - False  iter=40, iota=-1.9141918033598746, ||grad||_inf = 8.934e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -1.9141918033598746
+    G: 1.7200903491096046e-08
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=580, iota=0.1213906881848866, ||grad||_inf = 2.693e+03
+BFGS solve - True  iter=351, iota=0.0169925895710670, ||grad||_inf = 5.639e-11
+NEWTON solve - True  iter=1, iota=0.0169925890016027, ||grad||_inf = 1.502e-15
+Solve success: True
+    iota: 0.016992589001602693
+    G: -3.1934077228506395
+BFGS solve - False  iter=97, iota=-453934982.8896655440330505, ||grad||_inf = 4.277e+08
+NEWTON solve - False  iter=40, iota=-1.3784944242130417, ||grad||_inf = 7.496e+01
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -1.3784944242130417
+    G: 1.940506550476524e-08
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=81, iota=-453934982.8896664977073669, ||grad||_inf = 5.480e+07
+BFGS solve - False  iter=987, iota=0.0041257328381064, ||grad||_inf = 1.542e-10
+NEWTON solve - False  iter=40, iota=7.2989002413108928, ||grad||_inf = 1.660e+05
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: 7.298900241310893
+    G: -11.604522808328692
+    Residual solve failed.
+    Surface is self-intersecting.
+NEWTON solve - True  iter=1, iota=0.0041257328775223, ||grad||_inf = 3.789e-15
+Solve success: False
+    iota: 0.004125732877522278
+    G: -3.1934073898405604
+    Surface is self-intersecting.
+NEWTON solve - False  iter=40, iota=-1.0901034773390788, ||grad||_inf = 6.491e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -1.0901034773390788
+    G: -2.7713003713785295e-09
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - True  iter=963, iota=0.0040682213386932, ||grad||_inf = 3.348e-11
+BFGS solve - False  iter=52, iota=-453934982.8896682858467102, ||grad||_inf = 9.387e+06
+NEWTON solve - True  iter=1, iota=0.0040682213375619, ||grad||_inf = 2.233e-15
+Solve success: False
+    iota: 0.004068221337561943
+    G: -3.1934077228506395
+    Surface is self-intersecting.
+BFGS solve - True  iter=350, iota=0.0170681152482968, ||grad||_inf = 4.132e-11
+NEWTON solve - True  iter=1, iota=0.0170681150563489, ||grad||_inf = 1.530e-14
+Solve success: True
+    iota: 0.01706811505634891
+    G: -3.193407390776977
+BFGS solve - True  iter=352, iota=0.0169905853813379, ||grad||_inf = 3.421e-11
+NEWTON solve - True  iter=1, iota=0.0169905847295194, ||grad||_inf = 1.031e-14
+Solve success: True
+    iota: 0.016990584729519413
+    G: -3.19340772285064
+BFGS solve - False  iter=677, iota=0.1830973871792203, ||grad||_inf = 2.879e+03
+NEWTON solve - False  iter=40, iota=-0.6028224615866042, ||grad||_inf = 7.914e+03
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -0.6028224615866042
+    G: 1.725261291189775e-09
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=79, iota=-453934982.8896675109863281, ||grad||_inf = 2.442e+08
+NEWTON solve - False  iter=40, iota=-1.0421527283814145, ||grad||_inf = 1.541e+01
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -1.0421527283814145
+    G: 8.953312448109863e-09
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=39, iota=-453934982.8896685242652893, ||grad||_inf = 6.735e+08
+BFGS solve - True  iter=1032, iota=0.0041285021481082, ||grad||_inf = 9.246e-11
+NEWTON solve - True  iter=1, iota=0.0041285021777161, ||grad||_inf = 6.779e-15
+Solve success: False
+    iota: 0.0041285021777161274
+    G: -3.193407390158942
+    Surface is self-intersecting.
+BFGS solve - True  iter=917, iota=0.0040750513318859, ||grad||_inf = 2.016e-11
+NEWTON solve - True  iter=1, iota=0.0040750513247517, ||grad||_inf = 8.261e-15
+Solve success: False
+    iota: 0.004075051324751735
+    G: -3.19340772285064
+    Surface is self-intersecting.
+NEWTON solve - False  iter=40, iota=-4755.9301599194168375, ||grad||_inf = 1.001e+13
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -4755.930159919417
+    G: 245.2398193749268
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - True  iter=350, iota=0.0170676095583591, ||grad||_inf = 4.672e-11
+NEWTON solve - True  iter=1, iota=0.0170676094391756, ||grad||_inf = 5.089e-15
+Solve success: True
+    iota: 0.01706760943917558
+    G: -3.193407390774198
+NEWTON solve - False  iter=40, iota=-1.0528657653089510, ||grad||_inf = 3.521e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -1.052865765308951
+    G: 5.282153892339341e-09
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - True  iter=352, iota=0.0169897220718842, ||grad||_inf = 3.807e-11
+NEWTON solve - True  iter=1, iota=0.0169897214650061, ||grad||_inf = 3.877e-15
+Solve success: True
+    iota: 0.016989721465006106
+    G: -3.1934077228506395
+BFGS solve - False  iter=84, iota=-453934982.8896675705909729, ||grad||_inf = 2.175e+07
+BFGS solve - False  iter=438, iota=-0.0085269733672136, ||grad||_inf = 9.295e+03
+NEWTON solve - False  iter=40, iota=-1.3784944242130417, ||grad||_inf = 7.496e+01
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -1.3784944242130417
+    G: 1.940506550476524e-08
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=81, iota=-453934982.8896664977073669, ||grad||_inf = 5.480e+07
+BFGS solve - True  iter=805, iota=0.0041303220670994, ||grad||_inf = 3.693e-11
+NEWTON solve - True  iter=1, iota=0.0041303220581706, ||grad||_inf = 7.174e-15
+Solve success: False
+    iota: 0.004130322058170569
+    G: -3.193407390368129
+    Surface is self-intersecting.
+BFGS solve - False  iter=838, iota=0.0040795336723486, ||grad||_inf = 7.649e-10
+NEWTON solve - True  iter=1, iota=0.0040795334671913, ||grad||_inf = 1.834e-14
+Solve success: False
+    iota: 0.004079533467191318
+    G: -3.1934077228506395
+    Surface is self-intersecting.
+BFGS solve - True  iter=350, iota=0.0170673901011218, ||grad||_inf = 4.759e-11
+NEWTON solve - True  iter=1, iota=0.0170673900088855, ||grad||_inf = 5.822e-15
+Solve success: True
+    iota: 0.017067390008885533
+    G: -3.193407390772997
+NEWTON solve - False  iter=40, iota=7514.0595050886768149, ||grad||_inf = 3.292e+09
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: 7514.059505088677
+    G: 801.2030877935682
+    Residual solve failed.
+    Surface is self-intersecting.
+NEWTON solve - False  iter=40, iota=-0.7465429560323766, ||grad||_inf = 6.532e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -0.7465429560323766
+    G: 1.7425790774596078e-09
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - True  iter=352, iota=0.0169893492704380, ||grad||_inf = 1.707e-11
+BFGS solve - False  iter=93, iota=-453934982.8896656632423401, ||grad||_inf = 6.980e+07
+NEWTON solve - True  iter=1, iota=0.0169893486038467, ||grad||_inf = 1.060e-14
+Solve success: True
+    iota: 0.016989348603846658
+    G: -3.19340772285064
+NEWTON solve - False  iter=40, iota=-0.6028224615866042, ||grad||_inf = 7.914e+03
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -0.6028224615866042
+    G: 1.725261291189775e-09
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=79, iota=-453934982.8896675109863281, ||grad||_inf = 2.442e+08
+BFGS solve - True  iter=353, iota=0.0169183964362149, ||grad||_inf = 7.027e-11
+NEWTON solve - True  iter=1, iota=0.0169183944966029, ||grad||_inf = 1.340e-14
+Solve success: True
+    iota: 0.01691839449660289
+    G: -3.19340772285064
+BFGS solve - False  iter=1060, iota=0.0041315197944813, ||grad||_inf = 1.783e-10
+NEWTON solve - True  iter=1, iota=0.0041315197818282, ||grad||_inf = 1.696e-14
+Solve success: False
+    iota: 0.00413151978182819
+    G: -3.1934073905057843
+    Surface is self-intersecting.
+BFGS solve - False  iter=361, iota=0.0168838699281659, ||grad||_inf = 8.239e-10
+NEWTON solve - True  iter=1, iota=0.0168838721360419, ||grad||_inf = 9.637e-15
+Solve success: True
+    iota: 0.01688387213604193
+    G: -3.19340772285064
+NEWTON solve - False  iter=40, iota=-1.1618906355229366, ||grad||_inf = 7.689e+01
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -1.1618906355229366
+    G: 8.987240764643333e-09
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - True  iter=350, iota=0.0170672948335678, ||grad||_inf = 4.470e-11
+BFGS solve - False  iter=128, iota=-453934982.8896598219871521, ||grad||_inf = 5.147e+08
+NEWTON solve - True  iter=1, iota=0.0170672947407874, ||grad||_inf = 1.251e-14
+Solve success: True
+    iota: 0.017067294740787404
+    G: -3.1934073907724767
+NEWTON solve - False  iter=40, iota=-1.0528657653089510, ||grad||_inf = 3.521e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -1.052865765308951
+    G: 5.282153892339341e-09
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=1500, iota=0.5173317460377568, ||grad||_inf = 3.160e+01
+BFGS solve - False  iter=84, iota=-453934982.8896675705909729, ||grad||_inf = 2.175e+07
+BFGS solve - False  iter=1103, iota=0.0040798747161905, ||grad||_inf = 5.039e-10
+NEWTON solve - True  iter=1, iota=0.0040798741184292, ||grad||_inf = 2.608e-14
+Solve success: False
+    iota: 0.004079874118429157
+    G: -3.19340772285064
+    Surface is self-intersecting.
+BFGS solve - False  iter=853, iota=0.0041323088679484, ||grad||_inf = 1.537e-10
+NEWTON solve - False  iter=40, iota=-1.6063705782715587, ||grad||_inf = 5.051e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -1.6063705782715587
+    G: 1.2976940950191302e-08
+    Residual solve failed.
+    Surface is self-intersecting.
+NEWTON solve - True  iter=1, iota=0.0041323088066972, ||grad||_inf = 1.493e-15
+Solve success: False
+    iota: 0.00413230880669721
+    G: -3.1934073905964597
+    Surface is self-intersecting.
+NEWTON solve - False  iter=40, iota=3.4810921656002618, ||grad||_inf = 4.937e+06
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: 3.481092165600262
+    G: -2.698382026466814
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=111, iota=-453934982.8896669149398804, ||grad||_inf = 5.080e+07
+BFGS solve - True  iter=361, iota=0.0168838678739020, ||grad||_inf = 2.935e-12
+NEWTON solve - True  iter=0, iota=0.0168838678739020, ||grad||_inf = 2.935e-12
+Solve success: True
+    iota: 0.016883867873901975
+    G: -3.1934077228515894
+BFGS solve - True  iter=350, iota=0.0170672534363477, ||grad||_inf = 4.447e-11
+NEWTON solve - True  iter=1, iota=0.0170672533480653, ||grad||_inf = 5.925e-16
+Solve success: True
+    iota: 0.017067253348065338
+    G: -3.1934073907722507
+NEWTON solve - False  iter=40, iota=-0.7465429560323766, ||grad||_inf = 6.532e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -0.7465429560323766
+    G: 1.7425790774596078e-09
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=93, iota=-453934982.8896656632423401, ||grad||_inf = 6.980e+07
+BFGS solve - True  iter=354, iota=0.0170424298620477, ||grad||_inf = 6.443e-11
+NEWTON solve - True  iter=1, iota=0.0170424291789531, ||grad||_inf = 3.694e-15
+Solve success: True
+    iota: 0.017042429178953135
+    G: -3.193407390656229
+BFGS solve - False  iter=516, iota=0.7301102782085497, ||grad||_inf = 1.099e+04
+BFGS solve - True  iter=911, iota=0.0040800988770536, ||grad||_inf = 5.562e-11
+NEWTON solve - True  iter=1, iota=0.0040800988857739, ||grad||_inf = 1.147e-14
+Solve success: False
+    iota: 0.00408009888577388
+    G: -3.1934077228506395
+    Surface is self-intersecting.
+BFGS solve - False  iter=355, iota=0.0170310424843964, ||grad||_inf = 1.253e-10
+NEWTON solve - False  iter=40, iota=-2.2896675842370424, ||grad||_inf = 1.567e+00
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -2.2896675842370424
+    G: 1.2095568655082932e-07
+    Residual solve failed.
+    Surface is self-intersecting.
+NEWTON solve - True  iter=1, iota=0.0170310429340264, ||grad||_inf = 1.596e-15
+Solve success: True
+    iota: 0.017031042934026422
+    G: -3.1934073906167812
+BFGS solve - False  iter=71, iota=-453934982.8896682262420654, ||grad||_inf = 6.626e+07
+BFGS solve - True  iter=360, iota=0.0168838660856977, ||grad||_inf = 5.325e-12
+NEWTON solve - True  iter=1, iota=0.0168838660437520, ||grad||_inf = 1.360e-14
+Solve success: True
+    iota: 0.016883866043751975
+    G: -3.1934077228506395
+BFGS solve - True  iter=366, iota=0.0170264095346289, ||grad||_inf = 1.899e-13
+NEWTON solve - False  iter=40, iota=-1.1618906355229366, ||grad||_inf = 7.689e+01
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -1.1618906355229366
+    G: 8.987240764643333e-09
+    Residual solve failed.
+    Surface is self-intersecting.
+NEWTON solve - True  iter=0, iota=0.0170264095346289, ||grad||_inf = 1.899e-13
+Solve success: True
+    iota: 0.017026409534628948
+    G: -3.19340739060337
+NEWTON solve - False  iter=40, iota=1.6840190895223253, ||grad||_inf = 1.976e+05
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: 1.6840190895223253
+    G: -0.6537860736517795
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=128, iota=-453934982.8896598219871521, ||grad||_inf = 5.147e+08
+BFGS solve - False  iter=382, iota=0.1116462892387233, ||grad||_inf = 9.101e+04
+NEWTON solve - False  iter=40, iota=-1.4731395296324610, ||grad||_inf = 1.050e+03
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -1.473139529632461
+    G: 5.101453931817876e-09
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=39, iota=-453934982.8896683454513550, ||grad||_inf = 2.279e+08
+BFGS solve - False  iter=953, iota=0.0040802472634306, ||grad||_inf = 1.743e-10
+NEWTON solve - True  iter=1, iota=0.0040802472050213, ||grad||_inf = 1.472e-14
+Solve success: False
+    iota: 0.004080247205021309
+    G: -3.19340772285064
+    Surface is self-intersecting.
+BFGS solve - False  iter=933, iota=0.0041323292510521, ||grad||_inf = 1.035e-10
+NEWTON solve - True  iter=1, iota=0.0041323292489361, ||grad||_inf = 2.195e-14
+Solve success: False
+    iota: 0.004132329248936081
+    G: -3.1934073905988085
+    Surface is self-intersecting.
+NEWTON solve - False  iter=40, iota=-1.6063705782715587, ||grad||_inf = 5.051e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -1.6063705782715587
+    G: 1.2976940950191302e-08
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=362, iota=0.0168838659303082, ||grad||_inf = 2.065e-10
+NEWTON solve - True  iter=1, iota=0.0168838652390371, ||grad||_inf = 6.683e-15
+Solve success: True
+    iota: 0.016883865239037073
+    G: -3.19340772285064
+BFGS solve - True  iter=363, iota=0.0170264095746062, ||grad||_inf = 2.476e-11
+NEWTON solve - False  iter=40, iota=-377.0820595318747337, ||grad||_inf = 3.606e+11
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -377.08205953187473
+    G: -125.95873550102114
+    Residual solve failed.
+    Surface is self-intersecting.
+NEWTON solve - True  iter=1, iota=0.0170264094783862, ||grad||_inf = 7.432e-16
+Solve success: True
+    iota: 0.017026409478386247
+    G: -3.193407390603369
+BFGS solve - False  iter=111, iota=-453934982.8896669149398804, ||grad||_inf = 5.080e+07
+NEWTON solve - False  iter=40, iota=-1.6737960564955161, ||grad||_inf = 6.430e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -1.673796056495516
+    G: 1.4736202609669315e-08
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=88, iota=-453934982.8896658420562744, ||grad||_inf = 1.169e+08
+BFGS solve - False  iter=614, iota=0.6280764165443088, ||grad||_inf = 4.543e+03
+BFGS solve - True  iter=885, iota=0.0040803451001230, ||grad||_inf = 4.999e-11
+NEWTON solve - True  iter=1, iota=0.0040803450838799, ||grad||_inf = 5.382e-15
+Solve success: False
+    iota: 0.004080345083879899
+    G: -3.19340772285064
+    Surface is self-intersecting.
+BFGS solve - False  iter=970, iota=0.0041323428585467, ||grad||_inf = 1.405e-10
+NEWTON solve - False  iter=40, iota=-2.2896675842370424, ||grad||_inf = 1.567e+00
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -2.2896675842370424
+    G: 1.2095568655082932e-07
+    Residual solve failed.
+    Surface is self-intersecting.
+NEWTON solve - True  iter=1, iota=0.0041323427403875, ||grad||_inf = 5.215e-15
+Solve success: False
+    iota: 0.004132342740387486
+    G: -3.1934073906003593
+    Surface is self-intersecting.
+BFGS solve - False  iter=71, iota=-453934982.8896682262420654, ||grad||_inf = 6.626e+07
+BFGS solve - False  iter=358, iota=0.0168838666814667, ||grad||_inf = 4.864e-10
+NEWTON solve - True  iter=1, iota=0.0168838648885423, ||grad||_inf = 4.098e-15
+Solve success: True
+    iota: 0.016883864888542297
+    G: -3.1934077228506395
+BFGS solve - True  iter=364, iota=0.0170264095524245, ||grad||_inf = 1.823e-11
+NEWTON solve - False  iter=40, iota=-1.4369773705133453, ||grad||_inf = 1.436e+03
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -1.4369773705133453
+    G: 9.320914648350628e-09
+    Residual solve failed.
+    Surface is self-intersecting.
+NEWTON solve - True  iter=1, iota=0.0170264094543148, ||grad||_inf = 3.616e-15
+Solve success: True
+    iota: 0.017026409454314766
+    G: -3.193407390603369
+BFGS solve - False  iter=86, iota=-453934982.8896670937538147, ||grad||_inf = 3.570e+07
+NEWTON solve - False  iter=40, iota=-1492.3138857880048818, ||grad||_inf = 2.865e+09
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -1492.3138857880049
+    G: -133.92023969024552
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - True  iter=357, iota=0.0168834914500283, ||grad||_inf = 7.566e-11
+NEWTON solve - True  iter=1, iota=0.0168834917641739, ||grad||_inf = 8.938e-15
+Solve success: True
+    iota: 0.016883491764173853
+    G: -3.19340772285064
+BFGS solve - False  iter=355, iota=0.0168816334040886, ||grad||_inf = 1.215e-09
+NEWTON solve - False  iter=40, iota=-1.4731395296324610, ||grad||_inf = 1.050e+03
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -1.473139529632461
+    G: 5.101453931817876e-09
+    Residual solve failed.
+    Surface is self-intersecting.
+NEWTON solve - True  iter=1, iota=0.0168816367637581, ||grad||_inf = 1.160e-14
+Solve success: True
+    iota: 0.01688163676375812
+    G: -3.19340772285064
+BFGS solve - False  iter=39, iota=-453934982.8896683454513550, ||grad||_inf = 2.279e+08
+BFGS solve - False  iter=937, iota=0.0041323679396422, ||grad||_inf = 3.189e-10
+NEWTON solve - True  iter=1, iota=0.0041323685913501, ||grad||_inf = 4.340e-14
+Solve success: False
+    iota: 0.004132368591350107
+    G: -3.19340739060333
+    Surface is self-intersecting.
+NEWTON solve - False  iter=40, iota=-1.4641894371813164, ||grad||_inf = 3.021e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -1.4641894371813164
+    G: 3.2104470474992e-09
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=94, iota=-453934982.8896654844284058, ||grad||_inf = 1.987e+07
+BFGS solve - False  iter=361, iota=0.0170264130626483, ||grad||_inf = 3.581e-10
+NEWTON solve - True  iter=1, iota=0.0170264094543656, ||grad||_inf = 3.872e-14
+Solve success: True
+    iota: 0.017026409454365607
+    G: -3.193407390603369
+BFGS solve - False  iter=1319, iota=0.5078730016832260, ||grad||_inf = 1.326e+03
+BFGS solve - False  iter=931, iota=0.0040803743147490, ||grad||_inf = 2.037e-10
+NEWTON solve - False  iter=40, iota=-1.6737960564955161, ||grad||_inf = 6.430e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -1.673796056495516
+    G: 1.4736202609669315e-08
+    Residual solve failed.
+    Surface is self-intersecting.
+NEWTON solve - True  iter=1, iota=0.0040803743940094, ||grad||_inf = 4.938e-14
+Solve success: False
+    iota: 0.004080374394009377
+    G: -3.1934077228506395
+    Surface is self-intersecting.
+BFGS solve - False  iter=88, iota=-453934982.8896658420562744, ||grad||_inf = 1.169e+08
+BFGS solve - False  iter=351, iota=0.0168816296559472, ||grad||_inf = 2.432e-09
+NEWTON solve - True  iter=1, iota=0.0168816367307671, ||grad||_inf = 1.282e-13
+Solve success: True
+    iota: 0.01688163673076708
+    G: -3.1934077228506395
+NEWTON solve - False  iter=40, iota=-1.6887789995674027, ||grad||_inf = 6.844e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -1.6887789995674027
+    G: 1.0498118319353423e-08
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - True  iter=896, iota=0.0041323687269976, ||grad||_inf = 7.821e-11
+NEWTON solve - True  iter=1, iota=0.0041323687062016, ||grad||_inf = 7.736e-15
+Solve success: False
+    iota: 0.004132368706201565
+    G: -3.193407390603343
+    Surface is self-intersecting.
+BFGS solve - False  iter=94, iota=-453934982.8896670341491699, ||grad||_inf = 9.264e+06
+NEWTON solve - False  iter=40, iota=-23.6380633406194711, ||grad||_inf = 6.556e+06
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -23.63806334061947
+    G: 14.224132691722032
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=354, iota=0.0168816226175811, ||grad||_inf = 2.890e-10
+NEWTON solve - True  iter=1, iota=0.0168816231278959, ||grad||_inf = 1.116e-14
+Solve success: True
+    iota: 0.0168816231278959
+    G: -3.19340772285064
+BFGS solve - True  iter=363, iota=0.0170264095706179, ||grad||_inf = 3.218e-11
+NEWTON solve - True  iter=1, iota=0.0170264094543054, ||grad||_inf = 7.235e-15
+Solve success: True
+    iota: 0.017026409454305426
+    G: -3.193407390603369
+NEWTON solve - False  iter=40, iota=-1.4369773705133453, ||grad||_inf = 1.436e+03
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -1.4369773705133453
+    G: 9.320914648350628e-09
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=86, iota=-453934982.8896670937538147, ||grad||_inf = 3.570e+07
+BFGS solve - True  iter=367, iota=0.0168810085048360, ||grad||_inf = 4.950e-11
+NEWTON solve - True  iter=1, iota=0.0168810084566206, ||grad||_inf = 8.538e-16
+Solve success: True
+    iota: 0.01688100845662061
+    G: -3.1934077228506395
+BFGS solve - False  iter=362, iota=0.0170264106540774, ||grad||_inf = 2.246e-10
+NEWTON solve - True  iter=1, iota=0.0170264094542805, ||grad||_inf = 2.697e-15
+Solve success: True
+    iota: 0.017026409454280484
+    G: -3.193407390603369
+BFGS solve - False  iter=665, iota=0.4642187384872551, ||grad||_inf = 8.549e+03
+BFGS solve - False  iter=360, iota=0.0168805967366438, ||grad||_inf = 1.690e-09
+NEWTON solve - False  iter=40, iota=-0.7216710029292939, ||grad||_inf = 2.910e+00
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -0.7216710029292939
+    G: 9.254914430257654e-08
+    Residual solve failed.
+    Surface is self-intersecting.
+NEWTON solve - True  iter=1, iota=0.0168806002032345, ||grad||_inf = 3.468e-14
+Solve success: True
+    iota: 0.016880600203234508
+    G: -3.19340772285064
+BFGS solve - False  iter=74, iota=-453934982.8896670341491699, ||grad||_inf = 3.534e+06
+NEWTON solve - False  iter=40, iota=-1.4641894371813164, ||grad||_inf = 3.021e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -1.4641894371813164
+    G: 3.2104470474992e-09
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=358, iota=0.0168804546582572, ||grad||_inf = 1.945e-09
+NEWTON solve - True  iter=1, iota=0.0168804609238267, ||grad||_inf = 1.010e-13
+Solve success: True
+    iota: 0.016880460923826675
+    G: -3.1934077228506395
+BFGS solve - True  iter=807, iota=0.0041323688089703, ||grad||_inf = 2.452e-11
+NEWTON solve - True  iter=1, iota=0.0041323688176752, ||grad||_inf = 6.241e-15
+Solve success: False
+    iota: 0.004132368817675155
+    G: -3.193407390603356
+    Surface is self-intersecting.
+BFGS solve - False  iter=94, iota=-453934982.8896654844284058, ||grad||_inf = 1.987e+07
+NEWTON solve - False  iter=40, iota=-20.6480603699950507, ||grad||_inf = 7.168e+08
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -20.64806036999505
+    G: 153.3616276566525
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=363, iota=0.0168804136641363, ||grad||_inf = 1.058e-10
+BFGS solve - False  iter=363, iota=0.0170264108305098, ||grad||_inf = 1.794e-10
+NEWTON solve - True  iter=1, iota=0.0168804135144145, ||grad||_inf = 1.096e-14
+Solve success: True
+    iota: 0.016880413514414504
+    G: -3.19340772285064
+NEWTON solve - True  iter=1, iota=0.0170264094542873, ||grad||_inf = 1.127e-14
+Solve success: True
+    iota: 0.01702640945428727
+    G: -3.193407390603369
+NEWTON solve - False  iter=40, iota=-1.5355617698709196, ||grad||_inf = 2.395e+01
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -1.5355617698709196
+    G: 8.420194159178563e-08
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=69, iota=-453934982.8896667361259460, ||grad||_inf = 5.323e+08
+BFGS solve - False  iter=362, iota=0.0170264111105459, ||grad||_inf = 2.420e-10
+NEWTON solve - False  iter=40, iota=-1.6887789995674027, ||grad||_inf = 6.844e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -1.6887789995674027
+    G: 1.0498118319353423e-08
+    Residual solve failed.
+    Surface is self-intersecting.
+NEWTON solve - True  iter=1, iota=0.0170264094542801, ||grad||_inf = 3.100e-15
+Solve success: True
+    iota: 0.017026409454280078
+    G: -3.193407390603369
+BFGS solve - False  iter=94, iota=-453934982.8896670341491699, ||grad||_inf = 9.264e+06
+BFGS solve - True  iter=360, iota=0.0170264066940359, ||grad||_inf = 5.680e-11
+NEWTON solve - True  iter=1, iota=0.0170264071042382, ||grad||_inf = 9.265e-15
+Solve success: True
+    iota: 0.017026407104238164
+    G: -3.193407390603362
+BFGS solve - False  iter=1119, iota=0.3316410044790376, ||grad||_inf = 1.288e+03
+BFGS solve - False  iter=1092, iota=0.0040803748106391, ||grad||_inf = 1.533e-10
+NEWTON solve - True  iter=1, iota=0.0040803747699851, ||grad||_inf = 1.648e-14
+Solve success: False
+    iota: 0.004080374769985112
+    G: -3.19340772285064
+    Surface is self-intersecting.
+NEWTON solve - False  iter=40, iota=-1.6844637817121555, ||grad||_inf = 7.216e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -1.6844637817121555
+    G: 1.3992420702352808e-08
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - True  iter=363, iota=0.0170264062554352, ||grad||_inf = 2.260e-11
+NEWTON solve - True  iter=1, iota=0.0170264055531241, ||grad||_inf = 1.823e-15
+Solve success: True
+    iota: 0.017026405553124062
+    G: -3.193407390603358
+BFGS solve - False  iter=99, iota=-453934982.8896647095680237, ||grad||_inf = 2.410e+07
+BFGS solve - False  iter=359, iota=0.0168804152638994, ||grad||_inf = 9.136e-10
+NEWTON solve - True  iter=1, iota=0.0168804135145701, ||grad||_inf = 1.138e-14
+Solve success: True
+    iota: 0.01688041351457013
+    G: -3.1934077228506395
+NEWTON solve - False  iter=40, iota=-0.7216710029292939, ||grad||_inf = 2.910e+00
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -0.7216710029292939
+    G: 9.254914430257654e-08
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=74, iota=-453934982.8896670341491699, ||grad||_inf = 3.534e+06
+NEWTON solve - False  iter=40, iota=-16.8469369835239036, ||grad||_inf = 1.580e+06
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -16.846936983523904
+    G: 1.2707309018091226
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=809, iota=0.0041323686957205, ||grad||_inf = 2.210e-10
+NEWTON solve - True  iter=1, iota=0.0041323688241184, ||grad||_inf = 4.069e-15
+Solve success: False
+    iota: 0.004132368824118353
+    G: -3.1934073906033564
+    Surface is self-intersecting.
+NEWTON solve - False  iter=40, iota=-2.0479340990506545, ||grad||_inf = 4.139e+01
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -2.0479340990506545
+    G: 2.9448594339187466e-08
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - True  iter=889, iota=0.0040803750101740, ||grad||_inf = 9.705e-11
+NEWTON solve - True  iter=1, iota=0.0040803750181290, ||grad||_inf = 3.850e-15
+Solve success: False
+    iota: 0.004080375018129024
+    G: -3.1934077228506395
+    Surface is self-intersecting.
+BFGS solve - True  iter=365, iota=0.0170264059007523, ||grad||_inf = 7.496e-11
+NEWTON solve - True  iter=1, iota=0.0170264055531108, ||grad||_inf = 1.933e-15
+Solve success: True
+    iota: 0.017026405553110788
+    G: -3.193407390603358
+BFGS solve - False  iter=99, iota=-453934982.8896663188934326, ||grad||_inf = 7.000e+07
+NEWTON solve - False  iter=40, iota=-1.5355617698709196, ||grad||_inf = 2.395e+01
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -1.5355617698709196
+    G: 8.420194159178563e-08
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=69, iota=-453934982.8896667361259460, ||grad||_inf = 5.323e+08
+BFGS solve - False  iter=802, iota=0.5149427964849000, ||grad||_inf = 5.717e+03
+BFGS solve - True  iter=361, iota=0.0168804131976938, ||grad||_inf = 5.514e-11
+NEWTON solve - True  iter=1, iota=0.0168804135144100, ||grad||_inf = 1.465e-14
+Solve success: True
+    iota: 0.016880413514410008
+    G: -3.19340772285064
+BFGS solve - True  iter=365, iota=0.0170264057946344, ||grad||_inf = 6.078e-11
+NEWTON solve - True  iter=1, iota=0.0170264055531133, ||grad||_inf = 3.387e-15
+Solve success: True
+    iota: 0.017026405553113327
+    G: -3.193407390603358
+NEWTON solve - False  iter=40, iota=-1.5394693399537722, ||grad||_inf = 9.845e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -1.5394693399537722
+    G: 5.853146409398218e-09
+    Residual solve failed.
+    Surface is self-intersecting.
+NEWTON solve - False  iter=40, iota=6.4369185959773318, ||grad||_inf = 5.912e+08
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: 6.436918595977332
+    G: -22.809023578370493
+    Residual solve failed.
+    Surface is self-intersecting.
+NEWTON solve - False  iter=40, iota=-1.6844637817121555, ||grad||_inf = 7.216e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -1.6844637817121555
+    G: 1.3992420702352808e-08
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=131, iota=-453934982.8896649479866028, ||grad||_inf = 2.973e+07
+BFGS solve - False  iter=907, iota=0.0040803753006864, ||grad||_inf = 1.050e-10
+BFGS solve - True  iter=825, iota=0.0041323687780102, ||grad||_inf = 8.251e-11
+NEWTON solve - True  iter=1, iota=0.0040803751819040, ||grad||_inf = 9.756e-15
+Solve success: False
+    iota: 0.0040803751819039925
+    G: -3.19340772285064
+    Surface is self-intersecting.
+BFGS solve - False  iter=99, iota=-453934982.8896647095680237, ||grad||_inf = 2.410e+07
+NEWTON solve - True  iter=1, iota=0.0041323688303719, ||grad||_inf = 3.160e-16
+Solve success: False
+    iota: 0.004132368830371949
+    G: -3.1934073906033573
+    Surface is self-intersecting.
+BFGS solve - True  iter=363, iota=0.0168804136422504, ||grad||_inf = 8.631e-11
+BFGS solve - True  iter=363, iota=0.0170264056165380, ||grad||_inf = 9.213e-12
+NEWTON solve - True  iter=1, iota=0.0168804135144074, ||grad||_inf = 4.443e-16
+Solve success: True
+    iota: 0.016880413514407396
+    G: -3.1934077228506395
+NEWTON solve - True  iter=1, iota=0.0170264055531159, ||grad||_inf = 5.161e-15
+Solve success: True
+    iota: 0.017026405553115867
+    G: -3.193407390603358
+BFGS solve - False  iter=497, iota=0.3763176510058945, ||grad||_inf = 4.721e+04
+BFGS solve - True  iter=364, iota=0.0170264049524456, ||grad||_inf = 3.517e-11
+NEWTON solve - True  iter=1, iota=0.0170264053790737, ||grad||_inf = 2.379e-15
+Solve success: True
+    iota: 0.017026405379073666
+    G: -3.1934073906033573
+NEWTON solve - False  iter=40, iota=-2.0479340990506545, ||grad||_inf = 4.139e+01
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -2.0479340990506545
+    G: 2.9448594339187466e-08
+    Residual solve failed.
+    Surface is self-intersecting.
+NEWTON solve - False  iter=40, iota=-1.1376615433407298, ||grad||_inf = 6.610e+01
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -1.1376615433407298
+    G: 1.3338795397507506e-09
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=99, iota=-453934982.8896663188934326, ||grad||_inf = 7.000e+07
+BFGS solve - False  iter=103, iota=-453934982.8896684050559998, ||grad||_inf = 4.728e+07
+BFGS solve - False  iter=887, iota=0.0040803752255283, ||grad||_inf = 2.208e-10
+NEWTON solve - False  iter=40, iota=-40889.4637421734369127, ||grad||_inf = 6.029e+14
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -40889.46374217344
+    G: -4977.464496712791
+    Residual solve failed.
+    Surface is self-intersecting.
+NEWTON solve - True  iter=1, iota=0.0040803752899955, ||grad||_inf = 1.698e-14
+Solve success: False
+    iota: 0.004080375289995492
+    G: -3.19340772285064
+    Surface is self-intersecting.
+BFGS solve - True  iter=835, iota=0.0041323689114334, ||grad||_inf = 7.276e-11
+BFGS solve - True  iter=365, iota=0.0168804136487054, ||grad||_inf = 9.622e-11
+NEWTON solve - True  iter=1, iota=0.0041323688310949, ||grad||_inf = 2.065e-14
+Solve success: False
+    iota: 0.00413236883109487
+    G: -3.1934073906033573
+    Surface is self-intersecting.
+NEWTON solve - True  iter=1, iota=0.0168804135144060, ||grad||_inf = 8.650e-15
+Solve success: True
+    iota: 0.01688041351440602
+    G: -3.19340772285064
+NEWTON solve - False  iter=40, iota=-1.5394693399537722, ||grad||_inf = 9.845e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -1.5394693399537722
+    G: 5.853146409398218e-09
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - True  iter=364, iota=0.0170264049524456, ||grad||_inf = 3.517e-11
+BFGS solve - False  iter=659, iota=0.6661178130430107, ||grad||_inf = 3.578e+03
+NEWTON solve - True  iter=1, iota=0.0170264053790737, ||grad||_inf = 2.379e-15
+Solve success: True
+    iota: 0.017026405379073666
+    G: -3.1934073906033573
+NEWTON solve - False  iter=40, iota=-1.6360468615231807, ||grad||_inf = 8.152e+01
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -1.6360468615231807
+    G: 4.648872946209815e-09
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=46, iota=-453934982.8896683454513550, ||grad||_inf = 4.042e+07
+BFGS solve - False  iter=131, iota=-453934982.8896649479866028, ||grad||_inf = 2.973e+07
+BFGS solve - True  iter=929, iota=0.0040803753464594, ||grad||_inf = 2.750e-11
+NEWTON solve - True  iter=1, iota=0.0040803753613358, ||grad||_inf = 2.203e-14
+Solve success: False
+    iota: 0.004080375361335819
+    G: -3.1934077228506395
+    Surface is self-intersecting.
+BFGS solve - True  iter=734, iota=0.0007096098495071, ||grad||_inf = 6.094e-11
+NEWTON solve - True  iter=1, iota=0.0007096098362446, ||grad||_inf = 2.231e-14
+Solve success: False
+    iota: 0.000709609836244616
+    G: -3.193406843365945
+    Surface is self-intersecting.
+NEWTON solve - False  iter=40, iota=-13972.5431350055896473, ||grad||_inf = 4.672e+13
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -13972.54313500559
+    G: -3845.6600040254893
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=364, iota=0.0168804140153607, ||grad||_inf = 1.126e-10
+NEWTON solve - False  iter=40, iota=-1.1376615433407298, ||grad||_inf = 6.610e+01
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -1.1376615433407298
+    G: 1.3338795397507506e-09
+    Residual solve failed.
+    Surface is self-intersecting.
+NEWTON solve - True  iter=1, iota=0.0168804135144068, ||grad||_inf = 7.269e-15
+Solve success: True
+    iota: 0.016880413514406847
+    G: -3.19340772285064
+NEWTON solve - False  iter=40, iota=-1.7455988882939180, ||grad||_inf = 8.471e+00
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -1.745598888293918
+    G: 7.473939406704481e-08
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=103, iota=-453934982.8896684050559998, ||grad||_inf = 4.728e+07
+BFGS solve - False  iter=93, iota=-453934982.8896655440330505, ||grad||_inf = 1.127e+07
+BFGS solve - True  iter=365, iota=0.0168804137356256, ||grad||_inf = 1.367e-11
+NEWTON solve - True  iter=1, iota=0.0168804135144042, ||grad||_inf = 5.757e-15
+Solve success: True
+    iota: 0.016880413514404245
+    G: -3.1934077228506395
+BFGS solve - True  iter=706, iota=0.0022486846024680, ||grad||_inf = 7.818e-11
+NEWTON solve - True  iter=1, iota=0.0022486845781614, ||grad||_inf = 9.678e-15
+Solve success: False
+    iota: 0.002248684578161395
+    G: -3.1934071282051057
+    Surface is self-intersecting.
+NEWTON solve - False  iter=40, iota=-1.6360468615231807, ||grad||_inf = 8.152e+01
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -1.6360468615231807
+    G: 4.648872946209815e-09
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=46, iota=-453934982.8896683454513550, ||grad||_inf = 4.042e+07
+NEWTON solve - False  iter=40, iota=-0.8434412483272714, ||grad||_inf = 1.770e+03
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -0.8434412483272714
+    G: 2.072491650361163e-09
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=1191, iota=0.4167340963855887, ||grad||_inf = 6.229e+03
+BFGS solve - True  iter=905, iota=0.0040803753199584, ||grad||_inf = 9.890e-11
+NEWTON solve - True  iter=1, iota=0.0040803754305779, ||grad||_inf = 1.512e-14
+Solve success: False
+    iota: 0.004080375430577923
+    G: -3.19340772285064
+    Surface is self-intersecting.
+BFGS solve - False  iter=95, iota=-453934982.8896670937538147, ||grad||_inf = 8.472e+08
+BFGS solve - False  iter=921, iota=0.0033242694721480, ||grad||_inf = 2.601e-10
+NEWTON solve - True  iter=1, iota=0.0033242693302838, ||grad||_inf = 2.803e-15
+Solve success: False
+    iota: 0.0033242693302838497
+    G: -3.193407292657072
+    Surface is self-intersecting.
+BFGS solve - True  iter=362, iota=0.0168804133699976, ||grad||_inf = 6.288e-11
+NEWTON solve - True  iter=1, iota=0.0168804135144080, ||grad||_inf = 7.195e-15
+Solve success: True
+    iota: 0.01688041351440801
+    G: -3.19340772285064
+NEWTON solve - False  iter=40, iota=-1.7455988882939180, ||grad||_inf = 8.471e+00
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -1.745598888293918
+    G: 7.473939406704481e-08
+    Residual solve failed.
+    Surface is self-intersecting.
+NEWTON solve - False  iter=40, iota=23.4248964082465392, ||grad||_inf = 3.328e+08
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: 23.42489640824654
+    G: -11.08885583854229
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=93, iota=-453934982.8896655440330505, ||grad||_inf = 1.127e+07
+BFGS solve - False  iter=360, iota=0.0168804102313794, ||grad||_inf = 1.042e-09
+NEWTON solve - True  iter=1, iota=0.0168804135142220, ||grad||_inf = 2.835e-14
+Solve success: True
+    iota: 0.01688041351422202
+    G: -3.1934077228506395
+NEWTON solve - False  iter=40, iota=-1.2200877590975827, ||grad||_inf = 1.729e+01
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -1.2200877590975827
+    G: 1.2387345930312642e-08
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=36, iota=-453934982.8896683454513550, ||grad||_inf = 1.264e+08
+BFGS solve - False  iter=989, iota=0.0038739210534072, ||grad||_inf = 2.633e-10
+NEWTON solve - True  iter=1, iota=0.0038739211834228, ||grad||_inf = 7.101e-15
+Solve success: False
+    iota: 0.003873921183422843
+    G: -3.1934073605221225
+    Surface is self-intersecting.
+BFGS solve - True  iter=362, iota=0.0168804128315545, ||grad||_inf = 1.629e-11
+NEWTON solve - True  iter=1, iota=0.0168804127495240, ||grad||_inf = 9.165e-15
+Solve success: True
+    iota: 0.016880412749523975
+    G: -3.1934077228506395
+BFGS solve - False  iter=542, iota=0.2376483693446915, ||grad||_inf = 6.675e+03
+NEWTON solve - False  iter=40, iota=-0.8434412483272714, ||grad||_inf = 1.770e+03
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -0.8434412483272714
+    G: 2.072491650361163e-09
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=95, iota=-453934982.8896670937538147, ||grad||_inf = 8.472e+08
+NEWTON solve - False  iter=40, iota=-1.8527040103496872, ||grad||_inf = 3.391e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -1.8527040103496872
+    G: 1.9450629150074694e-08
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=840, iota=0.0040803754035666, ||grad||_inf = 1.731e-10
+BFGS solve - True  iter=983, iota=0.0041293340246573, ||grad||_inf = 4.345e-11
+NEWTON solve - True  iter=1, iota=0.0040803754423491, ||grad||_inf = 1.456e-14
+Solve success: False
+    iota: 0.00408037544234909
+    G: -3.1934077228506395
+    Surface is self-intersecting.
+NEWTON solve - True  iter=1, iota=0.0041293340163338, ||grad||_inf = 3.525e-14
+Solve success: False
+    iota: 0.0041293340163337825
+    G: -3.193407390254562
+    Surface is self-intersecting.
+BFGS solve - False  iter=83, iota=-453934982.8896681070327759, ||grad||_inf = 2.082e+07
+NEWTON solve - False  iter=40, iota=-3.3095661613996379, ||grad||_inf = 7.250e+07
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -3.309566161399638
+    G: 1.380311119149687
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - True  iter=342, iota=0.0177913161834450, ||grad||_inf = 8.193e-11
+BFGS solve - False  iter=362, iota=0.0168804125226244, ||grad||_inf = 1.097e-10
+NEWTON solve - True  iter=1, iota=0.0177913166407239, ||grad||_inf = 8.326e-15
+Solve success: True
+    iota: 0.017791316640723892
+    G: -3.193407403146245
+NEWTON solve - True  iter=1, iota=0.0168804127495207, ||grad||_inf = 6.474e-15
+Solve success: True
+    iota: 0.0168804127495207
+    G: -3.1934077228506395
+NEWTON solve - False  iter=40, iota=-1.2200877590975827, ||grad||_inf = 1.729e+01
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -1.2200877590975827
+    G: 1.2387345930312642e-08
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=36, iota=-453934982.8896683454513550, ||grad||_inf = 1.264e+08
+BFGS solve - True  iter=346, iota=0.0175759040175104, ||grad||_inf = 2.637e-11
+NEWTON solve - True  iter=1, iota=0.0175759039954028, ||grad||_inf = 1.435e-14
+Solve success: True
+    iota: 0.017575903995402795
+    G: -3.193407398327746
+NEWTON solve - False  iter=40, iota=-1.3027909270197295, ||grad||_inf = 3.695e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -1.3027909270197295
+    G: -2.4985476510511594e-10
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=889, iota=0.5063780481511304, ||grad||_inf = 3.505e+03
+BFGS solve - True  iter=344, iota=0.0174637839974359, ||grad||_inf = 4.962e-11
+NEWTON solve - True  iter=1, iota=0.0174637839486570, ||grad||_inf = 8.510e-15
+Solve success: True
+    iota: 0.017463783948657042
+    G: -3.1934073960966756
+BFGS solve - False  iter=125, iota=-453934982.8896670341491699, ||grad||_inf = 3.967e+07
+BFGS solve - True  iter=943, iota=0.0040803754340391, ||grad||_inf = 4.767e-11
+NEWTON solve - True  iter=1, iota=0.0040803754501181, ||grad||_inf = 2.732e-14
+Solve success: False
+    iota: 0.004080375450118118
+    G: -3.1934077228506395
+    Surface is self-intersecting.
+BFGS solve - True  iter=345, iota=0.0173873375789319, ||grad||_inf = 5.770e-11
+NEWTON solve - True  iter=1, iota=0.0173873374924643, ||grad||_inf = 3.548e-15
+Solve success: True
+    iota: 0.017387337492464284
+    G: -3.1934073947135175
+NEWTON solve - False  iter=40, iota=-1.8527040103496872, ||grad||_inf = 3.391e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -1.8527040103496872
+    G: 1.9450629150074694e-08
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=360, iota=0.0168804104521962, ||grad||_inf = 2.134e-10
+BFGS solve - False  iter=83, iota=-453934982.8896681070327759, ||grad||_inf = 2.082e+07
+NEWTON solve - True  iter=1, iota=0.0168804127495863, ||grad||_inf = 8.222e-15
+Solve success: True
+    iota: 0.016880412749586262
+    G: -3.1934077228506395
+BFGS solve - True  iter=346, iota=0.0173324708377472, ||grad||_inf = 1.749e-11
+NEWTON solve - False  iter=40, iota=-337.8970956935123695, ||grad||_inf = 1.142e+09
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -337.89709569351237
+    G: -17.9894866461241
+    Residual solve failed.
+    Surface is self-intersecting.
+NEWTON solve - True  iter=1, iota=0.0173324707236827, ||grad||_inf = 1.138e-14
+Solve success: True
+    iota: 0.017332470723682658
+    G: -3.1934073938023837
+BFGS solve - True  iter=360, iota=0.0168804125851306, ||grad||_inf = 8.465e-11
+NEWTON solve - True  iter=1, iota=0.0168804127495227, ||grad||_inf = 5.182e-15
+Solve success: True
+    iota: 0.016880412749522712
+    G: -3.19340772285064
+NEWTON solve - False  iter=40, iota=-1.3140000407051882, ||grad||_inf = 5.253e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -1.3140000407051882
+    G: 3.48515661460946e-09
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - True  iter=348, iota=0.0172065368245502, ||grad||_inf = 2.615e-11
+NEWTON solve - True  iter=1, iota=0.0172065365888318, ||grad||_inf = 3.236e-15
+Solve success: True
+    iota: 0.01720653658883176
+    G: -3.193407392028473
+BFGS solve - False  iter=76, iota=-453934982.8896680474281311, ||grad||_inf = 1.537e+08
+NEWTON solve - False  iter=40, iota=-1.3027909270197295, ||grad||_inf = 3.695e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -1.3027909270197295
+    G: -2.4985476510511594e-10
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - True  iter=349, iota=0.0171202940294408, ||grad||_inf = 7.251e-11
+NEWTON solve - True  iter=1, iota=0.0171202935922497, ||grad||_inf = 5.783e-15
+Solve success: True
+    iota: 0.017120293592249713
+    G: -3.193407391141518
+BFGS solve - False  iter=746, iota=0.1661763186282772, ||grad||_inf = 5.818e+03
+Desired error not necessarily achieved due to precision loss.
+Optimized Boozer surface successfully saved to: /burg-archive/home/tg2998/simsopt/examples/outputs/TG_single_stage_outputs/optimized_boozer_surface_0.65.json
+BFGS solve - False  iter=125, iota=-453934982.8896670341491699, ||grad||_inf = 3.967e+07
+BFGS solve - False  iter=961, iota=0.0040803755543114, ||grad||_inf = 7.650e-10
+NEWTON solve - True  iter=1, iota=0.0040803754576586, ||grad||_inf = 3.148e-14
+Solve success: False
+    iota: 0.0040803754576585645
+    G: -3.1934077228506395
+    Surface is self-intersecting.
+NEWTON solve - False  iter=40, iota=-1.8232461901429198, ||grad||_inf = 7.218e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -1.8232461901429198
+    G: 8.963139850119908e-09
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - True  iter=360, iota=0.0168804125851306, ||grad||_inf = 8.465e-11
+NEWTON solve - True  iter=1, iota=0.0168804127495227, ||grad||_inf = 5.182e-15
+Solve success: True
+    iota: 0.016880412749522712
+    G: -3.19340772285064
+BFGS solve - False  iter=120, iota=-453934982.8896644115447998, ||grad||_inf = 9.251e+07
+NEWTON solve - False  iter=40, iota=47.3119380410386157, ||grad||_inf = 6.209e+07
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: 47.311938041038616
+    G: -0.6728509515948256
+    Residual solve failed.
+    Surface is self-intersecting.
+NEWTON solve - False  iter=40, iota=-1.3140000407051882, ||grad||_inf = 5.253e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -1.3140000407051882
+    G: 3.48515661460946e-09
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=76, iota=-453934982.8896680474281311, ||grad||_inf = 1.537e+08
+BFGS solve - True  iter=821, iota=0.0006588536619640, ||grad||_inf = 7.929e-11
+NEWTON solve - True  iter=1, iota=0.0006588536702859, ||grad||_inf = 8.824e-15
+Solve success: False
+    iota: 0.0006588536702859364
+    G: -3.1934077228506395
+    Surface is self-intersecting.
+NEWTON solve - False  iter=40, iota=-1.6581239822451705, ||grad||_inf = 6.566e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -1.6581239822451705
+    G: 3.4467709053932986e-09
+    Residual solve failed.
+    Surface is self-intersecting.
+NEWTON solve - False  iter=40, iota=-1.8232461901429198, ||grad||_inf = 7.218e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -1.8232461901429198
+    G: 8.963139850119908e-09
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=123, iota=-453934982.8896632194519043, ||grad||_inf = 1.463e+08
+BFGS solve - False  iter=1127, iota=0.6003185393254167, ||grad||_inf = 5.202e+01
+BFGS solve - False  iter=120, iota=-453934982.8896644115447998, ||grad||_inf = 9.251e+07
+BFGS solve - False  iter=723, iota=0.0023152261367195, ||grad||_inf = 2.164e-10
+NEWTON solve - True  iter=1, iota=0.0023152262320663, ||grad||_inf = 1.548e-14
+Solve success: False
+    iota: 0.0023152262320663354
+    G: -3.19340772285064
+    Surface is self-intersecting.
+NEWTON solve - False  iter=40, iota=-1.8669746317772151, ||grad||_inf = 3.648e+01
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -1.8669746317772151
+    G: 1.8314416210404332e-08
+    Residual solve failed.
+    Surface is self-intersecting.
+NEWTON solve - False  iter=40, iota=8.5487212971747901, ||grad||_inf = 1.801e+08
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: 8.54872129717479
+    G: -5.374474498058934
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=56, iota=-453934982.8896683454513550, ||grad||_inf = 1.127e+08
+NEWTON solve - False  iter=40, iota=-1.6581239822451705, ||grad||_inf = 6.566e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -1.6581239822451705
+    G: 3.4467709053932986e-09
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=882, iota=0.0034110207847387, ||grad||_inf = 1.446e-10
+NEWTON solve - True  iter=1, iota=0.0034110207408174, ||grad||_inf = 5.419e-15
+Solve success: False
+    iota: 0.003411020740817384
+    G: -3.19340772285064
+    Surface is self-intersecting.
+BFGS solve - False  iter=123, iota=-453934982.8896632194519043, ||grad||_inf = 1.463e+08
+NEWTON solve - False  iter=40, iota=-1.6060870378886576, ||grad||_inf = 3.142e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -1.6060870378886576
+    G: 1.6332151127245705e-08
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=937, iota=0.0039724894358991, ||grad||_inf = 3.410e-10
+NEWTON solve - True  iter=1, iota=0.0039724894146863, ||grad||_inf = 1.660e-14
+Solve success: False
+    iota: 0.003972489414686309
+    G: -3.1934077228506395
+    Surface is self-intersecting.
+NEWTON solve - False  iter=40, iota=-1.8669746317772151, ||grad||_inf = 3.648e+01
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -1.8669746317772151
+    G: 1.8314416210404332e-08
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=1175, iota=0.2631455952795997, ||grad||_inf = 2.519e+02
+BFGS solve - False  iter=150, iota=-453934982.8896621465682983, ||grad||_inf = 4.138e+08
+BFGS solve - False  iter=56, iota=-453934982.8896683454513550, ||grad||_inf = 1.127e+08
+BFGS solve - True  iter=343, iota=0.0177897108958220, ||grad||_inf = 2.642e-11
+NEWTON solve - True  iter=1, iota=0.0177897103830087, ||grad||_inf = 2.457e-15
+Solve success: True
+    iota: 0.01778971038300875
+    G: -3.1934077228506395
+BFGS solve - True  iter=347, iota=0.0173189420050579, ||grad||_inf = 4.891e-11
+NEWTON solve - True  iter=1, iota=0.0173189409331399, ||grad||_inf = 2.390e-14
+Solve success: True
+    iota: 0.017318940933139914
+    G: -3.1934077228506395
+NEWTON solve - False  iter=40, iota=-288.5799793174813885, ||grad||_inf = 5.400e+09
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -288.5799793174814
+    G: 1.8218232104995646
+    Residual solve failed.
+    Surface is self-intersecting.
+NEWTON solve - False  iter=40, iota=-1.3353610944038128, ||grad||_inf = 3.431e+01
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -1.3353610944038128
+    G: 1.466551884582332e-08
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - True  iter=353, iota=0.0170058740765114, ||grad||_inf = 2.891e-11
+NEWTON solve - False  iter=40, iota=-1.6060870378886576, ||grad||_inf = 3.142e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -1.6060870378886576
+    G: 1.6332151127245705e-08
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=57, iota=-453934982.8896682262420654, ||grad||_inf = 1.107e+09
+NEWTON solve - True  iter=1, iota=0.0170058735170855, ||grad||_inf = 1.795e-14
+Solve success: True
+    iota: 0.017005873517085508
+    G: -3.19340772285064
+BFGS solve - False  iter=150, iota=-453934982.8896621465682983, ||grad||_inf = 4.138e+08
+BFGS solve - False  iter=898, iota=0.0040621330715603, ||grad||_inf = 1.967e-10
+NEWTON solve - True  iter=1, iota=0.0040621330268034, ||grad||_inf = 2.028e-14
+Solve success: False
+    iota: 0.004062133026803385
+    G: -3.1934077228506395
+    Surface is self-intersecting.
+NEWTON solve - False  iter=40, iota=-1.8592365114582365, ||grad||_inf = 1.282e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -1.8592365114582365
+    G: 2.7076584703490563e-08
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=1155, iota=0.2975105516570618, ||grad||_inf = 9.573e+02
+BFGS solve - False  iter=80, iota=-453934982.8896680474281311, ||grad||_inf = 1.222e+07
+NEWTON solve - False  iter=40, iota=-1.3353610944038128, ||grad||_inf = 3.431e+01
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -1.3353610944038128
+    G: 1.466551884582332e-08
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=57, iota=-453934982.8896682262420654, ||grad||_inf = 1.107e+09
+BFGS solve - True  iter=885, iota=0.0040759693757268, ||grad||_inf = 5.816e-11
+NEWTON solve - True  iter=1, iota=0.0040759693352145, ||grad||_inf = 2.975e-15
+Solve success: False
+    iota: 0.004075969335214469
+    G: -3.19340772285064
+    Surface is self-intersecting.
+NEWTON solve - False  iter=40, iota=-21.6929901599953716, ||grad||_inf = 2.941e+08
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -21.69299015999537
+    G: 13.49961359868726
+    Residual solve failed.
+    Surface is self-intersecting.
+NEWTON solve - False  iter=40, iota=-1.8115768444788201, ||grad||_inf = 4.201e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -1.81157684447882
+    G: 3.5518578028678206e-09
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - True  iter=353, iota=0.0169246067358462, ||grad||_inf = 4.445e-11
+NEWTON solve - True  iter=1, iota=0.0169246065167818, ||grad||_inf = 9.597e-16
+Solve success: True
+    iota: 0.016924606516781775
+    G: -3.19340772285064
+BFGS solve - False  iter=75, iota=-453934982.8896656632423401, ||grad||_inf = 3.325e+08
+NEWTON solve - False  iter=40, iota=-1.8592365114582365, ||grad||_inf = 1.282e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -1.8592365114582365
+    G: 2.7076584703490563e-08
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=556, iota=0.5348044940107267, ||grad||_inf = 1.460e+04
+BFGS solve - False  iter=80, iota=-453934982.8896680474281311, ||grad||_inf = 1.222e+07
+NEWTON solve - False  iter=40, iota=-0.8639628508285995, ||grad||_inf = 5.573e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -0.8639628508285995
+    G: 7.614079217601995e-09
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=978, iota=0.0040794311319224, ||grad||_inf = 1.785e-10
+NEWTON solve - True  iter=1, iota=0.0040794311023247, ||grad||_inf = 1.063e-14
+Solve success: False
+    iota: 0.004079431102324717
+    G: -3.1934077228506395
+    Surface is self-intersecting.
+BFGS solve - False  iter=106, iota=-453934982.8896679878234863, ||grad||_inf = 1.995e+07
+NEWTON solve - False  iter=40, iota=-38.0700406397946765, ||grad||_inf = 4.963e+11
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -38.07004063979468
+    G: -178.36787885268674
+    Residual solve failed.
+    Surface is self-intersecting.
+NEWTON solve - False  iter=40, iota=-1.8115768444788201, ||grad||_inf = 4.201e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -1.81157684447882
+    G: 3.5518578028678206e-09
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=358, iota=0.0168962627146440, ||grad||_inf = 7.434e-10
+NEWTON solve - True  iter=1, iota=0.0168962654394301, ||grad||_inf = 1.520e-14
+Solve success: True
+    iota: 0.016896265439430114
+    G: -3.1934077228506395
+BFGS solve - False  iter=75, iota=-453934982.8896656632423401, ||grad||_inf = 3.325e+08
+Desired error not necessarily achieved due to precision loss.
+Optimized Boozer surface successfully saved to: /burg-archive/home/tg2998/simsopt/examples/outputs/TG_single_stage_outputs/optimized_boozer_surface_0.625.json
+NEWTON solve - False  iter=40, iota=-2.3051700299121589, ||grad||_inf = 1.558e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -2.305170029912159
+    G: 4.230808457149127e-08
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=815, iota=0.5013918400017933, ||grad||_inf = 2.136e+03
+BFGS solve - False  iter=82, iota=-453934982.8896676301956177, ||grad||_inf = 5.790e+06
+NEWTON solve - False  iter=40, iota=-0.8639628508285995, ||grad||_inf = 5.573e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -0.8639628508285995
+    G: 7.614079217601995e-09
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=106, iota=-453934982.8896679878234863, ||grad||_inf = 1.995e+07
+NEWTON solve - False  iter=40, iota=-0.9441005000070349, ||grad||_inf = 3.280e+06
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -0.9441005000070349
+    G: 0.15132953519911108
+    Residual solve failed.
+    Surface is self-intersecting.
+NEWTON solve - False  iter=40, iota=-2.2101895101226212, ||grad||_inf = 7.402e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -2.210189510122621
+    G: 3.417615197662155e-08
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=82, iota=-453934982.8896676301956177, ||grad||_inf = 5.790e+06
+BFGS solve - False  iter=475, iota=0.2846869870487590, ||grad||_inf = 2.689e+04
+NEWTON solve - False  iter=40, iota=-2.3051700299121589, ||grad||_inf = 1.558e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -2.305170029912159
+    G: 4.230808457149127e-08
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=82, iota=-453934982.8896676301956177, ||grad||_inf = 5.790e+06
+NEWTON solve - False  iter=40, iota=-2.2101886952389171, ||grad||_inf = 7.439e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -2.210188695238917
+    G: 3.419499629226676e-08
+    Residual solve failed.
+    Surface is self-intersecting.
+NEWTON solve - False  iter=40, iota=59.6485801005733265, ||grad||_inf = 2.466e+11
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: 59.64858010057333
+    G: -426.6015744663258
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=74, iota=-453934982.8896678090095520, ||grad||_inf = 3.448e+08
+NEWTON solve - False  iter=40, iota=-2.2101895101226212, ||grad||_inf = 7.402e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -2.210189510122621
+    G: 3.417615197662155e-08
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=82, iota=-453934982.8896676301956177, ||grad||_inf = 5.790e+06
+BFGS solve - False  iter=695, iota=0.3849854345425329, ||grad||_inf = 1.839e+04
+NEWTON solve - False  iter=40, iota=-2.4009278787090644, ||grad||_inf = 9.335e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -2.4009278787090644
+    G: 1.8543912651588855e-08
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=82, iota=-453934982.8896676301956177, ||grad||_inf = 5.790e+06
+NEWTON solve - False  iter=40, iota=-2.2101886952389171, ||grad||_inf = 7.439e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -2.210188695238917
+    G: 3.419499629226676e-08
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=74, iota=-453934982.8896678090095520, ||grad||_inf = 3.448e+08
+NEWTON solve - False  iter=40, iota=-5394.0219268155778991, ||grad||_inf = 3.999e+10
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -5394.021926815578
+    G: -1470.6074546809687
+    Residual solve failed.
+    Surface is self-intersecting.
+NEWTON solve - False  iter=40, iota=-2.2101886952389171, ||grad||_inf = 7.439e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -2.210188695238917
+    G: 3.419499629226676e-08
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=82, iota=-453934982.8896676301956177, ||grad||_inf = 5.790e+06
+BFGS solve - False  iter=623, iota=0.4571348834237271, ||grad||_inf = 1.785e+04
+NEWTON solve - False  iter=40, iota=-2.4009278787090644, ||grad||_inf = 9.335e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -2.4009278787090644
+    G: 1.8543912651588855e-08
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=82, iota=-453934982.8896676301956177, ||grad||_inf = 5.790e+06
+NEWTON solve - False  iter=40, iota=-2.2101883112913949, ||grad||_inf = 4.242e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -2.210188311291395
+    G: 3.419850355452324e-08
+    Residual solve failed.
+    Surface is self-intersecting.
+NEWTON solve - False  iter=40, iota=0.4444577691998662, ||grad||_inf = 2.392e+03
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: 0.4444577691998662
+    G: -0.2944642770872166
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=82, iota=-453934982.8896676301956177, ||grad||_inf = 5.790e+06
+NEWTON solve - False  iter=40, iota=-2.2101886952389171, ||grad||_inf = 7.439e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -2.210188695238917
+    G: 3.419499629226676e-08
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=82, iota=-453934982.8896676301956177, ||grad||_inf = 5.790e+06
+BFGS solve - False  iter=809, iota=0.3596360474377184, ||grad||_inf = 4.578e+03
+NEWTON solve - False  iter=40, iota=-2.2101886960030219, ||grad||_inf = 7.351e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -2.210188696003022
+    G: 3.4194988290769125e-08
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=82, iota=-453934982.8896676301956177, ||grad||_inf = 5.790e+06
+NEWTON solve - False  iter=40, iota=-2.2101883112913949, ||grad||_inf = 4.242e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -2.210188311291395
+    G: 3.419850355452324e-08
+    Residual solve failed.
+    Surface is self-intersecting.
+NEWTON solve - False  iter=40, iota=-34942.7397646057870588, ||grad||_inf = 2.772e+12
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -34942.73976460579
+    G: 2701.1829329839247
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=82, iota=-453934982.8896676301956177, ||grad||_inf = 5.790e+06
+NEWTON solve - False  iter=40, iota=-2.2101890829147974, ||grad||_inf = 2.121e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -2.2101890829147974
+    G: 3.419152493687134e-08
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=82, iota=-453934982.8896676301956177, ||grad||_inf = 5.790e+06
+BFGS solve - False  iter=859, iota=0.1515823528378530, ||grad||_inf = 1.258e+02
+NEWTON solve - False  iter=40, iota=-2.2101886960030219, ||grad||_inf = 7.351e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -2.210188696003022
+    G: 3.4194988290769125e-08
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=82, iota=-453934982.8896676301956177, ||grad||_inf = 5.790e+06
+NEWTON solve - False  iter=40, iota=-2.2101890830032151, ||grad||_inf = 4.194e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -2.210189083003215
+    G: 3.419152493774713e-08
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=82, iota=-453934982.8896676301956177, ||grad||_inf = 5.790e+06
+NEWTON solve - False  iter=40, iota=-100.8767495153907419, ||grad||_inf = 4.037e+07
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -100.87674951539074
+    G: -2.1689596436240484
+    Residual solve failed.
+    Surface is self-intersecting.
+NEWTON solve - False  iter=40, iota=-2.2101890829147974, ||grad||_inf = 2.121e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -2.2101890829147974
+    G: 3.419152493687134e-08
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=82, iota=-453934982.8896676301956177, ||grad||_inf = 5.790e+06
+BFGS solve - False  iter=518, iota=0.3868697115724904, ||grad||_inf = 2.041e+04
+NEWTON solve - False  iter=40, iota=-2.2101890830032151, ||grad||_inf = 4.194e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -2.210189083003215
+    G: 3.419152493774713e-08
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=82, iota=-453934982.8896676301956177, ||grad||_inf = 5.790e+06
+NEWTON solve - False  iter=40, iota=-13488.6910264928392280, ||grad||_inf = 4.562e+11
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -13488.69102649284
+    G: -285.38467146835285
+    Residual solve failed.
+    Surface is self-intersecting.
+NEWTON solve - False  iter=40, iota=-2.2101890830032151, ||grad||_inf = 4.194e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -2.210189083003215
+    G: 3.419152493774713e-08
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=82, iota=-453934982.8896676301956177, ||grad||_inf = 5.790e+06
+NEWTON solve - False  iter=40, iota=-2.2101861573907438, ||grad||_inf = 3.853e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -2.2101861573907438
+    G: 3.419402238819931e-08
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=74, iota=-453934982.8896678090095520, ||grad||_inf = 3.448e+08
+BFGS solve - False  iter=955, iota=0.3720941161898110, ||grad||_inf = 1.330e+03
+NEWTON solve - False  iter=40, iota=-2.2101890830032151, ||grad||_inf = 4.194e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -2.210189083003215
+    G: 3.419152493774713e-08
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=82, iota=-453934982.8896676301956177, ||grad||_inf = 5.790e+06
+NEWTON solve - False  iter=40, iota=-2.4009356824390533, ||grad||_inf = 4.508e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -2.4009356824390533
+    G: 1.8536603077002503e-08
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=74, iota=-453934982.8896678090095520, ||grad||_inf = 3.448e+08
+NEWTON solve - False  iter=40, iota=-101.9097874620508435, ||grad||_inf = 5.078e+09
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -101.90978746205084
+    G: -13.550294252817508
+    Residual solve failed.
+    Surface is self-intersecting.
+NEWTON solve - False  iter=40, iota=-2.2101861573907438, ||grad||_inf = 3.853e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -2.2101861573907438
+    G: 3.419402238819931e-08
+    Residual solve failed.
+    Surface is self-intersecting.
+NEWTON solve - False  iter=40, iota=-2.4009356824390533, ||grad||_inf = 4.508e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -2.4009356824390533
+    G: 1.8536603077002503e-08
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=74, iota=-453934982.8896678090095520, ||grad||_inf = 3.448e+08
+BFGS solve - False  iter=74, iota=-453934982.8896678090095520, ||grad||_inf = 3.448e+08
+BFGS solve - False  iter=767, iota=0.2921891709921919, ||grad||_inf = 1.277e+04
+NEWTON solve - False  iter=40, iota=-2.4009356824390533, ||grad||_inf = 4.508e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -2.4009356824390533
+    G: 1.8536603077002503e-08
+    Residual solve failed.
+    Surface is self-intersecting.
+NEWTON solve - False  iter=40, iota=-2.4009356824390533, ||grad||_inf = 4.508e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -2.4009356824390533
+    G: 1.8536603077002503e-08
+    Residual solve failed.
+    Surface is self-intersecting.
+NEWTON solve - False  iter=40, iota=-10706.9042045648493513, ||grad||_inf = 1.390e+11
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -10706.90420456485
+    G: -116.53414783509744
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=74, iota=-453934982.8896678090095520, ||grad||_inf = 3.448e+08
+BFGS solve - False  iter=74, iota=-453934982.8896678090095520, ||grad||_inf = 3.448e+08
+BFGS solve - False  iter=361, iota=0.4295393397149680, ||grad||_inf = 4.954e+04
+NEWTON solve - False  iter=40, iota=-2.4009356824390533, ||grad||_inf = 4.508e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -2.4009356824390533
+    G: 1.8536603077002503e-08
+    Residual solve failed.
+    Surface is self-intersecting.
+NEWTON solve - False  iter=40, iota=-2.4009356824390533, ||grad||_inf = 4.508e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -2.4009356824390533
+    G: 1.8536603077002503e-08
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=74, iota=-453934982.8896678090095520, ||grad||_inf = 3.448e+08
+BFGS solve - False  iter=74, iota=-453934982.8896678090095520, ||grad||_inf = 3.448e+08
+NEWTON solve - False  iter=40, iota=47799.7757052624147036, ||grad||_inf = 5.126e+11
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: 47799.775705262415
+    G: -1071.6331717236862
+    Residual solve failed.
+    Surface is self-intersecting.
+NEWTON solve - False  iter=40, iota=-2.4009278787090644, ||grad||_inf = 9.335e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -2.4009278787090644
+    G: 1.8543912651588855e-08
+    Residual solve failed.
+    Surface is self-intersecting.
+NEWTON solve - False  iter=40, iota=-2.4009356824390533, ||grad||_inf = 4.508e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -2.4009356824390533
+    G: 1.8536603077002503e-08
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=74, iota=-453934982.8896678090095520, ||grad||_inf = 3.448e+08
+BFGS solve - False  iter=74, iota=-453934982.8896678090095520, ||grad||_inf = 3.448e+08
+BFGS solve - False  iter=767, iota=0.2921891709921919, ||grad||_inf = 1.277e+04
+NEWTON solve - False  iter=40, iota=-10706.9042045648493513, ||grad||_inf = 1.390e+11
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -10706.90420456485
+    G: -116.53414783509744
+    Residual solve failed.
+    Surface is self-intersecting.
+NEWTON solve - False  iter=40, iota=-2.4009278787090644, ||grad||_inf = 9.335e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -2.4009278787090644
+    G: 1.8543912651588855e-08
+    Residual solve failed.
+    Surface is self-intersecting.
+NEWTON solve - False  iter=40, iota=-2.4009356824390533, ||grad||_inf = 4.508e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -2.4009356824390533
+    G: 1.8536603077002503e-08
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=74, iota=-453934982.8896678090095520, ||grad||_inf = 3.448e+08
+BFGS solve - False  iter=74, iota=-453934982.8896678090095520, ||grad||_inf = 3.448e+08
+NEWTON solve - False  iter=40, iota=-2.4009278787090644, ||grad||_inf = 9.335e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -2.4009278787090644
+    G: 1.8543912651588855e-08
+    Residual solve failed.
+    Surface is self-intersecting.
+NEWTON solve - False  iter=40, iota=-2.4009278787090644, ||grad||_inf = 9.335e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -2.4009278787090644
+    G: 1.8543912651588855e-08
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=74, iota=-453934982.8896678090095520, ||grad||_inf = 3.448e+08
+BFGS solve - False  iter=1035, iota=0.4034781887780194, ||grad||_inf = 8.134e+01
+BFGS solve - False  iter=74, iota=-453934982.8896678090095520, ||grad||_inf = 3.448e+08
+NEWTON solve - False  iter=40, iota=-15.2875095243120143, ||grad||_inf = 2.001e+09
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -15.287509524312014
+    G: -3.8820066416772447
+    Residual solve failed.
+    Surface is self-intersecting.
+NEWTON solve - False  iter=40, iota=-2.4009278787090644, ||grad||_inf = 9.335e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -2.4009278787090644
+    G: 1.8543912651588855e-08
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=74, iota=-453934982.8896678090095520, ||grad||_inf = 3.448e+08
+NEWTON solve - False  iter=40, iota=-2.4009278787090644, ||grad||_inf = 9.335e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -2.4009278787090644
+    G: 1.8543912651588855e-08
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=74, iota=-453934982.8896678090095520, ||grad||_inf = 3.448e+08
+BFGS solve - False  iter=716, iota=0.6152863988445577, ||grad||_inf = 1.359e+04
+NEWTON solve - False  iter=40, iota=-2.4009278787090644, ||grad||_inf = 9.335e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -2.4009278787090644
+    G: 1.8543912651588855e-08
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=74, iota=-453934982.8896678090095520, ||grad||_inf = 3.448e+08
+NEWTON solve - False  iter=40, iota=-2.4009278787090644, ||grad||_inf = 9.335e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -2.4009278787090644
+    G: 1.8543912651588855e-08
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=74, iota=-453934982.8896678090095520, ||grad||_inf = 3.448e+08
+NEWTON solve - False  iter=40, iota=-630.6798815788065440, ||grad||_inf = 1.150e+12
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -630.6798815788065
+    G: -99.00082638601975
+    Residual solve failed.
+    Surface is self-intersecting.
+NEWTON solve - False  iter=40, iota=-2.4009278787090644, ||grad||_inf = 9.335e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -2.4009278787090644
+    G: 1.8543912651588855e-08
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=74, iota=-453934982.8896678090095520, ||grad||_inf = 3.448e+08
+NEWTON solve - False  iter=40, iota=-2.4009278787090644, ||grad||_inf = 9.335e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -2.4009278787090644
+    G: 1.8543912651588855e-08
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=74, iota=-453934982.8896678090095520, ||grad||_inf = 3.448e+08
+BFGS solve - False  iter=974, iota=0.3338230634594732, ||grad||_inf = 4.300e+03
+NEWTON solve - False  iter=40, iota=-2.4009278787090644, ||grad||_inf = 9.335e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -2.4009278787090644
+    G: 1.8543912651588855e-08
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=74, iota=-453934982.8896678090095520, ||grad||_inf = 3.448e+08
+NEWTON solve - False  iter=40, iota=-2.4009278787090644, ||grad||_inf = 9.335e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -2.4009278787090644
+    G: 1.8543912651588855e-08
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=74, iota=-453934982.8896678090095520, ||grad||_inf = 3.448e+08
+NEWTON solve - False  iter=40, iota=-5.4315725392035601, ||grad||_inf = 3.788e+05
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -5.43157253920356
+    G: 2.5940303061755774
+    Residual solve failed.
+    Surface is self-intersecting.
+NEWTON solve - False  iter=40, iota=-2.4009278787090644, ||grad||_inf = 9.335e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -2.4009278787090644
+    G: 1.8543912651588855e-08
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=74, iota=-453934982.8896678090095520, ||grad||_inf = 3.448e+08
+BFGS solve - False  iter=744, iota=0.4839761045901256, ||grad||_inf = 2.411e+04
+NEWTON solve - False  iter=40, iota=-2.4009278787090644, ||grad||_inf = 9.335e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -2.4009278787090644
+    G: 1.8543912651588855e-08
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=74, iota=-453934982.8896678090095520, ||grad||_inf = 3.448e+08
+NEWTON solve - False  iter=40, iota=-2.4009278787090644, ||grad||_inf = 9.335e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -2.4009278787090644
+    G: 1.8543912651588855e-08
+    Residual solve failed.
+    Surface is self-intersecting.
+NEWTON solve - False  iter=40, iota=12163592.4577669017016888, ||grad||_inf = 1.970e+11
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: 12163592.457766902
+    G: -2512.381168656867
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=74, iota=-453934982.8896678090095520, ||grad||_inf = 3.448e+08
+NEWTON solve - False  iter=40, iota=-2.4009278787090644, ||grad||_inf = 9.335e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -2.4009278787090644
+    G: 1.8543912651588855e-08
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=74, iota=-453934982.8896678090095520, ||grad||_inf = 3.448e+08
+NEWTON solve - False  iter=40, iota=-2.4009278787090644, ||grad||_inf = 9.335e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -2.4009278787090644
+    G: 1.8543912651588855e-08
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=74, iota=-453934982.8896678090095520, ||grad||_inf = 3.448e+08
+NEWTON solve - False  iter=40, iota=-2.4009278787090644, ||grad||_inf = 9.335e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -2.4009278787090644
+    G: 1.8543912651588855e-08
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=1266, iota=0.1866501468971108, ||grad||_inf = 6.801e+03
+BFGS solve - False  iter=74, iota=-453934982.8896678090095520, ||grad||_inf = 3.448e+08
+NEWTON solve - False  iter=40, iota=-2.4009278787090644, ||grad||_inf = 9.335e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -2.4009278787090644
+    G: 1.8543912651588855e-08
+    Residual solve failed.
+    Surface is self-intersecting.
+NEWTON solve - False  iter=40, iota=1792.9683239629562195, ||grad||_inf = 6.704e+12
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: 1792.9683239629562
+    G: -616.5515918130698
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=74, iota=-453934982.8896678090095520, ||grad||_inf = 3.448e+08
+NEWTON solve - False  iter=40, iota=-2.4009278787090644, ||grad||_inf = 9.335e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -2.4009278787090644
+    G: 1.8543912651588855e-08
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=74, iota=-453934982.8896678090095520, ||grad||_inf = 3.448e+08
+BFGS solve - False  iter=561, iota=-0.1606626505599721, ||grad||_inf = 2.524e+03
+NEWTON solve - False  iter=40, iota=-2.4009278787090644, ||grad||_inf = 9.335e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -2.4009278787090644
+    G: 1.8543912651588855e-08
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=74, iota=-453934982.8896678090095520, ||grad||_inf = 3.448e+08
+NEWTON solve - False  iter=40, iota=-2.4009278787090644, ||grad||_inf = 9.335e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -2.4009278787090644
+    G: 1.8543912651588855e-08
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=74, iota=-453934982.8896678090095520, ||grad||_inf = 3.448e+08
+NEWTON solve - False  iter=40, iota=1960.6953441232453770, ||grad||_inf = 2.879e+14
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: 1960.6953441232454
+    G: -579.7857203075148
+    Residual solve failed.
+    Surface is self-intersecting.
+NEWTON solve - False  iter=40, iota=-2.4009278787090644, ||grad||_inf = 9.335e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -2.4009278787090644
+    G: 1.8543912651588855e-08
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=74, iota=-453934982.8896678090095520, ||grad||_inf = 3.448e+08
+BFGS solve - False  iter=529, iota=0.6768113121648613, ||grad||_inf = 2.980e+04
+NEWTON solve - False  iter=40, iota=-2.4009278787090644, ||grad||_inf = 9.335e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -2.4009278787090644
+    G: 1.8543912651588855e-08
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=74, iota=-453934982.8896678090095520, ||grad||_inf = 3.448e+08
+NEWTON solve - False  iter=40, iota=87683436.9304181635379791, ||grad||_inf = 1.304e+18
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: 87683436.93041816
+    G: 1178058.696617547
+    Residual solve failed.
+    Surface is self-intersecting.
+NEWTON solve - False  iter=40, iota=-2.4009278787090644, ||grad||_inf = 9.335e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -2.4009278787090644
+    G: 1.8543912651588855e-08
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=74, iota=-453934982.8896678090095520, ||grad||_inf = 3.448e+08
+NEWTON solve - False  iter=40, iota=-2.4009278787090644, ||grad||_inf = 9.335e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -2.4009278787090644
+    G: 1.8543912651588855e-08
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=74, iota=-453934982.8896678090095520, ||grad||_inf = 3.448e+08
+BFGS solve - False  iter=392, iota=-0.1214303892969521, ||grad||_inf = 6.534e+04
+NEWTON solve - False  iter=40, iota=-2.4009278787090644, ||grad||_inf = 9.335e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -2.4009278787090644
+    G: 1.8543912651588855e-08
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=74, iota=-453934982.8896678090095520, ||grad||_inf = 3.448e+08
+NEWTON solve - False  iter=40, iota=11.1402874778088776, ||grad||_inf = 4.051e+06
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: 11.140287477808878
+    G: -11.15015588107018
+    Residual solve failed.
+    Surface is self-intersecting.
+NEWTON solve - False  iter=40, iota=-2.4009278787090644, ||grad||_inf = 9.335e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -2.4009278787090644
+    G: 1.8543912651588855e-08
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=74, iota=-453934982.8896678090095520, ||grad||_inf = 3.448e+08
+BFGS solve - False  iter=389, iota=0.6201946679729662, ||grad||_inf = 3.115e+04
+NEWTON solve - False  iter=40, iota=-2.4009278787090644, ||grad||_inf = 9.335e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -2.4009278787090644
+    G: 1.8543912651588855e-08
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=74, iota=-453934982.8896678090095520, ||grad||_inf = 3.448e+08
+NEWTON solve - False  iter=40, iota=-2.4009278787090644, ||grad||_inf = 9.335e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -2.4009278787090644
+    G: 1.8543912651588855e-08
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=74, iota=-453934982.8896678090095520, ||grad||_inf = 3.448e+08
+NEWTON solve - False  iter=40, iota=-13362601.9810759183019400, ||grad||_inf = 8.246e+16
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -13362601.981075918
+    G: -250749.09385108156
+    Residual solve failed.
+    Surface is self-intersecting.
+NEWTON solve - False  iter=40, iota=-2.4009278787090644, ||grad||_inf = 9.335e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -2.4009278787090644
+    G: 1.8543912651588855e-08
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=485, iota=0.1760204391093960, ||grad||_inf = 7.853e+03
+BFGS solve - False  iter=74, iota=-453934982.8896678090095520, ||grad||_inf = 3.448e+08
+NEWTON solve - False  iter=40, iota=-2.4009278787090644, ||grad||_inf = 9.335e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -2.4009278787090644
+    G: 1.8543912651588855e-08
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=74, iota=-453934982.8896678090095520, ||grad||_inf = 3.448e+08
+NEWTON solve - False  iter=40, iota=311.9016971583857867, ||grad||_inf = 8.974e+09
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: 311.9016971583858
+    G: 16.545239964691064
+    Residual solve failed.
+    Surface is self-intersecting.
+NEWTON solve - False  iter=40, iota=-2.4009278787090644, ||grad||_inf = 9.335e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -2.4009278787090644
+    G: 1.8543912651588855e-08
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=74, iota=-453934982.8896678090095520, ||grad||_inf = 3.448e+08
+NEWTON solve - False  iter=40, iota=-2.4009278787090644, ||grad||_inf = 9.335e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -2.4009278787090644
+    G: 1.8543912651588855e-08
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=74, iota=-453934982.8896678090095520, ||grad||_inf = 3.448e+08
+NEWTON solve - False  iter=40, iota=-2.4009278787090644, ||grad||_inf = 9.335e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -2.4009278787090644
+    G: 1.8543912651588855e-08
+    Residual solve failed.
+    Surface is self-intersecting.
+NEWTON solve - False  iter=40, iota=-2.4009278787090644, ||grad||_inf = 9.335e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -2.4009278787090644
+    G: 1.8543912651588855e-08
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=74, iota=-453934982.8896678090095520, ||grad||_inf = 3.448e+08
+BFGS solve - False  iter=1276, iota=0.2073588288963378, ||grad||_inf = 7.534e+02
+BFGS solve - False  iter=74, iota=-453934982.8896678090095520, ||grad||_inf = 3.448e+08
+NEWTON solve - False  iter=40, iota=47.1221298205444654, ||grad||_inf = 9.155e+08
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: 47.122129820544465
+    G: -10.655935353150568
+    Residual solve failed.
+    Surface is self-intersecting.
+NEWTON solve - False  iter=40, iota=-2.4009278787090644, ||grad||_inf = 9.335e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -2.4009278787090644
+    G: 1.8543912651588855e-08
+    Residual solve failed.
+    Surface is self-intersecting.
+NEWTON solve - False  iter=40, iota=-2.4009278787090644, ||grad||_inf = 9.335e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -2.4009278787090644
+    G: 1.8543912651588855e-08
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=74, iota=-453934982.8896678090095520, ||grad||_inf = 3.448e+08
+BFGS solve - False  iter=74, iota=-453934982.8896678090095520, ||grad||_inf = 3.448e+08
+BFGS solve - False  iter=519, iota=0.7526848583048640, ||grad||_inf = 5.300e+03
+NEWTON solve - False  iter=40, iota=-2.4009278787090644, ||grad||_inf = 9.335e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -2.4009278787090644
+    G: 1.8543912651588855e-08
+    Residual solve failed.
+    Surface is self-intersecting.
+NEWTON solve - False  iter=40, iota=-2.4009278787090644, ||grad||_inf = 9.335e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -2.4009278787090644
+    G: 1.8543912651588855e-08
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=74, iota=-453934982.8896678090095520, ||grad||_inf = 3.448e+08
+BFGS solve - False  iter=74, iota=-453934982.8896678090095520, ||grad||_inf = 3.448e+08
+NEWTON solve - False  iter=40, iota=9.9397208606086149, ||grad||_inf = 3.438e+07
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: 9.939720860608615
+    G: 20.680538008814537
+    Residual solve failed.
+    Surface is self-intersecting.
+NEWTON solve - False  iter=40, iota=-2.4009278787090644, ||grad||_inf = 9.335e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -2.4009278787090644
+    G: 1.8543912651588855e-08
+    Residual solve failed.
+    Surface is self-intersecting.
+NEWTON solve - False  iter=40, iota=-2.4009278787090644, ||grad||_inf = 9.335e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -2.4009278787090644
+    G: 1.8543912651588855e-08
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=74, iota=-453934982.8896678090095520, ||grad||_inf = 3.448e+08
+BFGS solve - False  iter=168, iota=-453934982.8896433115005493, ||grad||_inf = 1.064e+08
+BFGS solve - False  iter=1022, iota=0.6068516104903138, ||grad||_inf = 1.473e+02
+NEWTON solve - False  iter=40, iota=-2.4009278787090644, ||grad||_inf = 9.335e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -2.4009278787090644
+    G: 1.8543912651588855e-08
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=74, iota=-453934982.8896678090095520, ||grad||_inf = 3.448e+08
+NEWTON solve - False  iter=40, iota=-0.8395318599062042, ||grad||_inf = 7.706e+01
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -0.8395318599062042
+    G: -3.2186538655827934e-09
+    Residual solve failed.
+    Surface is self-intersecting.
+NEWTON solve - False  iter=40, iota=-56044.0754384401443531, ||grad||_inf = 3.760e+15
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -56044.075438440144
+    G: 24599.27289367582
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=77, iota=-453934982.8896600604057312, ||grad||_inf = 7.570e+08
+NEWTON solve - False  iter=40, iota=-2.4009278787090644, ||grad||_inf = 9.335e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -2.4009278787090644
+    G: 1.8543912651588855e-08
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=168, iota=-453934982.8896433115005493, ||grad||_inf = 1.064e+08
+BFGS solve - False  iter=867, iota=0.1620710719326440, ||grad||_inf = 1.330e+03
+NEWTON solve - False  iter=40, iota=-0.2686009505094797, ||grad||_inf = 2.610e+03
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -0.2686009505094797
+    G: 1.3642830795844144e-09
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=183, iota=-453934982.8896539807319641, ||grad||_inf = 2.745e+08
+NEWTON solve - False  iter=40, iota=-0.8395318599062042, ||grad||_inf = 7.706e+01
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -0.8395318599062042
+    G: -3.2186538655827934e-09
+    Residual solve failed.
+    Surface is self-intersecting.
+NEWTON solve - False  iter=40, iota=-6166.3033356722598910, ||grad||_inf = 3.610e+09
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -6166.30333567226
+    G: 68.80360323797163
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=77, iota=-453934982.8896600604057312, ||grad||_inf = 7.570e+08
+NEWTON solve - False  iter=40, iota=-0.7900884065305370, ||grad||_inf = 4.965e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -0.790088406530537
+    G: -4.1146287961835034e-10
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=115, iota=-453934982.8896591663360596, ||grad||_inf = 1.340e+09
+NEWTON solve - False  iter=40, iota=-0.2686009505094797, ||grad||_inf = 2.610e+03
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -0.2686009505094797
+    G: 1.3642830795844144e-09
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=183, iota=-453934982.8896539807319641, ||grad||_inf = 2.745e+08
+BFGS solve - False  iter=1500, iota=0.5197784853751243, ||grad||_inf = 3.877e+01
+NEWTON solve - False  iter=40, iota=-0.9360689460737719, ||grad||_inf = 2.835e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -0.9360689460737719
+    G: 2.0427337875082565e-08
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=88, iota=-453934982.8896678686141968, ||grad||_inf = 2.322e+08
+NEWTON solve - False  iter=40, iota=-0.7900884065305370, ||grad||_inf = 4.965e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -0.790088406530537
+    G: -4.1146287961835034e-10
+    Residual solve failed.
+    Surface is self-intersecting.
+NEWTON solve - False  iter=40, iota=26722.6044705695931043, ||grad||_inf = 7.808e+12
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: 26722.604470569593
+    G: 4707.093428059345
+    Residual solve failed.
+    Surface is self-intersecting.
+Desired error not necessarily achieved due to precision loss.
+Optimized Boozer surface successfully saved to: /burg-archive/home/tg2998/simsopt/examples/outputs/TG_single_stage_outputs/optimized_boozer_surface_0.675.json
+BFGS solve - False  iter=115, iota=-453934982.8896591663360596, ||grad||_inf = 1.340e+09
+NEWTON solve - False  iter=40, iota=-0.2709748974360008, ||grad||_inf = 7.158e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -0.2709748974360008
+    G: -2.3552109518673214e-09
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=71, iota=-453934982.8896684646606445, ||grad||_inf = 8.079e+08
+NEWTON solve - False  iter=40, iota=-0.9360689460737719, ||grad||_inf = 2.835e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -0.9360689460737719
+    G: 2.0427337875082565e-08
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=88, iota=-453934982.8896678686141968, ||grad||_inf = 2.322e+08
+NEWTON solve - False  iter=40, iota=-1.5878485055423017, ||grad||_inf = 8.050e+00
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -1.5878485055423017
+    G: 1.464689912204315e-08
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=77, iota=-453934982.8896659612655640, ||grad||_inf = 9.573e+07
+NEWTON solve - False  iter=40, iota=-0.2709748974360008, ||grad||_inf = 7.158e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -0.2709748974360008
+    G: -2.3552109518673214e-09
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=71, iota=-453934982.8896684646606445, ||grad||_inf = 8.079e+08
+NEWTON solve - False  iter=40, iota=-1.1159017445603119, ||grad||_inf = 8.463e+01
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -1.1159017445603119
+    G: 1.0651496943599893e-08
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=104, iota=-453934982.8896678090095520, ||grad||_inf = 2.960e+08
+NEWTON solve - False  iter=40, iota=-1.5878485055423017, ||grad||_inf = 8.050e+00
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -1.5878485055423017
+    G: 1.464689912204315e-08
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=77, iota=-453934982.8896659612655640, ||grad||_inf = 9.573e+07
+NEWTON solve - False  iter=40, iota=-0.8086598298059364, ||grad||_inf = 4.093e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -0.8086598298059364
+    G: 2.8518102355894946e-09
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=109, iota=-453934982.8896648883819580, ||grad||_inf = 3.429e+07
+NEWTON solve - False  iter=40, iota=-1.1159017445603119, ||grad||_inf = 8.463e+01
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -1.1159017445603119
+    G: 1.0651496943599893e-08
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=104, iota=-453934982.8896678090095520, ||grad||_inf = 2.960e+08
+NEWTON solve - False  iter=40, iota=-1.5203222724357017, ||grad||_inf = 1.361e+03
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -1.5203222724357017
+    G: -2.2343146401906162e-09
+    Residual solve failed.
+    Surface is self-intersecting.
+NEWTON solve - False  iter=40, iota=-0.8086598298059364, ||grad||_inf = 4.093e+02
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -0.8086598298059364
+    G: 2.8518102355894946e-09
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=105, iota=-453934982.8896666765213013, ||grad||_inf = 6.696e+06
+BFGS solve - False  iter=109, iota=-453934982.8896648883819580, ||grad||_inf = 3.429e+07
+NEWTON solve - False  iter=40, iota=-0.9454265989762435, ||grad||_inf = 8.162e-01
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -0.9454265989762435
+    G: 2.5177041680478008e-08
+    Residual solve failed.
+    Surface is self-intersecting.
+NEWTON solve - False  iter=40, iota=-1.5203222724357017, ||grad||_inf = 1.361e+03
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -1.5203222724357017
+    G: -2.2343146401906162e-09
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=90, iota=-453934982.8896684050559998, ||grad||_inf = 8.923e+07
+BFGS solve - False  iter=105, iota=-453934982.8896666765213013, ||grad||_inf = 6.696e+06
+NEWTON solve - False  iter=40, iota=-0.9454265989762435, ||grad||_inf = 8.162e-01
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -0.9454265989762435
+    G: 2.5177041680478008e-08
+    Residual solve failed.
+    Surface is self-intersecting.
+NEWTON solve - False  iter=40, iota=-1.3140440448712960, ||grad||_inf = 1.225e+03
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -1.314044044871296
+    G: 5.076865341289238e-09
+    Residual solve failed.
+    Surface is self-intersecting.
+BFGS solve - False  iter=90, iota=-453934982.8896684050559998, ||grad||_inf = 8.923e+07
+BFGS solve - False  iter=125, iota=-453934982.8896673321723938, ||grad||_inf = 2.532e+08
+NEWTON solve - False  iter=40, iota=-1.3140440448712960, ||grad||_inf = 1.225e+03
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -1.314044044871296
+    G: 5.076865341289238e-09
+    Residual solve failed.
+    Surface is self-intersecting.
+NEWTON solve - False  iter=40, iota=-1.1806676273901577, ||grad||_inf = 3.925e-01
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -1.1806676273901577
+    G: 4.9796987938045724e-09
+    Residual solve failed.
+    Surface is self-intersecting.
+Desired error not necessarily achieved due to precision loss.
+Optimized Boozer surface successfully saved to: /burg-archive/home/tg2998/simsopt/examples/outputs/TG_single_stage_outputs/optimized_boozer_surface_0.7.json
+BFGS solve - False  iter=125, iota=-453934982.8896673321723938, ||grad||_inf = 2.532e+08
+NEWTON solve - False  iter=40, iota=-1.1806676273901577, ||grad||_inf = 3.925e-01
+    Error checking self-intersection: An error occured during calculation of the cross section.                          This happens when a surface 'goes back' on itself.                         The cylindrical angle is assumed to be monotonically increasing                         with varphi, which is not the case for this surface.
+Solve success: False
+    iota: -1.1806676273901577
+    G: 4.9796987938045724e-09
+    Residual solve failed.
+    Surface is self-intersecting.
+Desired error not necessarily achieved due to precision loss.
+Optimized Boozer surface successfully saved to: /burg-archive/home/tg2998/simsopt/examples/outputs/TG_single_stage_outputs/optimized_boozer_surface_0.7.json

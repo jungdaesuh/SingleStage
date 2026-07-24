@@ -1,0 +1,15 @@
+An NVIDIA GPU may be present on this machine, but a CUDA-enabled jaxlib is not installed. Falling back to cpu.
+Traceback (most recent call last):
+  File "/burg-archive/home/tg2998/simsopt/examples/dipoles/single_stage_dipoles.py", line 859, in <module>
+    step_gtol = 0.1 * GTOL if is_highest_res else GTOL
+                              ^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        resume_this_step=resume_this_step,
+    
+  File "/burg-archive/home/tg2998/simsopt/examples/dipoles/single_stage_dipoles.py", line 425, in optimize_one_iota
+    boozer_surface = initialize_boozer_surface(
+        surf, mpol, ntor, bs, VOL_TARGET, BOOZER_CW, iota_target, G0,
+    )
+  File "/burg-archive/home/tg2998/simsopt/examples/dipoles/boozer_functions.py", line 167, in initialize_boozer_surface
+    raise RuntimeError("Boozer solver did not converge")
+RuntimeError: Boozer solver did not converge

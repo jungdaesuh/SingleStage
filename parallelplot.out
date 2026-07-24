@@ -1,0 +1,67 @@
+Running on 32 cores...
+Processing TF_A = 0.3, VV = 0.04
+Processing TF_A = 0.3, VV = 0.08Processing TF_A = 0.3, VV = 0.12
+
+Processing TF_A = 0.3, VV = 0.16
+Processing TF_A = 0.3, VV = 0.2
+Processing TF_A = 0.3, VV = 0.24
+Processing TF_A = 0.325, VV = 0.04
+Processing TF_A = 0.325, VV = 0.08
+Processing TF_A = 0.325, VV = 0.12
+Processing TF_A = 0.325, VV = 0.16
+Processing TF_A = 0.325, VV = 0.2
+Processing TF_A = 0.325, VV = 0.24
+Processing TF_A = 0.35, VV = 0.04
+Processing TF_A = 0.35, VV = 0.08
+Processing TF_A = 0.35, VV = 0.12
+Processing TF_A = 0.35, VV = 0.16
+Processing TF_A = 0.35, VV = 0.2
+Processing TF_A = 0.35, VV = 0.24
+Processing TF_A = 0.375, VV = 0.04
+Processing TF_A = 0.375, VV = 0.08
+Processing TF_A = 0.375, VV = 0.12
+Processing TF_A = 0.375, VV = 0.16
+Processing TF_A = 0.375, VV = 0.2
+Processing TF_A = 0.375, VV = 0.24
+Processing TF_A = 0.4, VV = 0.04
+Processing TF_A = 0.4, VV = 0.08
+Processing TF_A = 0.4, VV = 0.12
+Processing TF_A = 0.4, VV = 0.16
+Processing TF_A = 0.4, VV = 0.24
+Processing TF_A = 0.425, VV = 0.04
+Processing TF_A = 0.425, VV = 0.08
+Processing TF_A = 0.4, VV = 0.2
+BFGS solve - True  iter=192, iota=0.0430781196478567, ||grad||_inf = 8.203e-11
+BFGS solve - True  iter=194, iota=0.0403219950258728, ||grad||_inf = 6.039e-11
+BFGS solve - True  iter=194, iota=0.0402851462761881, ||grad||_inf = 4.346e-11
+BFGS solve - True  iter=202, iota=0.0357270198279028, ||grad||_inf = 4.958e-11
+BFGS solve - True  iter=199, iota=0.0382088694260072, ||grad||_inf = 2.903e-11
+NEWTON solve - True  iter=1, iota=0.0430781193600398, ||grad||_inf = 2.413e-15
+Processing TF_A = 0.425, VV = 0.12
+NEWTON solve - True  iter=1, iota=0.0403219951330706, ||grad||_inf = 1.016e-14
+Processing TF_A = 0.425, VV = 0.16
+NEWTON solve - True  iter=1, iota=0.0402851463341830, ||grad||_inf = 8.691e-16
+Processing TF_A = 0.425, VV = 0.2
+NEWTON solve - True  iter=1, iota=0.0357270199093670, ||grad||_inf = 1.618e-14
+Processing TF_A = 0.425, VV = 0.24
+NEWTON solve - True  iter=1, iota=0.0382088694585751, ||grad||_inf = 1.010e-14
+Processing TF_A = 0.45, VV = 0.04
+BFGS solve - False  iter=202, iota=0.0373328062895788, ||grad||_inf = 2.432e-10
+NEWTON solve - True  iter=1, iota=0.0373328061353125, ||grad||_inf = 1.416e-15
+Processing TF_A = 0.45, VV = 0.08
+BFGS solve - False  iter=197, iota=0.0419015118760358, ||grad||_inf = 2.709e-10
+NEWTON solve - True  iter=1, iota=0.0419015117032545, ||grad||_inf = 1.200e-14
+Processing TF_A = 0.45, VV = 0.12
+BFGS solve - False  iter=196, iota=0.0352187838547030, ||grad||_inf = 9.729e-10
+BFGS solve - True  iter=251, iota=0.0011342822168258, ||grad||_inf = 7.143e-11
+NEWTON solve - True  iter=1, iota=0.0352187850685828, ||grad||_inf = 3.126e-14
+Processing TF_A = 0.45, VV = 0.16
+BFGS solve - False  iter=197, iota=0.0366638459878019, ||grad||_inf = 1.150e-09
+NEWTON solve - True  iter=1, iota=0.0011342822367737, ||grad||_inf = 1.030e-14
+Processing TF_A = 0.45, VV = 0.2
+NEWTON solve - True  iter=1, iota=0.0366638445798009, ||grad||_inf = 1.597e-14
+Processing TF_A = 0.45, VV = 0.24
+BFGS solve - True  iter=281, iota=0.0133586443481093, ||grad||_inf = 4.165e-11
+NEWTON solve - True  iter=1, iota=0.0133586442990493, ||grad||_inf = 6.580e-15
+Processing TF_A = 0.475, VV = 0.04
+BFGS solve - True  iter=289, iota=0.0135262711412048, ||grad||_inf = 6.142e-11

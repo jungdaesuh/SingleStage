@@ -1,0 +1,2 @@
+slurmstepd: error: *** JOB 8700293 ON g264 CANCELLED AT 2026-07-02T13:32:05 ***
+An NVIDIA GPU may be present on this machine, but a CUDA-enabled jaxlib is not installed. Falling back to cpu.

@@ -1,0 +1,2 @@
+An NVIDIA GPU may be present on this machine, but a CUDA-enabled jaxlib is not installed. Falling back to cpu.
+/cm/local/apps/slurm/var/spool/job8905473/slurm_script: line 22: 66030 Killed                  /burg-archive/home/tg2998/simsopt/venv/bin/python -u /burg-archive/home/tg2998/simsopt/examples/dipoles/TGpoincaresinglestage.py d1 d2

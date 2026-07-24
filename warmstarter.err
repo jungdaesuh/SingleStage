@@ -1,0 +1,49 @@
+Traceback (most recent call last):
+  File "/burg-archive/home/tg2998/simsopt/examples/dipoles/warmstarter.py", line 97, in <module>
+    J_cur, R0s_cur, r_rotations_cur, tf_currents_cur, wp_currents_cur, BdotN_norm_max_cur, BdotN_norm_avg_cur, BdotN_norm, bs, surf_full, results = optimize(fil_distance=fil_distance, half_per_distance=half_per_distance, dipole_radius=dipole_radius, # dipole parameters
+                                                                                                                                                    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+            VV_a=VV_a, VV_b=VV_b, VV_R0=VV_R0,  # vessel parameters
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+            CURRENT_THRESHOLD=CURRENT_THRESHOLD, CURRENT_WEIGHT=CURRENT_WEIGHT,
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+            output_dir=run_dir, verbose=verbose, wp_npol_target=10, wp_ntor_target=8)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/burg-archive/home/tg2998/simsopt/examples/dipoles/optimize.py", line 159, in optimize
+    relBfinal_norm, mean_abs_relBfinal_norm, max_relBfinal_norm = plot_relBfinal_norm_modB(bs, surf, output_dir, "optimized", plot_config)
+                                                                  ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/burg-archive/home/tg2998/simsopt/examples/dipoles/helper_functions.py", line 661, in plot_relBfinal_norm_modB
+    plt.savefig(os.path.join(output_dir, f'relBn_{label}.png'), dpi=plot_config.dpi)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/burg-archive/home/tg2998/simsopt/venv/lib/python3.13/site-packages/matplotlib/pyplot.py", line 1346, in savefig
+    res = fig.savefig(fname, **kwargs)  # type: ignore[func-returns-value]
+  File "/burg-archive/home/tg2998/simsopt/venv/lib/python3.13/site-packages/matplotlib/figure.py", line 3515, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/burg-archive/home/tg2998/simsopt/venv/lib/python3.13/site-packages/matplotlib/backend_bases.py", line 2281, in print_figure
+    result = print_method(
+        filename,
+    ...<3 lines>...
+        bbox_inches_restore=_bbox_inches_restore,
+        **kwargs)
+  File "/burg-archive/home/tg2998/simsopt/venv/lib/python3.13/site-packages/matplotlib/backend_bases.py", line 2138, in <lambda>
+    print_method = functools.wraps(meth)(lambda *args, **kwargs: meth(
+                                                                 ~~~~^
+        *args, **{k: v for k, v in kwargs.items() if k not in skip}))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/burg-archive/home/tg2998/simsopt/venv/lib/python3.13/site-packages/matplotlib/backends/backend_agg.py", line 537, in print_png
+    self._print_pil(filename_or_obj, "png", pil_kwargs, metadata)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/burg-archive/home/tg2998/simsopt/venv/lib/python3.13/site-packages/matplotlib/backends/backend_agg.py", line 486, in _print_pil
+    mpl.image.imsave(
+    ~~~~~~~~~~~~~~~~^
+        filename_or_obj, self.buffer_rgba(), format=fmt, origin="upper",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        dpi=self.figure.dpi, metadata=metadata, pil_kwargs=pil_kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/burg-archive/home/tg2998/simsopt/venv/lib/python3.13/site-packages/matplotlib/image.py", line 1722, in imsave
+    image.save(fname, **pil_kwargs)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/burg-archive/home/tg2998/simsopt/venv/lib/python3.13/site-packages/PIL/Image.py", line 2708, in save
+    fp = builtins.open(filename, "w+b")
+FileNotFoundError: [Errno 2] No such file or directory: '/burg-archive/home/tg2998/simsopt/examples/outputs/TG_warmstarter_stage2results_unfixed_True/TF_a_0.400/relBn_optimized.png'

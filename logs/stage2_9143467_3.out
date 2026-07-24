@@ -1,0 +1,499 @@
+=====================================
+Running TF_a = 0.375
+Job ID    = 9144457
+Array ID  = 3
+Node      = g245
+Start     = Tue Jul 21 19:31:36 EDT 2026
+=====================================
+Processing TF_A = 0.375
+Initialising Boozer Surface: 
+BFGS solve - True  iter=513, iota=0.0019094946668901, ||grad||_inf = 5.175e-11
+NEWTON solve - True  iter=1, iota=0.0019094947144051, ||grad||_inf = 1.114e-14
+Solve success: False
+    iota: 0.0019094947144050773
+    G: -3.1934077228506395
+    Surface is self-intersecting.
+Surface resolution: mpol=6, ntor=6
+BFGS solve - True  iter=0, iota=0.0019094947144051, ||grad||_inf = 1.114e-14
+NEWTON solve - True  iter=0, iota=0.0019094947144051, ||grad||_inf = 1.114e-14
+Solve success: False
+    iota: 0.0019094947144050773
+    G: -3.1934077228506395
+    Surface is self-intersecting.
+BFGS solve - False  iter=360, iota=0.0041853779706483, ||grad||_inf = 1.160e-10
+NEWTON solve - True  iter=1, iota=0.0041853779779319, ||grad||_inf = 2.189e-12
+Solve success: False
+    iota: 0.004185377977931855
+    G: -3.1934077228506395
+    Surface is self-intersecting.
+BFGS solve - False  iter=332, iota=0.0022366410208433, ||grad||_inf = 2.473e-10
+NEWTON solve - True  iter=1, iota=0.0022366410205917, ||grad||_inf = 8.103e-14
+Solve success: False
+    iota: 0.002236641020591727
+    G: -3.1934077228506395
+    Surface is self-intersecting.
+BFGS solve - False  iter=303, iota=0.0019617569684764, ||grad||_inf = 6.612e-10
+NEWTON solve - True  iter=1, iota=0.0019617569442670, ||grad||_inf = 1.011e-14
+Solve success: False
+    iota: 0.001961756944266956
+    G: -3.1934077228506395
+    Surface is self-intersecting.
+BFGS solve - False  iter=306, iota=0.0019198805911920, ||grad||_inf = 3.557e-10
+NEWTON solve - True  iter=1, iota=0.0019198806029994, ||grad||_inf = 3.221e-15
+Solve success: False
+    iota: 0.0019198806029994172
+    G: -3.1934077228506395
+    Surface is self-intersecting.
+BFGS solve - False  iter=288, iota=0.0019116543017612, ||grad||_inf = 2.756e-10
+NEWTON solve - True  iter=1, iota=0.0019116605483183, ||grad||_inf = 3.424e-12
+Solve success: False
+    iota: 0.0019116605483182956
+    G: -3.1934077228506395
+    Surface is self-intersecting.
+BFGS solve - False  iter=282, iota=0.0019099497299686, ||grad||_inf = 1.302e-10
+NEWTON solve - True  iter=1, iota=0.0019099510726014, ||grad||_inf = 1.475e-13
+Solve success: False
+    iota: 0.0019099510726014195
+    G: -3.1934077228506395
+    Surface is self-intersecting.
+BFGS solve - False  iter=254, iota=0.0019095841655513, ||grad||_inf = 5.708e-10
+NEWTON solve - True  iter=1, iota=0.0019095910841074, ||grad||_inf = 1.428e-12
+Solve success: False
+    iota: 0.0019095910841074363
+    G: -3.1934077228506395
+    Surface is self-intersecting.
+BFGS solve - False  iter=81, iota=0.0019095009539330, ||grad||_inf = 4.244e-09
+NEWTON solve - True  iter=1, iota=0.0019095150742838, ||grad||_inf = 1.824e-12
+Solve success: False
+    iota: 0.001909515074283849
+    G: -3.1934077228506395
+    Surface is self-intersecting.
+BFGS solve - False  iter=33, iota=0.0019094965817536, ||grad||_inf = 2.623e-09
+NEWTON solve - True  iter=1, iota=0.0019094990162790, ||grad||_inf = 2.340e-14
+Solve success: False
+    iota: 0.0019094990162790081
+    G: -3.1934077228506395
+    Surface is self-intersecting.
+BFGS solve - False  iter=17, iota=0.0019094949030499, ||grad||_inf = 1.310e-08
+NEWTON solve - True  iter=1, iota=0.0019094956233690, ||grad||_inf = 1.334e-14
+Solve success: False
+    iota: 0.0019094956233690306
+    G: -3.1934077228506395
+    Surface is self-intersecting.
+BFGS solve - False  iter=5, iota=0.0019094947152829, ||grad||_inf = 2.606e-09
+NEWTON solve - True  iter=1, iota=0.0019094949064656, ||grad||_inf = 1.230e-14
+Solve success: False
+    iota: 0.0019094949064655737
+    G: -3.1934077228506395
+    Surface is self-intersecting.
+BFGS solve - False  iter=1, iota=0.0019094947144030, ||grad||_inf = 1.822e-09
+NEWTON solve - True  iter=1, iota=0.0019094947549866, ||grad||_inf = 1.108e-14
+Solve success: False
+    iota: 0.0019094947549866174
+    G: -3.1934077228506395
+    Surface is self-intersecting.
+BFGS solve - False  iter=0, iota=0.0019094947144051, ||grad||_inf = 4.969e-10
+NEWTON solve - True  iter=1, iota=0.0019094947229798, ||grad||_inf = 5.292e-15
+Solve success: False
+    iota: 0.0019094947229798462
+    G: -3.1934077228506395
+    Surface is self-intersecting.
+BFGS solve - True  iter=1, iota=0.0019094947144050, ||grad||_inf = 9.278e-11
+NEWTON solve - True  iter=1, iota=0.0019094947162169, ||grad||_inf = 4.661e-15
+Solve success: False
+    iota: 0.0019094947162168632
+    G: -3.1934077228506395
+    Surface is self-intersecting.
+BFGS solve - True  iter=0, iota=0.0019094947144051, ||grad||_inf = 2.218e-11
+NEWTON solve - True  iter=1, iota=0.0019094947147878, ||grad||_inf = 4.380e-15
+Solve success: False
+    iota: 0.0019094947147878334
+    G: -3.1934077228506395
+    Surface is self-intersecting.
+BFGS solve - True  iter=0, iota=0.0019094947144051, ||grad||_inf = 4.687e-12
+NEWTON solve - True  iter=0, iota=0.0019094947144051, ||grad||_inf = 4.687e-12
+Solve success: False
+    iota: 0.0019094947144050773
+    G: -3.1934077228506395
+    Surface is self-intersecting.
+BFGS solve - True  iter=0, iota=0.0019094947144051, ||grad||_inf = 9.905e-13
+NEWTON solve - True  iter=0, iota=0.0019094947144051, ||grad||_inf = 9.905e-13
+Solve success: False
+    iota: 0.0019094947144050773
+    G: -3.1934077228506395
+    Surface is self-intersecting.
+BFGS solve - True  iter=0, iota=0.0019094947144051, ||grad||_inf = 2.094e-13
+NEWTON solve - True  iter=0, iota=0.0019094947144051, ||grad||_inf = 2.094e-13
+Solve success: False
+    iota: 0.0019094947144050773
+    G: -3.1934077228506395
+    Surface is self-intersecting.
+BFGS solve - True  iter=0, iota=0.0019094947144051, ||grad||_inf = 4.432e-14
+NEWTON solve - True  iter=0, iota=0.0019094947144051, ||grad||_inf = 4.432e-14
+Solve success: False
+    iota: 0.0019094947144050773
+    G: -3.1934077228506395
+    Surface is self-intersecting.
+BFGS solve - True  iter=0, iota=0.0019094947144051, ||grad||_inf = 7.920e-14
+NEWTON solve - True  iter=0, iota=0.0019094947144051, ||grad||_inf = 7.920e-14
+Solve success: False
+    iota: 0.0019094947144050773
+    G: -3.1934077228506395
+    Surface is self-intersecting.
+BFGS solve - True  iter=0, iota=0.0019094947144051, ||grad||_inf = 5.169e-14
+NEWTON solve - True  iter=0, iota=0.0019094947144051, ||grad||_inf = 5.169e-14
+Solve success: False
+    iota: 0.0019094947144050773
+    G: -3.1934077228506395
+    Surface is self-intersecting.
+BFGS solve - True  iter=0, iota=0.0019094947144051, ||grad||_inf = 5.750e-14
+NEWTON solve - True  iter=0, iota=0.0019094947144051, ||grad||_inf = 5.750e-14
+Solve success: False
+    iota: 0.0019094947144050773
+    G: -3.1934077228506395
+    Surface is self-intersecting.
+BFGS solve - True  iter=0, iota=0.0019094947144051, ||grad||_inf = 6.210e-14
+NEWTON solve - True  iter=0, iota=0.0019094947144051, ||grad||_inf = 6.210e-14
+Solve success: False
+    iota: 0.0019094947144050773
+    G: -3.1934077228506395
+    Surface is self-intersecting.
+BFGS solve - True  iter=0, iota=0.0019094947144051, ||grad||_inf = 6.571e-14
+NEWTON solve - True  iter=0, iota=0.0019094947144051, ||grad||_inf = 6.571e-14
+Solve success: False
+    iota: 0.0019094947144050773
+    G: -3.1934077228506395
+    Surface is self-intersecting.
+BFGS solve - True  iter=0, iota=0.0019094947144051, ||grad||_inf = 6.855e-14
+NEWTON solve - True  iter=0, iota=0.0019094947144051, ||grad||_inf = 6.855e-14
+Solve success: False
+    iota: 0.0019094947144050773
+    G: -3.1934077228506395
+    Surface is self-intersecting.
+BFGS solve - True  iter=0, iota=0.0019094947144051, ||grad||_inf = 6.630e-14
+NEWTON solve - True  iter=0, iota=0.0019094947144051, ||grad||_inf = 6.630e-14
+Solve success: False
+    iota: 0.0019094947144050773
+    G: -3.1934077228506395
+    Surface is self-intersecting.
+BFGS solve - True  iter=0, iota=0.0019094947144051, ||grad||_inf = 6.679e-14
+NEWTON solve - True  iter=0, iota=0.0019094947144051, ||grad||_inf = 6.679e-14
+Solve success: False
+    iota: 0.0019094947144050773
+    G: -3.1934077228506395
+    Surface is self-intersecting.
+BFGS solve - True  iter=0, iota=0.0019094947144051, ||grad||_inf = 6.641e-14
+NEWTON solve - True  iter=0, iota=0.0019094947144051, ||grad||_inf = 6.641e-14
+Solve success: False
+    iota: 0.0019094947144050773
+    G: -3.1934077228506395
+    Surface is self-intersecting.
+BFGS solve - True  iter=0, iota=0.0019094947144051, ||grad||_inf = 6.649e-14
+NEWTON solve - True  iter=0, iota=0.0019094947144051, ||grad||_inf = 6.649e-14
+Solve success: False
+    iota: 0.0019094947144050773
+    G: -3.1934077228506395
+    Surface is self-intersecting.
+BFGS solve - True  iter=0, iota=0.0019094947144051, ||grad||_inf = 6.643e-14
+NEWTON solve - True  iter=0, iota=0.0019094947144051, ||grad||_inf = 6.643e-14
+Solve success: False
+    iota: 0.0019094947144050773
+    G: -3.1934077228506395
+    Surface is self-intersecting.
+BFGS solve - True  iter=0, iota=0.0019094947144051, ||grad||_inf = 6.644e-14
+NEWTON solve - True  iter=0, iota=0.0019094947144051, ||grad||_inf = 6.644e-14
+Solve success: False
+    iota: 0.0019094947144050773
+    G: -3.1934077228506395
+    Surface is self-intersecting.
+BFGS solve - True  iter=0, iota=0.0019094947144051, ||grad||_inf = 6.644e-14
+NEWTON solve - True  iter=0, iota=0.0019094947144051, ||grad||_inf = 6.644e-14
+Solve success: False
+    iota: 0.0019094947144050773
+    G: -3.1934077228506395
+    Surface is self-intersecting.
+BFGS solve - True  iter=0, iota=0.0019094947144051, ||grad||_inf = 6.645e-14
+NEWTON solve - True  iter=0, iota=0.0019094947144051, ||grad||_inf = 6.645e-14
+Solve success: False
+    iota: 0.0019094947144050773
+    G: -3.1934077228506395
+    Surface is self-intersecting.
+BFGS solve - True  iter=0, iota=0.0019094947144051, ||grad||_inf = 6.647e-14
+NEWTON solve - True  iter=0, iota=0.0019094947144051, ||grad||_inf = 6.647e-14
+Solve success: False
+    iota: 0.0019094947144050773
+    G: -3.1934077228506395
+    Surface is self-intersecting.
+BFGS solve - True  iter=0, iota=0.0019094947144051, ||grad||_inf = 6.648e-14
+NEWTON solve - True  iter=0, iota=0.0019094947144051, ||grad||_inf = 6.648e-14
+Solve success: False
+    iota: 0.0019094947144050773
+    G: -3.1934077228506395
+    Surface is self-intersecting.
+BFGS solve - True  iter=0, iota=0.0019094947144051, ||grad||_inf = 6.648e-14
+NEWTON solve - True  iter=0, iota=0.0019094947144051, ||grad||_inf = 6.648e-14
+Solve success: False
+    iota: 0.0019094947144050773
+    G: -3.1934077228506395
+    Surface is self-intersecting.
+BFGS solve - True  iter=0, iota=0.0019094947144051, ||grad||_inf = 6.648e-14
+NEWTON solve - True  iter=0, iota=0.0019094947144051, ||grad||_inf = 6.648e-14
+Solve success: False
+    iota: 0.0019094947144050773
+    G: -3.1934077228506395
+    Surface is self-intersecting.
+BFGS solve - True  iter=0, iota=0.0019094947144051, ||grad||_inf = 6.648e-14
+NEWTON solve - True  iter=0, iota=0.0019094947144051, ||grad||_inf = 6.648e-14
+Solve success: False
+    iota: 0.0019094947144050773
+    G: -3.1934077228506395
+    Surface is self-intersecting.
+BFGS solve - True  iter=0, iota=0.0019094947144051, ||grad||_inf = 6.648e-14
+NEWTON solve - True  iter=0, iota=0.0019094947144051, ||grad||_inf = 6.648e-14
+Solve success: False
+    iota: 0.0019094947144050773
+    G: -3.1934077228506395
+    Surface is self-intersecting.
+BFGS solve - True  iter=0, iota=0.0019094947144051, ||grad||_inf = 6.648e-14
+NEWTON solve - True  iter=0, iota=0.0019094947144051, ||grad||_inf = 6.648e-14
+Solve success: False
+    iota: 0.0019094947144050773
+    G: -3.1934077228506395
+    Surface is self-intersecting.
+BFGS solve - True  iter=0, iota=0.0019094947144051, ||grad||_inf = 6.648e-14
+NEWTON solve - True  iter=0, iota=0.0019094947144051, ||grad||_inf = 6.648e-14
+Solve success: False
+    iota: 0.0019094947144050773
+    G: -3.1934077228506395
+    Surface is self-intersecting.
+BFGS solve - True  iter=0, iota=0.0019094947144051, ||grad||_inf = 6.648e-14
+NEWTON solve - True  iter=0, iota=0.0019094947144051, ||grad||_inf = 6.648e-14
+Solve success: False
+    iota: 0.0019094947144050773
+    G: -3.1934077228506395
+    Surface is self-intersecting.
+BFGS solve - True  iter=0, iota=0.0019094947144051, ||grad||_inf = 6.648e-14
+NEWTON solve - True  iter=0, iota=0.0019094947144051, ||grad||_inf = 6.648e-14
+Solve success: False
+    iota: 0.0019094947144050773
+    G: -3.1934077228506395
+    Surface is self-intersecting.
+BFGS solve - True  iter=0, iota=0.0019094947144051, ||grad||_inf = 6.648e-14
+NEWTON solve - True  iter=0, iota=0.0019094947144051, ||grad||_inf = 6.648e-14
+Solve success: False
+    iota: 0.0019094947144050773
+    G: -3.1934077228506395
+    Surface is self-intersecting.
+BFGS solve - True  iter=0, iota=0.0019094947144051, ||grad||_inf = 6.648e-14
+NEWTON solve - True  iter=0, iota=0.0019094947144051, ||grad||_inf = 6.648e-14
+Solve success: False
+    iota: 0.0019094947144050773
+    G: -3.1934077228506395
+    Surface is self-intersecting.
+BFGS solve - True  iter=0, iota=0.0019094947144051, ||grad||_inf = 6.648e-14
+NEWTON solve - True  iter=0, iota=0.0019094947144051, ||grad||_inf = 6.648e-14
+Solve success: False
+    iota: 0.0019094947144050773
+    G: -3.1934077228506395
+    Surface is self-intersecting.
+BFGS solve - True  iter=0, iota=0.0019094947144051, ||grad||_inf = 6.648e-14
+NEWTON solve - True  iter=0, iota=0.0019094947144051, ||grad||_inf = 6.648e-14
+Solve success: False
+    iota: 0.0019094947144050773
+    G: -3.1934077228506395
+    Surface is self-intersecting.
+BFGS solve - True  iter=0, iota=0.0019094947144051, ||grad||_inf = 6.648e-14
+NEWTON solve - True  iter=0, iota=0.0019094947144051, ||grad||_inf = 6.648e-14
+Solve success: False
+    iota: 0.0019094947144050773
+    G: -3.1934077228506395
+    Surface is self-intersecting.
+BFGS solve - True  iter=0, iota=0.0019094947144051, ||grad||_inf = 6.648e-14
+NEWTON solve - True  iter=0, iota=0.0019094947144051, ||grad||_inf = 6.648e-14
+Solve success: False
+    iota: 0.0019094947144050773
+    G: -3.1934077228506395
+    Surface is self-intersecting.
+BFGS solve - True  iter=0, iota=0.0019094947144051, ||grad||_inf = 6.648e-14
+NEWTON solve - True  iter=0, iota=0.0019094947144051, ||grad||_inf = 6.648e-14
+Solve success: False
+    iota: 0.0019094947144050773
+    G: -3.1934077228506395
+    Surface is self-intersecting.
+BFGS solve - True  iter=0, iota=0.0019094947144051, ||grad||_inf = 6.648e-14
+NEWTON solve - True  iter=0, iota=0.0019094947144051, ||grad||_inf = 6.648e-14
+Solve success: False
+    iota: 0.0019094947144050773
+    G: -3.1934077228506395
+    Surface is self-intersecting.
+BFGS solve - True  iter=0, iota=0.0019094947144051, ||grad||_inf = 6.648e-14
+NEWTON solve - True  iter=0, iota=0.0019094947144051, ||grad||_inf = 6.648e-14
+Solve success: False
+    iota: 0.0019094947144050773
+    G: -3.1934077228506395
+    Surface is self-intersecting.
+BFGS solve - True  iter=0, iota=0.0019094947144051, ||grad||_inf = 6.648e-14
+NEWTON solve - True  iter=0, iota=0.0019094947144051, ||grad||_inf = 6.648e-14
+Solve success: False
+    iota: 0.0019094947144050773
+    G: -3.1934077228506395
+    Surface is self-intersecting.
+BFGS solve - True  iter=0, iota=0.0019094947144051, ||grad||_inf = 6.648e-14
+NEWTON solve - True  iter=0, iota=0.0019094947144051, ||grad||_inf = 6.648e-14
+Solve success: False
+    iota: 0.0019094947144050773
+    G: -3.1934077228506395
+    Surface is self-intersecting.
+BFGS solve - True  iter=0, iota=0.0019094947144051, ||grad||_inf = 6.648e-14
+NEWTON solve - True  iter=0, iota=0.0019094947144051, ||grad||_inf = 6.648e-14
+Solve success: False
+    iota: 0.0019094947144050773
+    G: -3.1934077228506395
+    Surface is self-intersecting.
+BFGS solve - True  iter=0, iota=0.0019094947144051, ||grad||_inf = 6.648e-14
+NEWTON solve - True  iter=0, iota=0.0019094947144051, ||grad||_inf = 6.648e-14
+Solve success: False
+    iota: 0.0019094947144050773
+    G: -3.1934077228506395
+    Surface is self-intersecting.
+BFGS solve - True  iter=0, iota=0.0019094947144051, ||grad||_inf = 6.648e-14
+NEWTON solve - True  iter=0, iota=0.0019094947144051, ||grad||_inf = 6.648e-14
+Solve success: False
+    iota: 0.0019094947144050773
+    G: -3.1934077228506395
+    Surface is self-intersecting.
+BFGS solve - True  iter=0, iota=0.0019094947144051, ||grad||_inf = 6.648e-14
+NEWTON solve - True  iter=0, iota=0.0019094947144051, ||grad||_inf = 6.648e-14
+Solve success: False
+    iota: 0.0019094947144050773
+    G: -3.1934077228506395
+    Surface is self-intersecting.
+BFGS solve - True  iter=0, iota=0.0019094947144051, ||grad||_inf = 6.648e-14
+NEWTON solve - True  iter=0, iota=0.0019094947144051, ||grad||_inf = 6.648e-14
+Solve success: False
+    iota: 0.0019094947144050773
+    G: -3.1934077228506395
+    Surface is self-intersecting.
+BFGS solve - True  iter=0, iota=0.0019094947144051, ||grad||_inf = 6.648e-14
+NEWTON solve - True  iter=0, iota=0.0019094947144051, ||grad||_inf = 6.648e-14
+Solve success: False
+    iota: 0.0019094947144050773
+    G: -3.1934077228506395
+    Surface is self-intersecting.
+BFGS solve - True  iter=0, iota=0.0019094947144051, ||grad||_inf = 6.648e-14
+NEWTON solve - True  iter=0, iota=0.0019094947144051, ||grad||_inf = 6.648e-14
+Solve success: False
+    iota: 0.0019094947144050773
+    G: -3.1934077228506395
+    Surface is self-intersecting.
+BFGS solve - True  iter=0, iota=0.0019094947144051, ||grad||_inf = 6.648e-14
+NEWTON solve - True  iter=0, iota=0.0019094947144051, ||grad||_inf = 6.648e-14
+Solve success: False
+    iota: 0.0019094947144050773
+    G: -3.1934077228506395
+    Surface is self-intersecting.
+BFGS solve - True  iter=0, iota=0.0019094947144051, ||grad||_inf = 6.648e-14
+NEWTON solve - True  iter=0, iota=0.0019094947144051, ||grad||_inf = 6.648e-14
+Solve success: False
+    iota: 0.0019094947144050773
+    G: -3.1934077228506395
+    Surface is self-intersecting.
+BFGS solve - True  iter=0, iota=0.0019094947144051, ||grad||_inf = 6.648e-14
+NEWTON solve - True  iter=0, iota=0.0019094947144051, ||grad||_inf = 6.648e-14
+Solve success: False
+    iota: 0.0019094947144050773
+    G: -3.1934077228506395
+    Surface is self-intersecting.
+BFGS solve - True  iter=0, iota=0.0019094947144051, ||grad||_inf = 6.648e-14
+NEWTON solve - True  iter=0, iota=0.0019094947144051, ||grad||_inf = 6.648e-14
+Solve success: False
+    iota: 0.0019094947144050773
+    G: -3.1934077228506395
+    Surface is self-intersecting.
+BFGS solve - True  iter=0, iota=0.0019094947144051, ||grad||_inf = 6.648e-14
+NEWTON solve - True  iter=0, iota=0.0019094947144051, ||grad||_inf = 6.648e-14
+Solve success: False
+    iota: 0.0019094947144050773
+    G: -3.1934077228506395
+    Surface is self-intersecting.
+BFGS solve - True  iter=0, iota=0.0019094947144051, ||grad||_inf = 6.648e-14
+NEWTON solve - True  iter=0, iota=0.0019094947144051, ||grad||_inf = 6.648e-14
+Solve success: False
+    iota: 0.0019094947144050773
+    G: -3.1934077228506395
+    Surface is self-intersecting.
+BFGS solve - False  iter=360, iota=0.0041853779706483, ||grad||_inf = 1.160e-10
+NEWTON solve - True  iter=1, iota=0.0041853779779319, ||grad||_inf = 2.189e-12
+Solve success: False
+    iota: 0.004185377977931855
+    G: -3.1934077228506395
+    Surface is self-intersecting.
+BFGS solve - False  iter=337, iota=0.0030362741454655, ||grad||_inf = 2.959e-10
+NEWTON solve - True  iter=1, iota=0.0030362741575606, ||grad||_inf = 1.848e-12
+Solve success: False
+    iota: 0.003036274157560623
+    G: -3.1934077228506395
+    Surface is self-intersecting.
+BFGS solve - False  iter=335, iota=0.0022367013050651, ||grad||_inf = 3.150e-10
+NEWTON solve - True  iter=1, iota=0.0022367013033434, ||grad||_inf = 3.301e-13
+Solve success: False
+    iota: 0.0022367013033433706
+    G: -3.1934077228506395
+    Surface is self-intersecting.
+BFGS solve - True  iter=318, iota=0.0020265298017582, ||grad||_inf = 7.504e-11
+NEWTON solve - True  iter=1, iota=0.0020265298004072, ||grad||_inf = 3.591e-15
+Solve success: False
+    iota: 0.0020265298004071724
+    G: -3.1934077228506395
+    Surface is self-intersecting.
+BFGS solve - False  iter=307, iota=0.0019559501207530, ||grad||_inf = 2.428e-10
+NEWTON solve - True  iter=1, iota=0.0019559501052346, ||grad||_inf = 7.747e-15
+Solve success: False
+    iota: 0.0019559501052346237
+    G: -3.1934077228506395
+    Surface is self-intersecting.
+BFGS solve - False  iter=307, iota=0.0019288923156641, ||grad||_inf = 4.395e-10
+NEWTON solve - True  iter=1, iota=0.0019288923520109, ||grad||_inf = 1.322e-14
+Solve success: False
+    iota: 0.0019288923520109165
+    G: -3.1934077228506395
+    Surface is self-intersecting.
+BFGS solve - True  iter=313, iota=0.0019177737516913, ||grad||_inf = 3.716e-11
+NEWTON solve - True  iter=1, iota=0.0019177737531327, ||grad||_inf = 2.971e-14
+Solve success: False
+    iota: 0.0019177737531326862
+    G: -3.1934077228506395
+    Surface is self-intersecting.
+BFGS solve - False  iter=287, iota=0.0019130529265116, ||grad||_inf = 4.432e-10
+NEWTON solve - True  iter=2, iota=0.0019130629518042, ||grad||_inf = 3.266e-14
+Solve success: False
+    iota: 0.0019130629518042156
+    G: -3.1934077228506395
+    Surface is self-intersecting.
+BFGS solve - False  iter=285, iota=0.0019110346241086, ||grad||_inf = 2.670e-10
+NEWTON solve - True  iter=1, iota=0.0019110391708373, ||grad||_inf = 1.786e-12
+Solve success: False
+    iota: 0.001911039170837266
+    G: -3.1934077228506395
+    Surface is self-intersecting.
+BFGS solve - True  iter=284, iota=0.0019101624513409, ||grad||_inf = 8.733e-11
+NEWTON solve - True  iter=1, iota=0.0019101644511979, ||grad||_inf = 3.664e-13
+Solve success: False
+    iota: 0.001910164451197853
+    G: -3.1934077228506395
+    Surface is self-intersecting.
+BFGS solve - False  iter=285, iota=0.0019097844886132, ||grad||_inf = 4.164e-10
+NEWTON solve - True  iter=1, iota=0.0019097853730134, ||grad||_inf = 3.895e-14
+Solve success: False
+    iota: 0.0019097853730134491
+    G: -3.1934077228506395
+    Surface is self-intersecting.
+BFGS solve - False  iter=256, iota=0.0019096118375542, ||grad||_inf = 3.975e-10
+NEWTON solve - True  iter=1, iota=0.0019096209011560, ||grad||_inf = 2.443e-12
+Solve success: False
+    iota: 0.0019096209011560047
+    G: -3.1934077228506395
+    Surface is self-intersecting.
+Desired error not necessarily achieved due to precision loss.
+Optimized Boozer surface successfully saved to: /burg-archive/home/tg2998/simsopt/examples/outputs/TG_single_stage_outputs/optimized_boozer_surface_0.375.json
+Finished at Tue Jul 21 23:18:13 EDT 2026

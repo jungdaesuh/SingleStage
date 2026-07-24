@@ -1,0 +1,2 @@
+An NVIDIA GPU may be present on this machine, but a CUDA-enabled jaxlib is not installed. Falling back to cpu.
+slurmstepd: error: *** JOB 8565211 ON g281 CANCELLED AT 2026-06-24T15:59:03 ***

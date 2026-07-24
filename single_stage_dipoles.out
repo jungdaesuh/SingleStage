@@ -1,0 +1,2 @@
+BFGS solve - False  iter=438, iota=0.2858747653354987, ||grad||_inf = 7.214e+03
+NEWTON solve - False  iter=40, iota=1.6503155506133278, ||grad||_inf = 1.578e+13

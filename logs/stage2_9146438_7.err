@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/burg-archive/home/tg2998/simsopt/examples/dipoles/stage2_to_single_stage.py", line 42, in <module>
+    with open(results_file, "r") as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/burg-archive/home/tg2998/simsopt/examples/outputs/TG_warmstarter_stage2results_fixed/TF_a_0.975/results.json'

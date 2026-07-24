@@ -1,0 +1,11 @@
+(node:1627261) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Unable to connect to VS Code server: Error in request.
+Error: connect ENOENT /run/user/561818/vscode-ipc-ce22ddda-4fef-4ddb-9699-25265d4c2a65.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1705:16) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'connect',
+  address: '/run/user/561818/vscode-ipc-ce22ddda-4fef-4ddb-9699-25265d4c2a65.sock'
+}
+slurmstepd: error: *** JOB 8665468 ON g264 CANCELLED AT 2026-06-30T17:38:20 ***

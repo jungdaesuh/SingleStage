@@ -1,0 +1,15 @@
+Adaptive-resolution true epsilon-constraint run: 2026-06-24 16:28:47
+  init-dir:    /burg-archive/home/tg2998/simsopt/examples/outputs/TG_warmstarter_stage2results/TF_a_0.500
+  output root: /burg-archive/home/tg2998/simsopt/examples/outputs/TG_single_stage_outputs/wout_nfp22ginsburg_000_001242
+  iota target: 0.15
+  sparse:      False
+  f_CP:        150000 A
+  vt:          0.3
+  resolution ladder:
+    mpol=ntor= 6  fb_threshold=1.00e-04
+  penalty:     100.0, gtol=0.001 (x0.1 at highest res), maxiter/step=200 (cumulative per step incl. resume)
+
+[res 1/1] iota=0.15 mpol=6: starting  (warm start from /burg-archive/home/tg2998/simsopt/examples/outputs/TG_warmstarter_stage2results/TF_a_0.500)
+Generating Boozer least squares surface...
+BFGS solve - False  iter=50, iota=0.1796650562624380, ||grad||_inf = 3.144e-02
+NEWTON solve - False  iter=40, iota=-1327875.2874563634395599, ||grad||_inf = 1.152e+15
