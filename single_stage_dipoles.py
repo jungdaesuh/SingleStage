@@ -90,7 +90,13 @@ parser.add_argument("--fb-thresholds", type=str, required=True,
          "(e.g. '1e-4,5e-5,2.5e-5').  A RuntimeWarning is raised (not an error) if a "
          "step finishes with residual > threshold * 1.05.")
 parser.add_argument("--iota-threshold", type=float, default=0.0025,
-    help="Absolute iota tolerance (default: 0.0025).")
+    help="Absolute iota tolerance (default: 0.0025). Reporting only.")
+parser.add_argument("--iota-penalty-weight", type=float, default=1.0,
+    help="Weight of the soft iota penalty (default: 1.0).")
+parser.add_argument("--iota-scale", type=float, default=None,
+    help="Iota scale in the penalty denominator. Defaults to |--iota-target|. "
+         "Penalty curvature is weight/scale**2; do NOT set this to the "
+         "tolerance -- that is the original bug (curvature 1.6e+07).")
 parser.add_argument("--maxiter", type=int, default=200,
     help="Max accepted BFGS iterations per (iota, resolution) step, counting "
          "any prior progress when resuming from checkpoint (default: 200). "
@@ -144,6 +150,16 @@ INIT_DIR       = args.init_dir
 IOTA_TARGET    = args.iota_target
 FCP_THRESHOLD  = args.f_cp_threshold
 IOTA_THRESHOLD = args.iota_threshold
+IOTA_WEIGHT = args.iota_penalty_weight
+IOTA_SCALE = (
+    abs(float(args.iota_target)) or 1.0
+    if args.iota_scale is None
+    else float(args.iota_scale)
+)
+for _name, _value in (("--iota-penalty-weight", IOTA_WEIGHT), ("--iota-scale", IOTA_SCALE)):
+    if not np.isfinite(_value) or _value <= 0.0:
+        raise ValueError(f"{_name} must be finite and positive")
+IOTA_PENALTY_CURVATURE = IOTA_WEIGHT / IOTA_SCALE**2
 MAXITER        = args.maxiter
 VOL_TARGET     = args.volume_target
 OUTPUT_ROOT    = args.output_root
@@ -309,6 +325,16 @@ print(f"Adaptive-resolution true epsilon-constraint run: "
 print(f"  init-dir:    {INIT_DIR}")
 print(f"  output root: {EQ_OUT_ROOT}")
 print(f"  iota target: {IOTA_TARGET:g}")
+# Measured on order 12: curvature 1.6e+07 amplified the ~2.7e-11 Boozer Newton
+# wobble into 1.562979e-04 of outer-gradient noise; ablating it gave 1.06e-12.
+_IOTA_NOISE = IOTA_PENALTY_CURVATURE * (1.562979e-04 / 1.6e07)
+print(f"  iota penalty: weight={IOTA_WEIGHT:g} scale={IOTA_SCALE:g} "
+      f"curvature={IOTA_PENALTY_CURVATURE:.3e} est. gradient noise={_IOTA_NOISE:.3e}")
+if _IOTA_NOISE > 0.1 * GTOL:
+    print(f"  WARNING: iota penalty curvature {IOTA_PENALTY_CURVATURE:.3e} puts its own "
+          f"gradient noise (~{_IOTA_NOISE:.3e}) above the tightest tolerance "
+          f"({0.1 * GTOL:.3e}); expect the gradient to plateau on noise. "
+          f"Lower --iota-penalty-weight or raise --iota-scale.")
 print(f"  sparse:      {SPARSE}")
 if SPARSE:
     print(f"  theta_tol:   {THETA_TOL:g}")
@@ -417,7 +443,8 @@ def optimize_one_iota(iota_target, prev_load_dir, mpol, ntor, fb_threshold,
 
     # ---- Boozer surface for this (iota, resolution) ----
     current_sum = sum(abs(c.current.get_value()) for c in tf_coils)
-    G0 = 2.0 * np.pi * current_sum * (4 * np.pi * 1e-7 / (2 * np.pi))
+    G_sign = np.sign(tf_coils[0].current.get_value())
+    G0 = G_sign * 2.0 * np.pi * current_sum * (4 * np.pi * 1e-7 / (2 * np.pi))
     boozer_surface = initialize_boozer_surface(
         surf, mpol, ntor, bs, VOL_TARGET, BOOZER_CW, iota_target, G0,
     )
@@ -433,12 +460,12 @@ def optimize_one_iota(iota_target, prev_load_dir, mpol, ntor, fb_threshold,
         JBoozerResidual, fb_threshold, f="max",
     )
     iota = Iotas(boozer_surface)
-    Jiota = (1.0 / IOTA_THRESHOLD**2) * QuadraticPenalty(iota, iota_target)
+    Jiota = IOTA_PENALTY_CURVATURE * QuadraticPenalty(iota, iota_target)
     Jcurrent = CurrentPenalty([c.current for c in dipole_coils], p=CURRENT_P_NORM)
     JCurrentGuard = (CURRENT_SCALE / FCP_THRESHOLD**2) * QuadraticPenalty(
         Jcurrent, FCP_THRESHOLD, f="max",
     )
-    JF = JnonQSRatio + PENALTY_WEIGHT * (JBoozerGuard + Jiota + JCurrentGuard)
+    JF = JnonQSRatio + PENALTY_WEIGHT * (JBoozerGuard + JCurrentGuard) + Jiota
 
     # ---- Per-step log file ----
     _orig_stdout = sys.stdout
@@ -704,7 +731,9 @@ def optimize_one_iota(iota_target, prev_load_dir, mpol, ntor, fb_threshold,
     VV.to_vtk(os.path.join(out_dir, "vacuum_vessel"))
 
     bs.set_points(boozer_surface.surface.gamma().reshape((-1, 3)))
-    B = bs.B().reshape((nPhi, nTheta, 3))
+    nphi_b = boozer_surface.surface.quadpoints_phi.size
+    ntheta_b = boozer_surface.surface.quadpoints_theta.size
+    B = bs.B().reshape((nphi_b, ntheta_b, 3))
     modB = np.sqrt(np.sum(B**2, axis=2))[:, :, None]
     BdotN_surf = np.sum(B * boozer_surface.surface.unitnormal(), axis=2)[:, :, None]
     pointData = {"B_N/B": BdotN_surf / modB}

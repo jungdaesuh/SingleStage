@@ -1,3 +1,4 @@
+import numpy as np
 from simsopt._core.derivative import derivative_dec
 from simsopt.geo import SurfaceXYZTensorFourier, BoozerSurface
 from simsopt.geo.surfaceobjectives import Volume
@@ -131,12 +132,24 @@ def initialize_boozer_surface(surf_prev, mpol, ntor, bs, vol_target, constraint_
     iota: initial guess for iota value on the surface
     G0: Value of net current going through the torus hole
     """
+    # FIX 6: solve on a grid matched to (mpol, ntor), not on surf_prev's
+    # plotting grid (128x64 = 8192 points -> 25x25 = 625 at mpol=ntor=6).
+    # surf_prev must be resampled onto the new grid before the fit.
+    nphi_s, ntheta_s = 4 * ntor + 1, 4 * mpol + 1
+    qp_phi = np.linspace(0.0, 1.0 / surf_prev.nfp, nphi_s, endpoint=False)
+    qp_theta = np.linspace(0.0, 1.0, ntheta_s, endpoint=False)
+    sampled = type(surf_prev)(
+          mpol=surf_prev.mpol, ntor=surf_prev.ntor, nfp=surf_prev.nfp,
+          stellsym=surf_prev.stellsym,
+          quadpoints_phi=qp_phi, quadpoints_theta=qp_theta,
+          )
+    sampled.x = surf_prev.x.copy()
     surf = SurfaceXYZTensorFourier(
           mpol=mpol,ntor=ntor,nfp=surf_prev.nfp,stellsym=True,
-          quadpoints_theta=surf_prev.quadpoints_theta,
-          quadpoints_phi=surf_prev.quadpoints_phi
+          quadpoints_theta=qp_theta,
+          quadpoints_phi=qp_phi
           )
-    surf.least_squares_fit(surf_prev.gamma())
+    surf.least_squares_fit(sampled.gamma())
 
     if constraint_weight:
         # Boozer least square approach
@@ -162,7 +175,6 @@ def initialize_boozer_surface(surf_prev, mpol, ntor, bs, vol_target, constraint_
     # Check if boozer algo is successful
     success1 = res['success'] # True if the boozer surface algo converged
     success2 = not boozer_surface.surface.is_self_intersecting() # True if surface is not self intersecting
-    success2 = True
     if not success1:
         raise RuntimeError("Boozer solver did not converge")
     if not success2:
