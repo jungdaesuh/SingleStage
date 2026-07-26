@@ -28,6 +28,8 @@ eq_dir = os.path.join(script_dir, 'equilibria') # equilibria should be in this f
 # Vacuum Vessel
 VV_plas_dist = 0.12
 # Extract the minimum axisymmetric VV size
+plas_nPhi = 128
+plas_nTheta = 64  # plasma surface quad points
 eq_name_full = os.path.join(eq_dir, eq_name + ".nc")
 surf = SurfaceRZFourier.from_wout(
     eq_name_full, s=surf_s, range="full torus", nphi=plas_nPhi, ntheta=plas_nTheta

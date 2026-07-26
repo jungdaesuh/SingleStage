@@ -757,6 +757,34 @@ def optimize_one_iota(iota_target, prev_load_dir, mpol, ntor, fb_threshold,
     print(f"  Current p-norm:   {final_cp:.0f} A")
     print(f"  Volume:           {final_vol:.4f}")
 
+    # ---- Publication gates: fail closed ----
+    # The callback checkpoints bs_opt/surf_opt/results.json on every accepted
+    # step, so a partial snapshot always exists; it carries
+    # optimization_success=None. These gates stop that snapshot being finalised
+    # into a published result. Measured before they existed: a run published
+    # iota=0.046760 (1.30x outside --iota-threshold) and a current p-norm of
+    # 150037 A against a 150000 A limit, with optimization_success False and no
+    # error at all. The Boozer residual stays a RuntimeWarning, as documented.
+    for gate, ok, detail in (
+        ("optimizer convergence", bool(res.success), str(res.message)),
+        (
+            "iota",
+            np.isfinite(final_iota) and abs(final_iota - iota_target) <= IOTA_THRESHOLD,
+            f"{final_iota:.6f} vs target {iota_target:g} +/- {IOTA_THRESHOLD:g}",
+        ),
+        (
+            "current p-norm",
+            np.isfinite(final_cp) and final_cp <= FCP_THRESHOLD,
+            f"{final_cp:.0f} A exceeds {FCP_THRESHOLD:.0f} A",
+        ),
+    ):
+        if not ok:
+            raise RuntimeError(
+                f"{gate} gate failed at mpol=ntor={mpol}: {detail}. Nothing was "
+                f"published; the checkpoint under {out_dir} stays marked "
+                f"optimization_success=None."
+            )
+
     plot_relBfinal_norm_modB(bs, boozer_surface.surface, out_dir, "optimized", plot_config)
     # plot_cross_section(
     #     boozer_surface.surface, VV, out_dir, "optimized", plot_config,

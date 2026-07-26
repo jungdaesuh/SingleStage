@@ -134,12 +134,9 @@ for dipole_radius in dipole_radius_range:
                 fil_distance=fil_distance,
                 half_per_distance=half_per_distance,
                 dipole_radius=dipole_radius,
-                numquadpoints=numquadpoints,  # dipole parameters
                 VV_a=VV_a + VV_plas_dist,
                 VV_b=VV_b + VV_plas_dist,
                 VV_R0=VV_R0,  # vessel parameters
-                plas_nPhi=plas_nPhi,
-                plas_nTheta=plas_nTheta,
                 surf_s=surf_s,
                 surf_dof_scale=surf_dof_scale,
                 eq_dir=eq_dir,
