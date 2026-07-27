@@ -185,6 +185,60 @@ class OuterTrialSolveTests(unittest.TestCase):
         self.assertIn("ok = False", objective[handler:])
 
 
+class SelfIntersectionScreenTests(unittest.TestCase):
+    def test_screen_is_defined_once_and_covers_four_angles(self):
+        source = BOOZER.read_text(encoding="utf-8")
+        self.assertIn("def self_intersection_angle(surface, *, nfp):", source)
+        self.assertEqual(source.count("(0.0, 0.25, 0.5, 0.75)"), 1)
+
+    def test_initializer_and_outer_trial_use_the_same_screen(self):
+        # Measured defect: the initializer screened four angles while every outer
+        # trial screened only angle 0, so a surface self-intersecting elsewhere
+        # was accepted and could reach publication -- the publication gates check
+        # convergence, iota and current, not geometry.
+        for path in (BOOZER, DRIVER):
+            source = path.read_text(encoding="utf-8")
+            self.assertIn("self_intersection_angle(", source, msg=str(path))
+        driver = driver_source()
+        objective = driver.split("    def fun(x):", 1)[1].split("    def callback(", 1)[0]
+        self.assertIn("self_intersection_angle(", objective)
+        # The bare single-angle form must not survive on either path.
+        self.assertNotIn("surface.is_self_intersecting()", driver)
+        self.assertNotIn(
+            "surface.is_self_intersecting()", BOOZER.read_text(encoding="utf-8")
+        )
+
+    def test_screen_treats_a_cross_section_failure_as_an_intersection(self):
+        # A surface that cannot be cross-sectioned monotonically doubles back on
+        # itself; simsopt raises rather than returning True.
+        import numpy as _np
+        sys.path.insert(0, str(ROOT))
+        from boozer_functions import self_intersection_angle
+
+        class Doubling:
+            nfp = 2
+
+            def is_self_intersecting(self, angle=0.0):
+                raise Exception("An error occured during calculation of the cross section")
+
+        class Clean:
+            nfp = 2
+
+            def is_self_intersecting(self, angle=0.0):
+                return False
+
+        class DirtyAwayFromZero:
+            nfp = 2
+
+            def is_self_intersecting(self, angle=0.0):
+                return not _np.isclose(angle, 0.0)
+
+        self.assertIsNotNone(self_intersection_angle(Doubling(), nfp=2))
+        self.assertIsNone(self_intersection_angle(Clean(), nfp=2))
+        # This is the case a single-angle screen misses entirely.
+        self.assertIsNotNone(self_intersection_angle(DirtyAwayFromZero(), nfp=2))
+
+
 class FieldPolarityTests(unittest.TestCase):
     def test_explicit_polarity_is_authoritative_for_G(self):
         # Component-current signs are not authoritative for physical G polarity.

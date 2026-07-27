@@ -601,13 +601,14 @@ def optimize_one_iota(iota_target, prev_load_dir, mpol, ntor, fb_threshold,
             print(f"/!\\ Boozer Newton linear solve failed: {error}")
             ok = False
         else:
-            try:
-                ok = (
-                    boozer_surface.res["success"]
-                    and not boozer_surface.surface.is_self_intersecting()
+            # Same angle coverage as the initializer. Screening the trial at
+            # angle 0 only would accept a surface the initializer refuses.
+            ok = bool(boozer_surface.res["success"]) and (
+                self_intersection_angle(
+                    boozer_surface.surface, nfp=boozer_surface.surface.nfp
                 )
-            except Exception:
-                ok = False
+                is None
+            )
 
         if ok:
             run_dict["failed_boozer_solves"] = 0

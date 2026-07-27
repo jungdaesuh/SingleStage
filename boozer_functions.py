@@ -120,6 +120,30 @@ class BoozerResidualExact(Optimizable):
         dJ_by_dB = np.sum(dJ_by_dB.reshape((-1, 3, 3)), axis=1)
         return dJ_by_dB
 
+def self_intersection_angle(surface, *, nfp):
+    """Return the first cylindrical angle where ``surface`` self-intersects.
+
+    ``Surface.is_self_intersecting()`` inspects ONE cross-section, and simsopt
+    warns in its own docstring that a False result does not rule out an
+    intersection elsewhere, so screen four angles across a field period (~10 ms
+    each). A raise from ``cross_section()`` counts as an intersection: it means
+    the surface doubles back, so the cylindrical angle is not monotonic. Returns
+    None when the surface is clean at every screened angle.
+
+    This is the single definition of the screen. The initializer turns a hit into
+    a hard failure; the outer objective turns it into a rejected trial. They must
+    not disagree on coverage -- a trial screened at one angle only could accept a
+    surface the initializer would refuse.
+    """
+    for angle in [(2.0 * np.pi / nfp) * f for f in (0.0, 0.25, 0.5, 0.75)]:
+        try:
+            if surface.is_self_intersecting(angle=angle):
+                return angle
+        except Exception:
+            return angle
+    return None
+
+
 def initialize_boozer_surface(surf_prev, mpol, ntor, bs, vol_target, constraint_weight, iota, G0):
     """
     This initializes the boozer surface, using either the boozer "exact" algorithm, or the boozer "least squares" algorithm
@@ -174,25 +198,14 @@ def initialize_boozer_surface(surf_prev, mpol, ntor, bs, vol_target, constraint_
 
     # Check if boozer algo is successful
     success1 = res['success'] # True if the boozer surface algo converged
-    # is_self_intersecting() inspects ONE cylindrical cross-section, and simsopt
-    # warns in its own docstring that a False result does not rule out an
-    # intersection elsewhere. Screen four angles across a field period instead;
-    # each call costs ~10 ms. A raise from cross_section() is itself a failure --
-    # it means the surface doubles back so the angle is not monotonic.
-    angles = [(2.0 * np.pi / surf_prev.nfp) * f for f in (0.0, 0.25, 0.5, 0.75)]
     if not success1:
         raise RuntimeError("Boozer solver did not converge")
-    for angle in angles:
-        try:
-            self_intersecting = boozer_surface.surface.is_self_intersecting(angle=angle)
-        except Exception as error:
-            raise RuntimeError(
-                f"Boozer surface self-intersection check failed at angle "
-                f"{angle:.6g}: {error}"
-            ) from error
-        if self_intersecting:
-            raise RuntimeError(
-                f"Boozer surface is self-intersecting at angle {angle:.6g}"
-            )
+    offending_angle = self_intersection_angle(
+        boozer_surface.surface, nfp=surf_prev.nfp
+    )
+    if offending_angle is not None:
+        raise RuntimeError(
+            f"Boozer surface is self-intersecting at angle {offending_angle:.6g}"
+        )
 
     return boozer_surface
