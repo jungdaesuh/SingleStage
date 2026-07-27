@@ -41,7 +41,7 @@ import matplotlib.pyplot as plt
 from helper_functions import *
 from boozer_functions import *
 from bounded_bfgs import minimize_bounded_bfgs, rejected_trial_value_and_gradient
-from run_configuration import RunConfiguration
+from run_configuration import RunConfiguration, prepare_output_generation
 
 
 def coil_center_theta(coil, major_radius):
@@ -901,6 +901,7 @@ prev_load_dir = INIT_DIR
 mpol, ntor, fb_thresh = MPOL, NTOR, FB_THRESHOLD
 out_dir = _per_res_out_dir(mpol, ntor)
 step_label = f"[order 8] iota={IOTA_TARGET:g}"
+prepare_output_generation(out_dir, START_FRESH)
 
 if (not START_FRESH) and _is_completed(out_dir):
     print(f"\n{step_label}: already completed at {out_dir}.")

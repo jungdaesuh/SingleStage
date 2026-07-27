@@ -18,7 +18,7 @@ import numpy as np
 
 from bounded_bfgs import rejected_trial_value_and_gradient
 from postprocess_scan import find_run_dirs
-from run_configuration import RunConfiguration
+from run_configuration import RunConfiguration, prepare_output_generation
 
 ROOT = Path(__file__).parents[1]
 DRIVER = ROOT / "single_stage_dipoles.py"
@@ -373,6 +373,33 @@ class RunConfigurationTests(unittest.TestCase):
         changed = replace(self.config, iota_penalty_weight=2.0)
         with self.assertRaisesRegex(RuntimeError, "different run configuration"):
             changed.require_match(partial, "/output/partial")
+
+    def test_new_run_removes_the_entire_prior_generation(self):
+        with tempfile.TemporaryDirectory() as parent:
+            output = Path(parent) / "mpol8_ntor8"
+            output.mkdir()
+            (output / "results.json").write_text(
+                '{"optimization_success": true}', encoding="utf-8",
+            )
+            (output / "iterations.json").write_text(
+                '{"iterations": [{"iteration": 99}]}', encoding="utf-8",
+            )
+            (output / "surf_opt.json").write_text("stale", encoding="utf-8")
+
+            prepare_output_generation(str(output), start_fresh=True)
+
+            self.assertFalse(output.exists())
+
+    def test_resume_keeps_the_existing_generation(self):
+        with tempfile.TemporaryDirectory() as parent:
+            output = Path(parent) / "mpol8_ntor8"
+            output.mkdir()
+            history = output / "iterations.json"
+            history.write_text('{"iterations": []}', encoding="utf-8")
+
+            prepare_output_generation(str(output), start_fresh=False)
+
+            self.assertTrue(history.is_file())
 
     def test_resolution_ladder_cli_is_removed(self):
         completed = subprocess.run(

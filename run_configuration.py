@@ -1,6 +1,8 @@
 """Immutable identity for a resumable single-stage optimization run."""
 
 from dataclasses import asdict, dataclass
+import os
+import shutil
 from typing import Any, Mapping
 
 
@@ -41,3 +43,9 @@ class RunConfiguration:
                 f"Existing artifact at {artifact_path} was produced with a "
                 "different run configuration; pass --new to replace it."
             )
+
+
+def prepare_output_generation(output_dir: str, start_fresh: bool) -> None:
+    """Remove the prior run generation when the operator explicitly requests it."""
+    if start_fresh and os.path.isdir(output_dir):
+        shutil.rmtree(output_dir)
