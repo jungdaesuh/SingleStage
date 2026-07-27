@@ -33,6 +33,5 @@ srun --cpu-bind=cores "${PYTHON_BIN}" -u single_stage_dipoles.py \
       --iota-target 0.064 \
       --f-cp-threshold 150000 \
       --field-polarity "${FIELD_POLARITY}" \
-      --resolutions 8 \
-      --fb-thresholds 5e-5 \
+      --fb-threshold 5e-5 \
       --outer-step-radius 0.15

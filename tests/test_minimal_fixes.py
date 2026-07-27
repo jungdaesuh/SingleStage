@@ -7,6 +7,7 @@ cheap behaviour is checked by invoking the CLI.
 """
 
 import os
+from dataclasses import replace
 from pathlib import Path
 import subprocess
 import sys
@@ -17,6 +18,7 @@ import numpy as np
 
 from bounded_bfgs import rejected_trial_value_and_gradient
 from postprocess_scan import find_run_dirs
+from run_configuration import RunConfiguration
 
 ROOT = Path(__file__).parents[1]
 DRIVER = ROOT / "single_stage_dipoles.py"
@@ -111,8 +113,8 @@ class ObjectiveBookkeepingTests(unittest.TestCase):
         source = driver_source()
         self.assertEqual(source.count("IOTA_WEIGHT / IOTA_SCALE**2"), 1)
         for key in (
-            '"iota_penalty_weight": IOTA_WEIGHT',
-            '"iota_scale": IOTA_SCALE',
+            "iota_penalty_weight=IOTA_WEIGHT",
+            "iota_scale=IOTA_SCALE",
             '"iota_penalty_curvature": IOTA_PENALTY_CURVATURE',
         ):
             self.assertIn(key, source)
@@ -201,7 +203,8 @@ class FieldPolarityTests(unittest.TestCase):
 
     def test_derived_G_and_polarity_reach_the_artifact(self):
         source = driver_source()
-        self.assertIn('"field_polarity": G_sign', source)
+        self.assertIn("field_polarity=EXPECTED_FIELD_POLARITY", source)
+        self.assertIn("G_sign = FIELD_POLARITY", source)
         self.assertIn('"initial_G": G0', source)
 
 
@@ -258,7 +261,8 @@ class LauncherTests(unittest.TestCase):
         self.assertIn(': "${FIELD_POLARITY:?Set FIELD_POLARITY to 1 or -1}"', source)
         self.assertIn(': "${INIT_DIR:?Set INIT_DIR to the matching Stage-2 output directory}"', source)
         self.assertIn('srun --cpu-bind=cores "${PYTHON_BIN}"', source)
-        self.assertIn("--resolutions 8", source)
+        self.assertIn("--fb-threshold 5e-5", source)
+        self.assertNotIn("--resolutions", source)
 
     def test_polarity_suffix_preserves_scan_discovery(self):
         with tempfile.TemporaryDirectory() as root:
@@ -294,8 +298,7 @@ class CliContractTests(unittest.TestCase):
                     "--iota-target", "0.05",
                     "--f-cp-threshold", "150000",
                     "--field-polarity", "1",
-                    "--resolutions", "6",
-                    "--fb-thresholds", "1e-4",
+                    "--fb-threshold", "5e-5",
                     flag, "0",
                 ],
                 env=environment, text=True, capture_output=True, check=False,
@@ -313,8 +316,7 @@ class CliContractTests(unittest.TestCase):
                 "--iota-target", "0.05",
                 "--f-cp-threshold", "150000",
                 "--field-polarity", "1",
-                "--resolutions", "8",
-                "--fb-thresholds", "5e-5",
+                "--fb-threshold", "5e-5",
                 "--outer-step-radius", "0",
             ],
             env={**os.environ, "MPLBACKEND": "Agg", "HWLOC_COMPONENTS": "-gl"},
@@ -324,7 +326,55 @@ class CliContractTests(unittest.TestCase):
         self.assertIn("--outer-step-radius must be finite and positive", completed.stderr)
         self.assertNotIn("missing-stage2", completed.stderr)
 
-    def test_resolution_ladders_are_rejected_before_loading_input(self):
+
+class RunConfigurationTests(unittest.TestCase):
+    def setUp(self):
+        self.config = RunConfiguration(
+            schema_version=1,
+            init_dir="/stage2/input",
+            method="soft_penalty_bounded_bfgs",
+            mpol=8,
+            ntor=8,
+            field_polarity=1,
+            iota_target=0.05,
+            f_b_threshold=5e-5,
+            f_cp_threshold=150000.0,
+            iota_threshold=0.0025,
+            iota_penalty_weight=1.0,
+            iota_scale=0.05,
+            volume_target=0.3,
+            maxiter=200,
+            outer_step_radius=0.15,
+            boozer_constraint_weight=1.0,
+            penalty_weight=100.0,
+            current_pnorm_p=20.0,
+            current_scale=100.0,
+            gtol=1e-4,
+            sparse=False,
+            theta_tol=0.01,
+        )
+
+    def test_completed_artifact_requires_exact_configuration(self):
+        completed = {
+            "run_config": self.config.to_dict(),
+            "optimization_success": True,
+        }
+        self.config.require_match(completed, "/output/completed")
+        changed = replace(self.config, outer_step_radius=0.2)
+        with self.assertRaisesRegex(RuntimeError, "different run configuration"):
+            changed.require_match(completed, "/output/completed")
+
+    def test_partial_checkpoint_requires_exact_configuration(self):
+        partial = {
+            "run_config": self.config.to_dict(),
+            "optimization_success": None,
+        }
+        self.config.require_match(partial, "/output/partial")
+        changed = replace(self.config, iota_penalty_weight=2.0)
+        with self.assertRaisesRegex(RuntimeError, "different run configuration"):
+            changed.require_match(partial, "/output/partial")
+
+    def test_resolution_ladder_cli_is_removed(self):
         completed = subprocess.run(
             [
                 sys.executable, str(DRIVER),
@@ -333,13 +383,14 @@ class CliContractTests(unittest.TestCase):
                 "--f-cp-threshold", "150000",
                 "--field-polarity", "1",
                 "--resolutions", "6,9",
-                "--fb-thresholds", "1e-4,5e-5",
+                "--fb-threshold", "5e-5",
             ],
             env={**os.environ, "MPLBACKEND": "Agg", "HWLOC_COMPONENTS": "-gl"},
             text=True, capture_output=True, check=False,
         )
         self.assertNotEqual(completed.returncode, 0)
-        self.assertIn("Run one fixed resolution at a time", completed.stderr)
+        self.assertNotEqual(completed.returncode, 0)
+        self.assertIn("unrecognized arguments: --resolutions 6,9", completed.stderr)
         self.assertNotIn("missing-stage2", completed.stderr)
 
 
