@@ -90,7 +90,7 @@ parser.add_argument("--fb-thresholds", type=str, required=True,
          "(e.g. '1e-4,5e-5,2.5e-5').  A RuntimeWarning is raised (not an error) if a "
          "step finishes with residual > threshold * 1.05.")
 parser.add_argument("--iota-threshold", type=float, default=0.0025,
-    help="Absolute iota tolerance (default: 0.0025). Reporting only.")
+    help="Absolute iota tolerance (default: 0.0025). Publication gate: a run whose final iota is outside this band writes no final artifact.")
 parser.add_argument("--iota-penalty-weight", type=float, default=1.0,
     help="Weight of the soft iota penalty (default: 1.0).")
 parser.add_argument("--iota-scale", type=float, default=None,
@@ -443,7 +443,18 @@ def optimize_one_iota(iota_target, prev_load_dir, mpol, ntor, fb_threshold,
 
     # ---- Boozer surface for this (iota, resolution) ----
     current_sum = sum(abs(c.current.get_value()) for c in tf_coils)
-    G_sign = np.sign(tf_coils[0].current.get_value())
+    base_currents = np.array(
+        [c.current.get_value() for c in tf_coils[:init_results["ntf"]]], dtype=float
+    )
+    base_signs = np.sign(base_currents)
+    if not np.all(np.isfinite(base_currents)) or np.any(base_currents == 0.0):
+        raise ValueError(f"base TF currents must be finite and non-zero: {base_currents}")
+    if not np.all(base_signs == base_signs[0]):
+        raise ValueError(
+            "base TF currents must share one physical polarity, so that the "
+            f"sign of G is well defined; got {base_currents}"
+        )
+    G_sign = int(base_signs[0])
     G0 = G_sign * 2.0 * np.pi * current_sum * (4 * np.pi * 1e-7 / (2 * np.pi))
     boozer_surface = initialize_boozer_surface(
         surf, mpol, ntor, bs, VOL_TARGET, BOOZER_CW, iota_target, G0,
@@ -508,7 +519,8 @@ def optimize_one_iota(iota_target, prev_load_dir, mpol, ntor, fb_threshold,
     if resume_this_step:
         print(f"Resuming in-place from existing checkpoint at callback it={next_it}.")
     print(f"# TF: {len(tf_coils)},  # dipole: {len(dipole_coils)}")
-    print(f"Objective: nonQS + {PENALTY_WEIGHT} * (Boozer_guard + iota_penalty + current_guard)\n")
+    print(f"Objective: nonQS + {PENALTY_WEIGHT} * (Boozer_guard + current_guard)"
+          f" + {IOTA_PENALTY_CURVATURE:.3e} * 0.5*(iota - {iota_target:g})^2\n")
 
     print(f"Initial nonQS ratio:      {JnonQSRatio.J():.6e}")
     print(f"Initial Boozer residual:  {JBoozerResidual.J():.6e}  (threshold {fb_threshold:.1e})")
@@ -657,7 +669,7 @@ def optimize_one_iota(iota_target, prev_load_dir, mpol, ntor, fb_threshold,
             "BdotN": BdotN,
             "volume": vol,
             "J_boozer_contrib": float(PENALTY_WEIGHT * jb_g),
-            "J_iota_contrib": float(PENALTY_WEIGHT * ji_g),
+            "J_iota_contrib": float(ji_g),
             "J_current_contrib": float(PENALTY_WEIGHT * jc_g),
         })
         with open(history_path, "w") as f:
@@ -723,23 +735,6 @@ def optimize_one_iota(iota_target, prev_load_dir, mpol, ntor, fb_threshold,
         )
     print(f"\nOptimizer: {res.message}")
 
-    # ==========================================================================
-    # SAVE FINAL OUTPUTS
-    # ==========================================================================
-    coils_to_vtk(coils, filename=os.path.join(out_dir, "coils_opt"), close=True)
-    bs.save(os.path.join(out_dir, "bs_opt.json"))
-    VV.to_vtk(os.path.join(out_dir, "vacuum_vessel"))
-
-    bs.set_points(boozer_surface.surface.gamma().reshape((-1, 3)))
-    nphi_b = boozer_surface.surface.quadpoints_phi.size
-    ntheta_b = boozer_surface.surface.quadpoints_theta.size
-    B = bs.B().reshape((nphi_b, ntheta_b, 3))
-    modB = np.sqrt(np.sum(B**2, axis=2))[:, :, None]
-    BdotN_surf = np.sum(B * boozer_surface.surface.unitnormal(), axis=2)[:, :, None]
-    pointData = {"B_N/B": BdotN_surf / modB}
-    boozer_surface.surface.to_vtk(os.path.join(out_dir, "surf_opt"), extra_data=pointData)
-    boozer_surface.surface.save(os.path.join(out_dir, "surf_opt.json"))
-
     max_I = float(np.max([abs(c.current.get_value()) for c in dipole_coils]))
     final_qs = float(JnonQSRatio.J())
     final_fb = float(JBoozerResidual.J())
@@ -758,15 +753,16 @@ def optimize_one_iota(iota_target, prev_load_dir, mpol, ntor, fb_threshold,
     print(f"  Volume:           {final_vol:.4f}")
 
     # ---- Publication gates: fail closed ----
-    # The callback checkpoints bs_opt/surf_opt/results.json on every accepted
-    # step, so a partial snapshot always exists; it carries
-    # optimization_success=None. These gates stop that snapshot being finalised
-    # into a published result. Measured before they existed: a run published
-    # iota=0.046760 (1.30x outside --iota-threshold) and a current p-norm of
-    # 150037 A against a 150000 A limit, with optimization_success False and no
-    # error at all. The Boozer residual stays a RuntimeWarning, as documented.
+    # These run BEFORE any final artifact is written. The callback still
+    # checkpoints bs_opt/surf_opt/results.json on every accepted step so a run
+    # can resume, but that snapshot carries optimization_success=None and is
+    # overwritten by the final save below only once these pass. Measured before
+    # the gates existed: a run published iota=0.046760 (1.30x outside
+    # --iota-threshold) and a current p-norm of 150037 A against a 150000 A
+    # limit, with optimization_success False and no error at all. The Boozer
+    # residual stays a RuntimeWarning, as the module docstring documents.
     for gate, ok, detail in (
-        ("optimizer convergence", bool(res.success), str(res.message)),
+        ("optimizer convergence", bool(res.success), str(res.message).rstrip(".")),
         (
             "iota",
             np.isfinite(final_iota) and abs(final_iota - iota_target) <= IOTA_THRESHOLD,
@@ -780,10 +776,27 @@ def optimize_one_iota(iota_target, prev_load_dir, mpol, ntor, fb_threshold,
     ):
         if not ok:
             raise RuntimeError(
-                f"{gate} gate failed at mpol=ntor={mpol}: {detail}. Nothing was "
-                f"published; the checkpoint under {out_dir} stays marked "
-                f"optimization_success=None."
+                f"{gate} gate failed at mpol=ntor={mpol}: {detail}. No final "
+                f"artifact was written; the resume checkpoint under {out_dir} "
+                f"stays marked optimization_success=None."
             )
+
+    # ==========================================================================
+    # SAVE FINAL OUTPUTS  (only reachable once every gate above has passed)
+    # ==========================================================================
+    coils_to_vtk(coils, filename=os.path.join(out_dir, "coils_opt"), close=True)
+    bs.save(os.path.join(out_dir, "bs_opt.json"))
+    VV.to_vtk(os.path.join(out_dir, "vacuum_vessel"))
+
+    bs.set_points(boozer_surface.surface.gamma().reshape((-1, 3)))
+    nphi_b = boozer_surface.surface.quadpoints_phi.size
+    ntheta_b = boozer_surface.surface.quadpoints_theta.size
+    B = bs.B().reshape((nphi_b, ntheta_b, 3))
+    modB = np.sqrt(np.sum(B**2, axis=2))[:, :, None]
+    BdotN_surf = np.sum(B * boozer_surface.surface.unitnormal(), axis=2)[:, :, None]
+    pointData = {"B_N/B": BdotN_surf / modB}
+    boozer_surface.surface.to_vtk(os.path.join(out_dir, "surf_opt"), extra_data=pointData)
+    boozer_surface.surface.save(os.path.join(out_dir, "surf_opt.json"))
 
     plot_relBfinal_norm_modB(bs, boozer_surface.surface, out_dir, "optimized", plot_config)
     # plot_cross_section(
@@ -805,6 +818,11 @@ def optimize_one_iota(iota_target, prev_load_dir, mpol, ntor, fb_threshold,
         "f_b_threshold": fb_threshold,
         "f_cp_threshold": FCP_THRESHOLD,
         "iota_threshold": IOTA_THRESHOLD,
+        "iota_penalty_weight": IOTA_WEIGHT,
+        "iota_scale": IOTA_SCALE,
+        "iota_penalty_curvature": IOTA_PENALTY_CURVATURE,
+        "field_polarity": G_sign,
+        "initial_G": G0,
         "penalty_weight": PENALTY_WEIGHT,
         "current_pnorm_p": CURRENT_P_NORM,
         "gtol": gtol,

@@ -174,10 +174,25 @@ def initialize_boozer_surface(surf_prev, mpol, ntor, bs, vol_target, constraint_
 
     # Check if boozer algo is successful
     success1 = res['success'] # True if the boozer surface algo converged
-    success2 = not boozer_surface.surface.is_self_intersecting() # True if surface is not self intersecting
+    # is_self_intersecting() inspects ONE cylindrical cross-section, and simsopt
+    # warns in its own docstring that a False result does not rule out an
+    # intersection elsewhere. Screen four angles across a field period instead;
+    # each call costs ~10 ms. A raise from cross_section() is itself a failure --
+    # it means the surface doubles back so the angle is not monotonic.
+    angles = [(2.0 * np.pi / surf_prev.nfp) * f for f in (0.0, 0.25, 0.5, 0.75)]
     if not success1:
         raise RuntimeError("Boozer solver did not converge")
-    if not success2:
-        raise RuntimeError("Boozer surface is self-intersecting")
+    for angle in angles:
+        try:
+            self_intersecting = boozer_surface.surface.is_self_intersecting(angle=angle)
+        except Exception as error:
+            raise RuntimeError(
+                f"Boozer surface self-intersection check failed at angle "
+                f"{angle:.6g}: {error}"
+            ) from error
+        if self_intersecting:
+            raise RuntimeError(
+                f"Boozer surface is self-intersecting at angle {angle:.6g}"
+            )
 
     return boozer_surface
