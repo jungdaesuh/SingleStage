@@ -10,7 +10,13 @@ import os
 from pathlib import Path
 import subprocess
 import sys
+import tempfile
 import unittest
+
+import numpy as np
+
+from bounded_bfgs import rejected_trial_value_and_gradient
+from postprocess_scan import find_run_dirs
 
 ROOT = Path(__file__).parents[1]
 DRIVER = ROOT / "single_stage_dipoles.py"
@@ -113,6 +119,24 @@ class ObjectiveBookkeepingTests(unittest.TestCase):
 
 
 class OuterTrialSolveTests(unittest.TestCase):
+    def test_rejected_trial_value_and_gradient_are_coherent(self):
+        accepted_x = np.array([0.2, -0.4, 0.1])
+        trial_x = np.array([0.3, -0.2, -0.2])
+        accepted_value = 0.125
+
+        value, gradient = rejected_trial_value_and_gradient(
+            trial_x, accepted_x, accepted_value,
+        )
+
+        displacement = trial_x - accepted_x
+        scale = max(abs(accepted_value), 1.0)
+        self.assertGreater(value, accepted_value)
+        np.testing.assert_allclose(
+            value,
+            accepted_value + scale * np.dot(displacement, displacement),
+        )
+        np.testing.assert_allclose(gradient, 2.0 * scale * displacement)
+
     def test_outer_trials_are_newton_only(self):
         # Measured defect: fun() called run_code(), whose BoozerLS path is "BFGS
         # followed by Newton" (simsopt BoozerSurface.run_code docstring). Every
@@ -150,15 +174,30 @@ class OuterTrialSolveTests(unittest.TestCase):
         source = BOOZER.read_text(encoding="utf-8")
         self.assertIn("res = boozer_surface.run_code(iota, G0)", source)
 
+    def test_newton_linear_solve_failure_is_rejected(self):
+        source = driver_source()
+        objective = source.split("    def fun(x):", 1)[1].split("    def callback(", 1)[0]
+        solve = objective.index("minimize_boozer_penalty_constraints_newton")
+        handler = objective.index("except np.linalg.LinAlgError as error")
+        self.assertLess(solve, handler)
+        self.assertIn("ok = False", objective[handler:])
+
 
 class FieldPolarityTests(unittest.TestCase):
-    def test_G_sign_requires_a_single_polarity_across_the_base_bundle(self):
-        # sign(tf_coils[0]) is only the field polarity if the independent bundle
-        # agrees; mixed signs would silently produce a wrong-signed G.
+    def test_explicit_polarity_is_authoritative_for_G(self):
+        # Component-current signs are not authoritative for physical G polarity.
         source = driver_source()
-        self.assertIn("base TF currents must share one physical polarity", source)
-        self.assertIn("base TF currents must be finite and non-zero", source)
-        self.assertIn("G_sign = int(base_signs[0])", source)
+        self.assertIn("FIELD_POLARITY = EXPECTED_FIELD_POLARITY", source)
+        self.assertNotIn("FIELD_POLARITY = int(base_tf_signs[0])", source)
+        self.assertIn('init_results.get("field_polarity")', source)
+
+    def test_polarity_is_explicit_and_outputs_are_separate(self):
+        source = driver_source()
+        self.assertIn('parser.add_argument("--field-polarity"', source)
+        self.assertIn('POLARITY_DIR = "G_positive" if FIELD_POLARITY > 0 else "G_negative"', source)
+        self.assertIn('f"vt{VOL_TARGET:g}_{POLARITY_DIR}"', source)
+        self.assertIn("does not match the Stage-2 ", source)
+        self.assertIn("artifact metadata field_polarity", source)
 
     def test_derived_G_and_polarity_reach_the_artifact(self):
         source = driver_source()
@@ -210,6 +249,30 @@ class GeneratorTests(unittest.TestCase):
             self.assertNotIn(kwarg, source)
 
 
+class LauncherTests(unittest.TestCase):
+    def test_ginsburg_launcher_uses_one_24_core_task_and_explicit_polarity(self):
+        source = (ROOT / "single_stage_dipoles.sh").read_text(encoding="utf-8")
+        self.assertIn("#SBATCH --ntasks=1", source)
+        self.assertIn("#SBATCH --cpus-per-task=24", source)
+        self.assertIn('THREADS="${SLURM_CPUS_PER_TASK:-24}"', source)
+        self.assertIn(': "${FIELD_POLARITY:?Set FIELD_POLARITY to 1 or -1}"', source)
+        self.assertIn(': "${INIT_DIR:?Set INIT_DIR to the matching Stage-2 output directory}"', source)
+        self.assertIn('srun --cpu-bind=cores "${PYTHON_BIN}"', source)
+        self.assertIn("--resolutions 8", source)
+
+    def test_polarity_suffix_preserves_scan_discovery(self):
+        with tempfile.TemporaryDirectory() as root:
+            scan_root = Path(root)
+            expected = []
+            for polarity in ("G_positive", "G_negative"):
+                run = scan_root / "eq" / f"iota0.05_fcp150kA_vt0.3_{polarity}" / "mpol8_ntor8"
+                run.mkdir(parents=True)
+                expected.append(run.resolve())
+
+            discovered = [run for run, _eq_name in find_run_dirs(scan_root)]
+            self.assertCountEqual(discovered, expected)
+
+
 class CliContractTests(unittest.TestCase):
     def test_iota_threshold_help_states_that_it_gates_publication(self):
         source = driver_source()
@@ -230,6 +293,7 @@ class CliContractTests(unittest.TestCase):
                     "--init-dir", "/tmp/missing-stage2",
                     "--iota-target", "0.05",
                     "--f-cp-threshold", "150000",
+                    "--field-polarity", "1",
                     "--resolutions", "6",
                     "--fb-thresholds", "1e-4",
                     flag, "0",
@@ -240,6 +304,43 @@ class CliContractTests(unittest.TestCase):
             self.assertIn(f"{flag} must be finite and positive", completed.stderr)
             # The validator must fire before the expensive --init-dir load.
             self.assertNotIn("missing-stage2", completed.stderr)
+
+    def test_outer_step_radius_rejects_nonpositive_values(self):
+        completed = subprocess.run(
+            [
+                sys.executable, str(DRIVER),
+                "--init-dir", "/tmp/missing-stage2",
+                "--iota-target", "0.05",
+                "--f-cp-threshold", "150000",
+                "--field-polarity", "1",
+                "--resolutions", "8",
+                "--fb-thresholds", "5e-5",
+                "--outer-step-radius", "0",
+            ],
+            env={**os.environ, "MPLBACKEND": "Agg", "HWLOC_COMPONENTS": "-gl"},
+            text=True, capture_output=True, check=False,
+        )
+        self.assertNotEqual(completed.returncode, 0)
+        self.assertIn("--outer-step-radius must be finite and positive", completed.stderr)
+        self.assertNotIn("missing-stage2", completed.stderr)
+
+    def test_resolution_ladders_are_rejected_before_loading_input(self):
+        completed = subprocess.run(
+            [
+                sys.executable, str(DRIVER),
+                "--init-dir", "/tmp/missing-stage2",
+                "--iota-target", "0.05",
+                "--f-cp-threshold", "150000",
+                "--field-polarity", "1",
+                "--resolutions", "6,9",
+                "--fb-thresholds", "1e-4,5e-5",
+            ],
+            env={**os.environ, "MPLBACKEND": "Agg", "HWLOC_COMPONENTS": "-gl"},
+            text=True, capture_output=True, check=False,
+        )
+        self.assertNotEqual(completed.returncode, 0)
+        self.assertIn("Run one fixed resolution at a time", completed.stderr)
+        self.assertNotIn("missing-stage2", completed.stderr)
 
 
 if __name__ == "__main__":

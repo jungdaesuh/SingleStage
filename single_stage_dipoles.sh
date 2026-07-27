@@ -1,27 +1,38 @@
 #!/bin/bash -l
 #SBATCH --account=seasdean        
-#SBATCH --job-name=0.300
+#SBATCH --job-name=tian_single_stage
 #SBATCH --partition=seasdean1
-#SBATCH -N 1                     # Request 1 node
-#SBATCH -n 1                     # 1 task (Since it's non-MPI serial Python)
-#SBATCH -c 32                     # 1 CPU core for that task
-#SBATCH --mem=32G                # 👇 64GB of RAM to feed them
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=24
+#SBATCH --mem=32G
 #SBATCH --time=10:00:00
-#SBATCH --output=single_stage_dipolesplsbroken1.out
-#SBATCH --error=single_stage_dipolesplsbroken1.err
+#SBATCH --output=%x_%j.out
+#SBATCH --error=%x_%j.err
 
 if [ -f /etc/profile.d/lmod.sh ]; then
   . /etc/profile.d/lmod.sh
 fi
 
 
-export OMP_NUM_THREADS=32
-export MKL_NUM_THREADS=32
-export OPENBLAS_NUM_THREADS=32
+THREADS="${SLURM_CPUS_PER_TASK:-24}"
+export OMP_NUM_THREADS="${THREADS}"
+export MKL_NUM_THREADS="${THREADS}"
+export OPENBLAS_NUM_THREADS="${THREADS}"
 
-/burg-archive/home/tg2998/simsopt/venv/bin/python -u single_stage_dipoles.py \
-      --init-dir /burg-archive/home/tg2998/simsopt/examples/outputs/TG_warmstarter_stage2results/TF_a_0.300 \
+: "${FIELD_POLARITY:?Set FIELD_POLARITY to 1 or -1}"
+: "${INIT_DIR:?Set INIT_DIR to the matching Stage-2 output directory}"
+case "${FIELD_POLARITY}" in
+  1|-1) ;;
+  *) echo "FIELD_POLARITY must be 1 or -1" >&2; exit 2 ;;
+esac
+
+PYTHON_BIN=/burg-archive/home/tg2998/simsopt/venv/bin/python
+srun --cpu-bind=cores "${PYTHON_BIN}" -u single_stage_dipoles.py \
+      --init-dir "${INIT_DIR}" \
       --iota-target 0.064 \
       --f-cp-threshold 150000 \
-      --resolutions 6 \
-      --fb-thresholds 1e-4
+      --field-polarity "${FIELD_POLARITY}" \
+      --resolutions 8 \
+      --fb-thresholds 5e-5 \
+      --outer-step-radius 0.15
