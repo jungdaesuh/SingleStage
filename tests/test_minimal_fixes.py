@@ -112,6 +112,45 @@ class ObjectiveBookkeepingTests(unittest.TestCase):
             self.assertIn(key, source)
 
 
+class OuterTrialSolveTests(unittest.TestCase):
+    def test_outer_trials_are_newton_only(self):
+        # Measured defect: fun() called run_code(), whose BoozerLS path is "BFGS
+        # followed by Newton" (simsopt BoozerSurface.run_code docstring). Every
+        # outer trial therefore restarted a ~300-iteration BFGS from an already
+        # converged surface that Newton then fixed in one step -- 10 solves and
+        # 2976 inner iterations for 7 accepted outer iterations at order 6.
+        source = driver_source()
+        objective = source.split("    def fun(x):", 1)[1].split("    def callback(", 1)[0]
+        # Match the call, not the bare word: "run_code" legitimately appears in
+        # the comment explaining why it is not called here.
+        self.assertNotIn("boozer_surface.run_code(", objective)
+        self.assertIn(
+            "boozer_surface.minimize_boozer_penalty_constraints_newton(", objective
+        )
+        # The Newton entry point returns self.res early unless this is set, and
+        # run_code does the same thing before its own Newton polish.
+        self.assertIn("boozer_surface.need_to_run_code = True", objective)
+
+    def test_newton_trial_reuses_the_surface_own_solver_options(self):
+        # SSOT: do not invent tolerances that can drift from the ones the
+        # BoozerSurface was constructed with.
+        source = driver_source()
+        objective = source.split("    def fun(x):", 1)[1].split("    def callback(", 1)[0]
+        for option in (
+            "constraint_weight=boozer_surface.constraint_weight",
+            'tol=boozer_surface.options["newton_tol"]',
+            'maxiter=boozer_surface.options["newton_maxiter"]',
+            'weight_inv_modB=boozer_surface.options["weight_inv_modB"]',
+        ):
+            self.assertIn(option, objective)
+
+    def test_initial_solve_still_uses_the_full_bfgs_plus_newton_path(self):
+        # Only the outer trials go Newton-only; the first solve has no warm start
+        # to Newton from, so initialize_boozer_surface must keep run_code.
+        source = BOOZER.read_text(encoding="utf-8")
+        self.assertIn("res = boozer_surface.run_code(iota, G0)", source)
+
+
 class FieldPolarityTests(unittest.TestCase):
     def test_G_sign_requires_a_single_polarity_across_the_base_bundle(self):
         # sign(tf_coils[0]) is only the field polarity if the independent bundle

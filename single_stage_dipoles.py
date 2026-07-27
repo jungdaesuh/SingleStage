@@ -562,7 +562,27 @@ def optimize_one_iota(iota_target, prev_load_dir, mpol, ntor, fb_threshold,
         boozer_surface.res["G"] = run_dict["G"]
 
         JF.x = x
-        boozer_surface.run_code(run_dict["iota"], run_dict["G"])
+        # Newton only. run_code()'s BoozerLS path is "BFGS followed by Newton"
+        # (simsopt BoozerSurface.run_code), and every outer trial starts from the
+        # last ACCEPTED surface, which is already converged -- so the BFGS stage
+        # re-derived ~300 iterations of work that Newton then finished in one
+        # step. Measured at order 6: 10 solves, 2976 inner iterations, for 7
+        # accepted outer iterations. Parameters come from the surface's own
+        # options so they cannot drift from the ones it was built with; this
+        # mirrors run_code's Newton polish exactly, minus the BFGS pre-stage.
+        # Newton returns self.res early unless this flag is set, and clearing it
+        # is also what stops the objectives (Iotas, NonQuasiSymmetricRatio,
+        # BoozerResidual) re-entering run_code themselves.
+        boozer_surface.need_to_run_code = True
+        boozer_surface.minimize_boozer_penalty_constraints_newton(
+            constraint_weight=boozer_surface.constraint_weight,
+            iota=run_dict["iota"],
+            G=run_dict["G"],
+            tol=boozer_surface.options["newton_tol"],
+            maxiter=boozer_surface.options["newton_maxiter"],
+            verbose=boozer_surface.options["verbose"],
+            weight_inv_modB=boozer_surface.options["weight_inv_modB"],
+        )
 
         try:
             ok = boozer_surface.res["success"] and not boozer_surface.surface.is_self_intersecting()
