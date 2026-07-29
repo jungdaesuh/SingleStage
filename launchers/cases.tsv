@@ -1,0 +1,10 @@
+# One row = one single-stage optimization. Edit rows; "-" means driver default.
+# Columns: TF_a  polarity  iota_target  current_limit_A  mpol  ntor  maxiter  step_radius  volume_target
+# - TF_a selects the Stage-2 seed directory TF_a_X.XXX/ under STAGE2_ROOT.
+# - current_limit_A is a SOFT threshold (zero objective cost below it), amperes.
+# - mpol/ntor: Boozer solve Fourier orders; quadrature/certification densities
+#   derive from them automatically. Runtime measured only at 6/6 (~minutes).
+# - volume_target (m^3) overrides the fitted seed-boundary volume; "-" = seed.
+0.600	-1	0.05	150000	6	6	150	0.15	-
+0.500	-1	0.05	150000	6	6	150	0.15	-
+0.700	-1	0.05	150000	6	6	150	0.15	-
